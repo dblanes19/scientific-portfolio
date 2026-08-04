@@ -7,24 +7,24 @@ page-layout: full
 
 ::: {.perfil-foto}
 
-![](images/profile.png){fig-alt="Fotografía de perfil"}
+![](images/profile.jpeg){fig-alt="Fotografía de perfil"}
 
 :::
 
 ::: {.perfil-info}
 
-# Nombre Apellido
+# Daniela Blanco
 
-## Estudiante de Bachillerato en Biología
+## Estudiante de Bachillerato en Biología Tropical
 
 Escuela de Ciencias Biológicas  
 Universidad Nacional, Costa Rica
 
 ::: {.enlaces-perfil}
 
-[<i class="bi bi-envelope-fill"></i> Correo](mailto:nombre.apellido@est.una.ac.cr)
+[<i class="bi bi-envelope-fill"></i> Correo](mailto:daniela.blanco.espinoza@est.una.ac.cr)
 
-[<i class="bi bi-github"></i> GitHub](https://github.com/usuario)
+[<i class="bi bi-github"></i> GitHub](https://github.com/dblanes19)
 
 [<i class="bi bi-person-badge-fill"></i> ORCID](https://orcid.org/0000-0000-0000-0000)
 
@@ -40,7 +40,7 @@ Universidad Nacional, Costa Rica
 
 ## Biografía
 
-Escriba un breve párrafo (100–150 palabras) donde describa quién es, su formación académica, sus principales intereses científicos y sus metas profesionales.
+Soy estudiante de bachillerato en Biología Tropical.
 
 ---
 
@@ -49,7 +49,6 @@ Escriba un breve párrafo (100–150 palabras) donde describa quién es, su form
 - Ecología
 - Conservación
 - Biogeografía
-- Herpetología
 - Ciencia de datos
 
 ---
@@ -57,7 +56,7 @@ Escriba un breve párrafo (100–150 palabras) donde describa quién es, su form
 ## Habilidades
 
 - R
-- Quarto
+- Quarto (en entrenamiento)
 - Git y GitHub
 - QGIS
 - Microsoft Office
@@ -68,6 +67,6 @@ Escriba un breve párrafo (100–150 palabras) donde describa quién es, su form
 
 **Universidad Nacional (UNA)**
 
-Bachillerato en Biología
+Bachillerato en Biología Tropical
 
-*Año de ingreso – Presente*
+*2021 – Presente*

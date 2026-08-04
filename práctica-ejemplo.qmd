@@ -1,12 +1,12 @@
 ---
-title: "Práctica (ejemplo)"
+title: "Práctica 1. Creación de sitio web personalizado"
 format: html
 editor: visual
 ---
 
 ## Objetivo
 
-Describa brevemente qué se pretende aprender o realizar en la práctica.
+Crear sitio web personalizado utilizando Quarto, RStudio y GitHub Pages.
 
 ## Materiales y herramientas
 
@@ -21,7 +21,7 @@ Explique de forma ordenada los pasos realizados durante la práctica.
 
 ## Resultados
 
-Incluya aquí los principales resultados obtenidos.
+Se realizó la creación exitosa del sitio web
 
 ## Figuras y tablas
 
