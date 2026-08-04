@@ -32,21 +32,21 @@
     "href": "práctica-ejemplo.html#resultados",
     "title": "Práctica 1. Creación de sitio web personalizado",
     "section": "Resultados",
-    "text": "Resultados\nSe realizó la creación exitosa del sitio web"
+    "text": "Resultados\nSe realizó la creación exitosa del sitio web."
   },
   {
     "objectID": "práctica-ejemplo.html#figuras-y-tablas",
     "href": "práctica-ejemplo.html#figuras-y-tablas",
     "title": "Práctica 1. Creación de sitio web personalizado",
     "section": "Figuras y tablas",
-    "text": "Figuras y tablas\nAgregue las figuras, tablas o capturas de pantalla necesarias para documentar el trabajo."
+    "text": "Figuras y tablas\n\n\n\nfigura1. imagen de sitio web activo"
   },
   {
     "objectID": "práctica-ejemplo.html#reflexión-final",
     "href": "práctica-ejemplo.html#reflexión-final",
     "title": "Práctica 1. Creación de sitio web personalizado",
     "section": "Reflexión final",
-    "text": "Reflexión final\nResponda brevemente:\n\n¿Qué aprendí?\n¿Qué dificultad encontré?\n¿Cómo podría aplicar esta herramienta o conocimiento en otro contexto?"
+    "text": "Reflexión final\nResponda brevemente:\n\n¿Qué aprendí?\n\nEste día aprendí sobre como actualizar y crear una página web desde el programa r.\n\n\n\n\n¿Qué dificultad encontré?\n\nCrear la página web, puesto que mi profesor iba muy rápido.\n\n\n\n\n¿Cómo podría aplicar esta herramienta o conocimiento en otro contexto?\n\nCrear páginas web para otras personas que deseen tener su propia página para su negocio en línea."
   },
   {
     "objectID": "index.html",
@@ -102,21 +102,21 @@
     "href": "about.html#biografía",
     "title": "Perfil",
     "section": "Biografía",
-    "text": "Biografía\nSoy estudiante de bachillerato en Biología Tropical."
+    "text": "Biografía\nSoy estudiante de bachillerato en Biología Tropical. Interesada en la ecología y conservación de la biodiversidad trópical, con especial atención a la fauna y flora silvestres. Me apasiona la ornitología en especial las aves rapaces, mastozología, en especial los felinos, entomología, los escarabajos y plantas en especial las araceae. Integrando a su vez herramientas como Sistemas de Información Geográfica (SIG), como el análisis espacialy el modelado de distribución de especies para comprender patrones ecológicos y apoyar estrategias de conservación de la vida silvestre.\nMi objetivo profesional es contribuir a la investigación científica y al desarrollo de soluciones que favorezcan la protección y el manejo sostenible de los ecosistemas tropicales."
   },
   {
     "objectID": "about.html#áreas-de-interés",
     "href": "about.html#áreas-de-interés",
     "title": "Perfil",
     "section": "Áreas de interés",
-    "text": "Áreas de interés\n\nEcología\nConservación\nBiogeografía\nCiencia de datos"
+    "text": "Áreas de interés\n\nEcología\nConservación\nBiodiversidad\nBiogeografía\nManejo de Vida Silvestre\nCiencia de datos\nRestauración Ecológica\nMonitoreo de Biodiversidad\nBotánica"
   },
   {
     "objectID": "about.html#habilidades",
     "href": "about.html#habilidades",
     "title": "Perfil",
     "section": "Habilidades",
-    "text": "Habilidades\n\nR\nQuarto (en entrenamiento)\nGit y GitHub\nQGIS\nMicrosoft Office"
+    "text": "Habilidades\n\nR\nQuarto (en entrenamiento)\nGit y GitHub\nSistemas de Información Geográfica (SIG)\nMicrosoft Office\nInvestigación Científica\nTrabajo de Campo\nMuestreo Ecológico\nIdentificación de Fauna Tropical\nVisualización de Datos\nModelado de distribución de especies"
   },
   {
     "objectID": "about.html#formación-académica",
