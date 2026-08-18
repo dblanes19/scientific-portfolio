@@ -1,0 +1,56 @@
+---
+title: "Gestión de referencias bibliográficas con Zotero"
+author: "Daniela Blanco"
+editor: visual
+bibliography: referencias.bib
+format: html
+---
+
+## Introduction
+
+This practice was carried out as a free reference management tool that helps students and researchers collect, organize, and cite academic sources. It makes it easier to create citations and bibliographies in differente citation styles while keeping research materials organized.
+
+## Objetive
+
+By the end of this tutorial, the student will be able to:
+
+Create and organize a bibliographic library in Zotero.
+
+Add references using DOIs, RIS files, and the Zotero Connector.
+
+Review and correct reference metadata.
+
+Install and use a citation style.
+
+Automatically insert citations and bibliographies in Microsoft Word.
+
+Add references other than scientific articles, such as reports, web pages, and software.
+
+Cite R, RStudio, and R packages.
+
+## Metodology
+
+Zotero was used to collect and organize the academic sources consulted during the research. The references were imported into zotero, organized into folder, and cited using the appropiate citation style. This tool helped maintain an organized database and facilitated the creation of the final bibliography.
+
+## Results
+
+![Fig, 1. Screenshot](images/Zotero  foto.png)
+
+Cuadro 1. Métodos utilizados para incorporar referencias bibliográficas a Zotero.
+
+| Método | ¿Cuándo utilizarlo? |
+|------------------------------------|------------------------------------|
+| DOI | Cuando la publicación tienen un DOI conocido. |
+| Archivo RIS | Cuando la revista o base de datos permite exportar la referencia. |
+| Zotero Connector | Para capturar referencias directamente desde el navegador. |
+| Entrada manual | Cuando la información no puede importarse automáticamente. |
+
+amphibian conservation [@pabijan_evolutionary_2020]
+
+plan general de manejo de las áreas de vida silvestre protegidas [@minae_guipara_2016]
+
+## Conclusions
+
+Zotero is a useful and practical tool for organizing academic information and managing references. It simplifies the process of creating citations and bibliographies, saves time, and helps maintain accurate and organized research sources.
+
+## Bibliography

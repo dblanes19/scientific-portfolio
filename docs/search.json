@@ -145,5 +145,96 @@
     "title": "Portafolio académico",
     "section": "Objetivo del portafolio",
     "text": "Objetivo del portafolio\nMás que una colección de tareas, este portafolio constituye un registro organizado del aprendizaje, donde se documentan procedimientos, resultados y reflexiones desarrolladas a lo largo del curso.\nAl finalizar el semestre este sitio mostrará la evolución de mis competencias en análisis de datos ecológicos, programación en R y comunicación científica."
+  },
+  {
+    "objectID": "zotero qmd.html",
+    "href": "zotero qmd.html",
+    "title": "Gestión de referencias bibliográficas con Zotero",
+    "section": "",
+    "text": "This practice was carried out as a free reference management tool that helps students and researchers collect, organize, and cite academic sources. It makes it easier to create citations and bibliographies in differente citation styles while keeping research materials organized."
+  },
+  {
+    "objectID": "zotero qmd.html#introduction",
+    "href": "zotero qmd.html#introduction",
+    "title": "Gestión de referencias bibliográficas con Zotero",
+    "section": "",
+    "text": "This practice was carried out as a free reference management tool that helps students and researchers collect, organize, and cite academic sources. It makes it easier to create citations and bibliographies in differente citation styles while keeping research materials organized."
+  },
+  {
+    "objectID": "zotero qmd.html#objetive",
+    "href": "zotero qmd.html#objetive",
+    "title": "Gestión de referencias bibliográficas con Zotero",
+    "section": "Objetive",
+    "text": "Objetive\nBy the end of this tutorial, the student will be able to:\nCreate and organize a bibliographic library in Zotero.\nAdd references using DOIs, RIS files, and the Zotero Connector.\nReview and correct reference metadata.\nInstall and use a citation style.\nAutomatically insert citations and bibliographies in Microsoft Word.\nAdd references other than scientific articles, such as reports, web pages, and software.\nCite R, RStudio, and R packages."
+  },
+  {
+    "objectID": "zotero qmd.html#metodology",
+    "href": "zotero qmd.html#metodology",
+    "title": "Gestión de referencias bibliográficas con Zotero",
+    "section": "Metodology",
+    "text": "Metodology\nZotero was used to collect and organize the academic sources consulted during the research. The references were imported into zotero, organized into folder, and cited using the appropiate citation style. This tool helped maintain an organized database and facilitated the creation of the final bibliography."
+  },
+  {
+    "objectID": "zotero qmd.html#results",
+    "href": "zotero qmd.html#results",
+    "title": "Gestión de referencias bibliográficas con Zotero",
+    "section": "Results",
+    "text": "Results\n\n\n\nFig, 1. Screenshot\n\n\nCuadro 1. Métodos utilizados para incorporar referencias bibliográficas a Zotero.\n\n\n\n\n\n\n\nMétodo\n¿Cuándo utilizarlo?\n\n\n\n\nDOI\nCuando la publicación tienen un DOI conocido.\n\n\nArchivo RIS\nCuando la revista o base de datos permite exportar la referencia.\n\n\nZotero Connector\nPara capturar referencias directamente desde el navegador.\n\n\nEntrada manual\nCuando la información no puede importarse automáticamente.\n\n\n\namphibian conservation (Pabijan et al. 2020)"
+  },
+  {
+    "objectID": "zotero qmd.html#section",
+    "href": "zotero qmd.html#section",
+    "title": "Gestión de referencias bibliográficas con Zotero",
+    "section": "",
+    "text": "amphibian conservation (Pabijan et al. 2020)"
+  },
+  {
+    "objectID": "zotero qmd.html#conclusions",
+    "href": "zotero qmd.html#conclusions",
+    "title": "Gestión de referencias bibliográficas con Zotero",
+    "section": "Conclusions",
+    "text": "Conclusions\nZotero is a useful and practical tool for organizing academic information and managing references. It simplifies the process of creating citations and bibliographies, saves time, and helps maintain accurate and organized research sources."
+  },
+  {
+    "objectID": "template.html#objetive",
+    "href": "template.html#objetive",
+    "title": "Template",
+    "section": "Objetive",
+    "text": "Objetive"
+  },
+  {
+    "objectID": "template.html#metodology",
+    "href": "template.html#metodology",
+    "title": "Template",
+    "section": "Metodology",
+    "text": "Metodology"
+  },
+  {
+    "objectID": "template.html#results",
+    "href": "template.html#results",
+    "title": "Template",
+    "section": "Results",
+    "text": "Results"
+  },
+  {
+    "objectID": "template.html#interpretations",
+    "href": "template.html#interpretations",
+    "title": "Template",
+    "section": "Interpretations",
+    "text": "Interpretations"
+  },
+  {
+    "objectID": "template.html#conclusions",
+    "href": "template.html#conclusions",
+    "title": "Template",
+    "section": "Conclusions",
+    "text": "Conclusions"
+  },
+  {
+    "objectID": "template.html#bibliography",
+    "href": "template.html#bibliography",
+    "title": "Template",
+    "section": "Bibliography",
+    "text": "Bibliography"
   }
 ]
