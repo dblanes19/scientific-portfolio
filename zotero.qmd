@@ -34,20 +34,18 @@ Zotero was used to collect and organize the academic sources consulted during th
 
 ## Results
 
-![Fig, 1. Screenshot](images/Zotero  foto.png)
+![Fig, 1. Screenshot](images/Zotero%20foto.png)
 
 Cuadro 1. Métodos utilizados para incorporar referencias bibliográficas a Zotero.
 
 | Método | ¿Cuándo utilizarlo? |
-|------------------------------------|------------------------------------|
+|----|----|
 | DOI | Cuando la publicación tienen un DOI conocido. |
 | Archivo RIS | Cuando la revista o base de datos permite exportar la referencia. |
 | Zotero Connector | Para capturar referencias directamente desde el navegador. |
 | Entrada manual | Cuando la información no puede importarse automáticamente. |
 
-amphibian conservation [@pabijan_evolutionary_2020]
-
-plan general de manejo de las áreas de vida silvestre protegidas [@minae_guipara_2016]
+amphibian conservation [@pabijan_evolutionary_2020] plan general de manejo de las áreas de vida silvestre protegidas [@minae_guipara_2016]
 
 ## Conclusions
 

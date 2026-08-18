@@ -6,8 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Daniela Blanco">
 
-<title>Portafolio académico – Portafolio Científico</title>
+<title>Gestión de referencias bibliográficas con Zotero – Portafolio Científico</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -23,7 +24,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-</style>
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
@@ -102,7 +122,7 @@ ul.task-list li input[type="checkbox"] {
 <span class="menu-text">Perfil</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./portfolio.html" aria-current="page"> 
+    <a class="nav-link" href="./portfolio.html"> 
 <span class="menu-text">Portafolio</span></a>
   </li>  
 </ul>
@@ -121,12 +141,12 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">En esta página</h2>
    
   <ul>
-  <li><a href="#prácticas-de-laboratorio" id="toc-prácticas-de-laboratorio" class="nav-link active" data-scroll-target="#prácticas-de-laboratorio">Prácticas de laboratorio</a>
-  <ul class="collapse">
-  <li><a href="#práctica-de-ejemplo" id="toc-práctica-de-ejemplo" class="nav-link" data-scroll-target="#práctica-de-ejemplo">📄 Práctica de ejemplo</a></li>
-  <li><a href="#gestión-de-referencias-bibliográficas-con-zotero" id="toc-gestión-de-referencias-bibliográficas-con-zotero" class="nav-link" data-scroll-target="#gestión-de-referencias-bibliográficas-con-zotero">📚 Gestión de referencias bibliográficas con Zotero</a></li>
-  </ul></li>
-  <li><a href="#objetivo-del-portafolio" id="toc-objetivo-del-portafolio" class="nav-link" data-scroll-target="#objetivo-del-portafolio">Objetivo del portafolio</a></li>
+  <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
+  <li><a href="#objetive" id="toc-objetive" class="nav-link" data-scroll-target="#objetive">Objetive</a></li>
+  <li><a href="#metodology" id="toc-metodology" class="nav-link" data-scroll-target="#metodology">Metodology</a></li>
+  <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">Results</a></li>
+  <li><a href="#conclusions" id="toc-conclusions" class="nav-link" data-scroll-target="#conclusions">Conclusions</a></li>
+  <li><a href="#bibliography" id="toc-bibliography" class="nav-link" data-scroll-target="#bibliography">Bibliography</a></li>
   </ul>
 </nav>
     </div>
@@ -135,13 +155,19 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Portafolio académico</h1>
+<h1 class="title">Gestión de referencias bibliográficas con Zotero</h1>
 </div>
 
 
 
 <div class="quarto-title-meta">
 
+    <div>
+    <div class="quarto-title-meta-heading">Autor/a</div>
+    <div class="quarto-title-meta-contents">
+             <p>Daniela Blanco </p>
+          </div>
+  </div>
     
   
     
@@ -152,32 +178,85 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>En esta sección se documentan las prácticas de laboratorio, proyectos, análisis y productos desarrollados durante el curso <strong>Ecología de Poblaciones y Comunidades</strong>.</p>
-<p>Cada práctica constituye una evidencia del aprendizaje adquirido durante el semestre y forma parte de mi portafolio profesional.</p>
-<hr>
-<section id="prácticas-de-laboratorio" class="level2">
-<h2 class="anchored" data-anchor-id="prácticas-de-laboratorio">Prácticas de laboratorio</h2>
-<section id="práctica-de-ejemplo" class="level3 portfolio-item">
-<h3 class="anchored" data-anchor-id="práctica-de-ejemplo">📄 Práctica de ejemplo</h3>
-<p>Introducción al uso del portafolio digital académico y documentación de una práctica mediante Quarto.</p>
-<p><a href="./práctica-ejemplo.html">Ver práctica →</a></p>
+<section id="introduction" class="level2">
+<h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>This practice was carried out as a free reference management tool that helps students and researchers collect, organize, and cite academic sources. It makes it easier to create citations and bibliographies in differente citation styles while keeping research materials organized.</p>
 </section>
-<section id="gestión-de-referencias-bibliográficas-con-zotero" class="level3 portfolio-item">
-<h3 class="anchored" data-anchor-id="gestión-de-referencias-bibliográficas-con-zotero">📚 Gestión de referencias bibliográficas con Zotero</h3>
-<p><a href="./zotero.html">Ver práctica →</a></p>
-<p>En esta práctica se documentará la creación de una biblioteca bibliográfica utilizando Zotero y su integración con Microsoft Word.</p>
+<section id="objetive" class="level2">
+<h2 class="anchored" data-anchor-id="objetive">Objetive</h2>
+<p>By the end of this tutorial, the student will be able to:</p>
+<p>Create and organize a bibliographic library in Zotero.</p>
+<p>Add references using DOIs, RIS files, and the Zotero Connector.</p>
+<p>Review and correct reference metadata.</p>
+<p>Install and use a citation style.</p>
+<p>Automatically insert citations and bibliographies in Microsoft Word.</p>
+<p>Add references other than scientific articles, such as reports, web pages, and software.</p>
+<p>Cite R, RStudio, and R packages.</p>
 </section>
-<hr>
+<section id="metodology" class="level2">
+<h2 class="anchored" data-anchor-id="metodology">Metodology</h2>
+<p>Zotero was used to collect and organize the academic sources consulted during the research. The references were imported into zotero, organized into folder, and cited using the appropiate citation style. This tool helped maintain an organized database and facilitated the creation of the final bibliography.</p>
 </section>
-<section id="objetivo-del-portafolio" class="level2">
-<h2 class="anchored" data-anchor-id="objetivo-del-portafolio">Objetivo del portafolio</h2>
-<p>Más que una colección de tareas, este portafolio constituye un registro organizado del aprendizaje, donde se documentan procedimientos, resultados y reflexiones desarrolladas a lo largo del curso.</p>
-<p>Al finalizar el semestre este sitio mostrará la evolución de mis competencias en análisis de datos ecológicos, programación en R y comunicación científica.</p>
+<section id="results" class="level2">
+<h2 class="anchored" data-anchor-id="results">Results</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Zotero foto.png" class="img-fluid figure-img"></p>
+<figcaption>Fig, 1. Screenshot</figcaption>
+</figure>
+</div>
+<p>Cuadro 1. Métodos utilizados para incorporar referencias bibliográficas a Zotero.</p>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Método</th>
+<th>¿Cuándo utilizarlo?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>DOI</td>
+<td>Cuando la publicación tienen un DOI conocido.</td>
+</tr>
+<tr class="even">
+<td>Archivo RIS</td>
+<td>Cuando la revista o base de datos permite exportar la referencia.</td>
+</tr>
+<tr class="odd">
+<td>Zotero Connector</td>
+<td>Para capturar referencias directamente desde el navegador.</td>
+</tr>
+<tr class="even">
+<td>Entrada manual</td>
+<td>Cuando la información no puede importarse automáticamente.</td>
+</tr>
+</tbody>
+</table>
+<p>amphibian conservation <span class="citation" data-cites="pabijan_evolutionary_2020">(<a href="#ref-pabijan_evolutionary_2020" role="doc-biblioref">Pabijan et&nbsp;al. 2020</a>)</span> plan general de manejo de las áreas de vida silvestre protegidas <span class="citation" data-cites="minae_guipara_2016">(<a href="#ref-minae_guipara_2016" role="doc-biblioref">MINAE y SINAC 2016</a>)</span></p>
+</section>
+<section id="conclusions" class="level2">
+<h2 class="anchored" data-anchor-id="conclusions">Conclusions</h2>
+<p>Zotero is a useful and practical tool for organizing academic information and managing references. It simplifies the process of creating citations and bibliographies, saves time, and helps maintain accurate and organized research sources.</p>
+</section>
+<section id="bibliography" class="level2">
+
+
 
 
 </section>
 
-</main> <!-- /main -->
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Bibliography</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
+<div id="ref-minae_guipara_2016" class="csl-entry" role="listitem">
+MINAE, y SINAC. 2016. <em>Guía para el diseño y formulación del <span>Plan</span> <span>General</span> del manejo de las áreas de vida silvestres protegidas de <span>Costa</span> <span>Rica</span></em>. Ministerio de Ambiente y Energía. <a href="https://www.sinac.go.cr/ES/docu/Paginas/asps.aspx">https://www.sinac.go.cr/ES/docu/Paginas/asps.aspx</a>.
+</div>
+<div id="ref-pabijan_evolutionary_2020" class="csl-entry" role="listitem">
+Pabijan, Maciej, Gemma Palomar, Bernardo Antunes, Weronika Antoł, Piotr Zieliński, y Wiesław Babik. 2020. <span>«Evolutionary principles guiding amphibian conservation»</span>. <em>Evolutionary Applications</em> 13 (5): 857-78. <a href="https://doi.org/10.1111/eva.12940">https://doi.org/10.1111/eva.12940</a>.
+</div>
+</div></section></div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
