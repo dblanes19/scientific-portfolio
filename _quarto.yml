@@ -14,6 +14,7 @@ website:
       - href: portfolio.qmd
         text: Portafolio
 
+
   page-footer:
     center: |
       <div class="footer-curso">

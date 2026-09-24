@@ -2,21 +2,24 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="es" xml:lang="es"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="author" content="Daniela Blanco">
 
-<title>Gestión de referencias bibliográficas con Zotero – Portafolio Científico</title>
+<title>Ordenamiento de datos en Tidyverse – Portafolio Científico</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -24,45 +27,26 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
-/* CSS for citations */
-div.csl-bib-body { }
-div.csl-entry {
-  clear: both;
-}
-.hanging-indent div.csl-entry {
-  margin-left:2em;
-  text-indent:-2em;
-}
-div.csl-left-margin {
-  min-width:2em;
-  float:left;
-}
-div.csl-right-inline {
-  margin-left:2em;
-  padding-left:1em;
-}
-div.csl-indent {
-  margin-left: 2em;
-}</style>
+</style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-15634bcf2e68342d4ad2dfa704d543f6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-a0f9fd0d421825b736dc1bbcbcba2219.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-172ba59bd5e0b52282274ba0c0cc16fc.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -93,7 +77,7 @@ div.csl-indent {
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
 
 
-<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="../styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -103,7 +87,7 @@ div.csl-indent {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../index.html">
     <span class="navbar-title">Portafolio Científico</span>
     </a>
   </div>
@@ -114,15 +98,15 @@ div.csl-indent {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../index.html"> 
 <span class="menu-text">Inicio</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../about.html"> 
 <span class="menu-text">Perfil</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./portfolio.html"> 
+    <a class="nav-link" href="../portfolio.html"> 
 <span class="menu-text">Portafolio</span></a>
   </li>  
 </ul>
@@ -145,6 +129,7 @@ div.csl-indent {
   <li><a href="#objetive" id="toc-objetive" class="nav-link" data-scroll-target="#objetive">Objetive</a></li>
   <li><a href="#metodology" id="toc-metodology" class="nav-link" data-scroll-target="#metodology">Metodology</a></li>
   <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">Results</a></li>
+  <li><a href="#interpretations" id="toc-interpretations" class="nav-link" data-scroll-target="#interpretations">Interpretations</a></li>
   <li><a href="#conclusions" id="toc-conclusions" class="nav-link" data-scroll-target="#conclusions">Conclusions</a></li>
   <li><a href="#bibliography" id="toc-bibliography" class="nav-link" data-scroll-target="#bibliography">Bibliography</a></li>
   </ul>
@@ -155,7 +140,7 @@ div.csl-indent {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Gestión de referencias bibliográficas con Zotero</h1>
+<h1 class="title">Ordenamiento de datos en Tidyverse</h1>
 </div>
 
 
@@ -180,80 +165,36 @@ div.csl-indent {
 
 <section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
-<p>This practice was carried out as a free reference management tool that helps students and researchers collect, organize, and cite academic sources. It makes it easier to create citations and bibliographies in differente citation styles while keeping research materials organized.</p>
 </section>
 <section id="objetive" class="level2">
 <h2 class="anchored" data-anchor-id="objetive">Objetive</h2>
-<p>By the end of this tutorial, the student will be able to:</p>
-<p>Create and organize a bibliographic library in Zotero.</p>
-<p>Add references using DOIs, RIS files, and the Zotero Connector.</p>
-<p>Review and correct reference metadata.</p>
-<p>Install and use a citation style.</p>
-<p>Automatically insert citations and bibliographies in Microsoft Word.</p>
-<p>Add references other than scientific articles, such as reports, web pages, and software.</p>
-<p>Cite R, RStudio, and R packages.</p>
 </section>
 <section id="metodology" class="level2">
 <h2 class="anchored" data-anchor-id="metodology">Metodology</h2>
-<p>Zotero was used to collect and organize the academic sources consulted during the research. The references were imported into zotero, organized into folder, and cited using the appropiate citation style. This tool helped maintain an organized database and facilitated the creation of the final bibliography.</p>
 </section>
 <section id="results" class="level2">
 <h2 class="anchored" data-anchor-id="results">Results</h2>
+<p>La siguiente figura muestra numero de observaciones por especie</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/Zotero foto.png" class="img-fluid figure-img"></p>
-<figcaption>Fig, 1. Screenshot</figcaption>
+<p><img src="images/ungulate_observations.jpg" class="img-fluid figure-img"></p>
+<figcaption>Figura 1</figcaption>
 </figure>
 </div>
-<p>Cuadro 1. Métodos utilizados para incorporar referencias bibliográficas a Zotero.</p>
-<table class="caption-top table">
-<colgroup>
-<col style="width: 50%">
-<col style="width: 50%">
-</colgroup>
-<thead>
-<tr class="header">
-<th>Método</th>
-<th>¿Cuándo utilizarlo?</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>DOI</td>
-<td>Cuando la publicación tienen un DOI conocido.</td>
-</tr>
-<tr class="even">
-<td>Archivo RIS</td>
-<td>Cuando la revista o base de datos permite exportar la referencia.</td>
-</tr>
-<tr class="odd">
-<td>Zotero Connector</td>
-<td>Para capturar referencias directamente desde el navegador.</td>
-</tr>
-<tr class="even">
-<td>Entrada manual</td>
-<td>Cuando la información no puede importarse automáticamente.</td>
-</tr>
-</tbody>
-</table>
-<p>amphibian conservation <span class="citation" data-cites="pabijan_evolutionary_2020">(<a href="#ref-pabijan_evolutionary_2020" role="doc-biblioref">Pabijan et&nbsp;al. 2020</a>)</span></p>
+</section>
+<section id="interpretations" class="level2">
+<h2 class="anchored" data-anchor-id="interpretations">Interpretations</h2>
 </section>
 <section id="conclusions" class="level2">
 <h2 class="anchored" data-anchor-id="conclusions">Conclusions</h2>
-<p>Zotero is a useful and practical tool for organizing academic information and managing references. It simplifies the process of creating citations and bibliographies, saves time, and helps maintain accurate and organized research sources.</p>
 </section>
 <section id="bibliography" class="level2">
-
-
+<h2 class="anchored" data-anchor-id="bibliography">Bibliography</h2>
 
 
 </section>
 
-<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography" id="quarto-bibliography"><h2 class="anchored quarto-appendix-heading">Bibliography</h2><div id="refs" class="references csl-bib-body hanging-indent" role="list">
-<div id="ref-pabijan_evolutionary_2020" class="csl-entry" role="listitem">
-Pabijan, Maciej, Gemma Palomar, Bernardo Antunes, Weronika Antoł, Piotr Zieliński, y Wiesław Babik. 2020. <span>«Evolutionary principles guiding amphibian conservation»</span>. <em>Evolutionary Applications</em> 13 (5): 857-78. <a href="https://doi.org/10.1111/eva.12940">https://doi.org/10.1111/eva.12940</a>.
-</div>
-</div></section></div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

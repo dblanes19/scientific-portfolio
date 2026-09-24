@@ -1,0 +1,23 @@
+---
+title: "Ordenamiento de datos en Tidyverse"
+author: "Daniela Blanco"
+editor: visual
+---
+
+## Introduction
+
+## Objetive
+
+## Metodology
+
+## Results
+
+La siguiente figura muestra numero de observaciones por especie
+
+![Figura 1](images/ungulate_observations.jpg)
+
+## Interpretations
+
+## Conclusions
+
+## Bibliography
