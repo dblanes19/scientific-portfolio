@@ -1,196 +1,42 @@
 [
   {
-    "objectID": "práctica-ejemplo.html",
-    "href": "práctica-ejemplo.html",
-    "title": "Práctica 1. Creación de sitio web personalizado",
-    "section": "",
-    "text": "Crear sitio web personalizado utilizando Quarto, RStudio y GitHub Pages."
-  },
-  {
-    "objectID": "práctica-ejemplo.html#objetivo",
-    "href": "práctica-ejemplo.html#objetivo",
-    "title": "Práctica 1. Creación de sitio web personalizado",
-    "section": "",
-    "text": "Crear sitio web personalizado utilizando Quarto, RStudio y GitHub Pages."
-  },
-  {
-    "objectID": "práctica-ejemplo.html#materiales-y-herramientas",
-    "href": "práctica-ejemplo.html#materiales-y-herramientas",
-    "title": "Práctica 1. Creación de sitio web personalizado",
-    "section": "Materiales y herramientas",
-    "text": "Materiales y herramientas\n\nRStudio\nQuarto\nGit\nGitHub"
-  },
-  {
-    "objectID": "práctica-ejemplo.html#procedimiento",
-    "href": "práctica-ejemplo.html#procedimiento",
-    "title": "Práctica 1. Creación de sitio web personalizado",
-    "section": "Procedimiento",
-    "text": "Procedimiento\nExplique de forma ordenada los pasos realizados durante la práctica."
-  },
-  {
-    "objectID": "práctica-ejemplo.html#resultados",
-    "href": "práctica-ejemplo.html#resultados",
-    "title": "Práctica 1. Creación de sitio web personalizado",
-    "section": "Resultados",
-    "text": "Resultados\nSe realizó la creación exitosa del sitio web."
-  },
-  {
-    "objectID": "práctica-ejemplo.html#figuras-y-tablas",
-    "href": "práctica-ejemplo.html#figuras-y-tablas",
-    "title": "Práctica 1. Creación de sitio web personalizado",
-    "section": "Figuras y tablas",
-    "text": "Figuras y tablas\n\n\n\nfigura1. imagen de sitio web activo"
-  },
-  {
-    "objectID": "práctica-ejemplo.html#reflexión-final",
-    "href": "práctica-ejemplo.html#reflexión-final",
-    "title": "Práctica 1. Creación de sitio web personalizado",
-    "section": "Reflexión final",
-    "text": "Reflexión final\nResponda brevemente:\n\n¿Qué aprendí?\n\nEste día aprendí sobre como actualizar y crear una página web desde el programa r.\n\n\n\n\n¿Qué dificultad encontré?\n\nCrear la página web, puesto que mi profesor iba muy rápido.\n\n\n\n\n¿Cómo podría aplicar esta herramienta o conocimiento en otro contexto?\n\nCrear páginas web para otras personas que deseen tener su propia página para su negocio en línea."
-  },
-  {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Inicio",
-    "section": "",
-    "text": "Escuela de Ciencias Biológicas\nUniversidad Nacional, Costa Rica\nVer mi perfil\nExplorar mi portafolio"
-  },
-  {
-    "objectID": "index.html#estudiante-de-bachillerato-en-biología",
-    "href": "index.html#estudiante-de-bachillerato-en-biología",
-    "title": "Inicio",
-    "section": "",
-    "text": "Escuela de Ciencias Biológicas\nUniversidad Nacional, Costa Rica\nVer mi perfil\nExplorar mi portafolio"
-  },
-  {
-    "objectID": "index.html#bienvenidoa",
-    "href": "index.html#bienvenidoa",
-    "title": "Inicio",
-    "section": "Bienvenido(a)",
-    "text": "Bienvenido(a)\nEste sitio web constituye mi portafolio digital académico, donde documentaré las prácticas de laboratorio, proyectos, análisis y productos desarrollados durante el curso Ecología de Poblaciones y Comunidades.\nEste portafolio utiliza herramientas de ciencia reproducible como R, Quarto, Git y GitHub, permitiendo organizar y compartir mi trabajo de manera profesional."
-  },
-  {
-    "objectID": "index.html#contenido-del-sitio",
-    "href": "index.html#contenido-del-sitio",
-    "title": "Inicio",
-    "section": "Contenido del sitio",
-    "text": "Contenido del sitio\n\n\nPerfil\nInformación personal, intereses académicos y experiencia.\nIr al perfil →\n\n\nPortafolio\nRegistro de las prácticas, proyectos y productos desarrollados durante el semestre.\nVer el portafolio →\n\n\n\n\nLa ciencia solo adquiere valor cuando puede ser comunicada y reproducida."
-  },
-  {
-    "objectID": "index.html#herramientas-y-afiliación",
-    "href": "index.html#herramientas-y-afiliación",
-    "title": "Inicio",
-    "section": "Herramientas y afiliación",
-    "text": "Herramientas y afiliación\nEste portafolio fue desarrollado con herramientas de ciencia reproducible.\n\n\n\n\n\nÚltima actualización: 4 de Agosto 2026"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Perfil",
-    "section": "",
-    "text": "Escuela de Ciencias Biológicas\nUniversidad Nacional, Costa Rica\n\n Correo\n GitHub\n ORCID\n LinkedIn"
-  },
-  {
-    "objectID": "about.html#estudiante-de-bachillerato-en-biología-tropical",
-    "href": "about.html#estudiante-de-bachillerato-en-biología-tropical",
-    "title": "Perfil",
-    "section": "",
-    "text": "Escuela de Ciencias Biológicas\nUniversidad Nacional, Costa Rica\n\n Correo\n GitHub\n ORCID\n LinkedIn"
-  },
-  {
-    "objectID": "about.html#biografía",
-    "href": "about.html#biografía",
-    "title": "Perfil",
-    "section": "Biografía",
-    "text": "Biografía\nSoy estudiante de bachillerato en Biología Tropical. Interesada en la ecología y conservación de la biodiversidad trópical, con especial atención a la fauna y flora silvestres. Me apasiona la ornitología en especial las aves rapaces, mastozología, en especial los felinos, entomología, los escarabajos y plantas en especial las araceae. Integrando a su vez herramientas como Sistemas de Información Geográfica (SIG), como el análisis espacialy el modelado de distribución de especies para comprender patrones ecológicos y apoyar estrategias de conservación de la vida silvestre.\nMi objetivo profesional es contribuir a la investigación científica y al desarrollo de soluciones que favorezcan la protección y el manejo sostenible de los ecosistemas tropicales."
-  },
-  {
-    "objectID": "about.html#áreas-de-interés",
-    "href": "about.html#áreas-de-interés",
-    "title": "Perfil",
-    "section": "Áreas de interés",
-    "text": "Áreas de interés\n\nEcología\nConservación\nBiodiversidad\nBiogeografía\nManejo de Vida Silvestre\nCiencia de datos\nRestauración Ecológica\nMonitoreo de Biodiversidad\nBotánica"
-  },
-  {
-    "objectID": "about.html#habilidades",
-    "href": "about.html#habilidades",
-    "title": "Perfil",
-    "section": "Habilidades",
-    "text": "Habilidades\n\nR\nQuarto (en entrenamiento)\nGit y GitHub\nSistemas de Información Geográfica (SIG)\nMicrosoft Office\nInvestigación Científica\nTrabajo de Campo\nMuestreo Ecológico\nIdentificación de Fauna Tropical\nVisualización de Datos\nModelado de distribución de especies"
-  },
-  {
-    "objectID": "about.html#formación-académica",
-    "href": "about.html#formación-académica",
-    "title": "Perfil",
-    "section": "Formación académica",
-    "text": "Formación académica\nUniversidad Nacional (UNA)\nBachillerato en Biología Tropical\n2021 – Presente"
-  },
-  {
-    "objectID": "portfolio.html",
-    "href": "portfolio.html",
-    "title": "Portafolio académico",
-    "section": "",
-    "text": "En esta sección se documentan las prácticas de laboratorio, proyectos, análisis y productos desarrollados durante el curso Ecología de Poblaciones y Comunidades.\nCada práctica constituye una evidencia del aprendizaje adquirido durante el semestre y forma parte de mi portafolio profesional."
-  },
-  {
-    "objectID": "portfolio.html#prácticas-de-laboratorio",
-    "href": "portfolio.html#prácticas-de-laboratorio",
-    "title": "Portafolio académico",
-    "section": "Prácticas de laboratorio",
-    "text": "Prácticas de laboratorio\n\n📄 Práctica de ejemplo\nIntroducción al uso del portafolio digital académico y documentación de una práctica mediante Quarto.\nVer práctica →\n\n\n📚 Gestión de referencias bibliográficas con Zotero\nEn esta práctica se documentará la creación de una biblioteca bibliográfica utilizando Zotero y su integración con Microsoft Word.\nVer práctica →"
-  },
-  {
-    "objectID": "portfolio.html#objetivo-del-portafolio",
-    "href": "portfolio.html#objetivo-del-portafolio",
-    "title": "Portafolio académico",
-    "section": "Objetivo del portafolio",
-    "text": "Objetivo del portafolio\nMás que una colección de tareas, este portafolio constituye un registro organizado del aprendizaje, donde se documentan procedimientos, resultados y reflexiones desarrolladas a lo largo del curso.\nAl finalizar el semestre este sitio mostrará la evolución de mis competencias en análisis de datos ecológicos, programación en R y comunicación científica."
-  },
-  {
-    "objectID": "zotero qmd.html",
-    "href": "zotero qmd.html",
+    "objectID": "zotero.html",
+    "href": "zotero.html",
     "title": "Gestión de referencias bibliográficas con Zotero",
     "section": "",
     "text": "This practice was carried out as a free reference management tool that helps students and researchers collect, organize, and cite academic sources. It makes it easier to create citations and bibliographies in differente citation styles while keeping research materials organized."
   },
   {
-    "objectID": "zotero qmd.html#introduction",
-    "href": "zotero qmd.html#introduction",
+    "objectID": "zotero.html#introduction",
+    "href": "zotero.html#introduction",
     "title": "Gestión de referencias bibliográficas con Zotero",
     "section": "",
     "text": "This practice was carried out as a free reference management tool that helps students and researchers collect, organize, and cite academic sources. It makes it easier to create citations and bibliographies in differente citation styles while keeping research materials organized."
   },
   {
-    "objectID": "zotero qmd.html#objetive",
-    "href": "zotero qmd.html#objetive",
+    "objectID": "zotero.html#objetive",
+    "href": "zotero.html#objetive",
     "title": "Gestión de referencias bibliográficas con Zotero",
     "section": "Objetive",
     "text": "Objetive\nBy the end of this tutorial, the student will be able to:\nCreate and organize a bibliographic library in Zotero.\nAdd references using DOIs, RIS files, and the Zotero Connector.\nReview and correct reference metadata.\nInstall and use a citation style.\nAutomatically insert citations and bibliographies in Microsoft Word.\nAdd references other than scientific articles, such as reports, web pages, and software.\nCite R, RStudio, and R packages."
   },
   {
-    "objectID": "zotero qmd.html#metodology",
-    "href": "zotero qmd.html#metodology",
+    "objectID": "zotero.html#metodology",
+    "href": "zotero.html#metodology",
     "title": "Gestión de referencias bibliográficas con Zotero",
     "section": "Metodology",
     "text": "Metodology\nZotero was used to collect and organize the academic sources consulted during the research. The references were imported into zotero, organized into folder, and cited using the appropiate citation style. This tool helped maintain an organized database and facilitated the creation of the final bibliography."
   },
   {
-    "objectID": "zotero qmd.html#results",
-    "href": "zotero qmd.html#results",
+    "objectID": "zotero.html#results",
+    "href": "zotero.html#results",
     "title": "Gestión de referencias bibliográficas con Zotero",
     "section": "Results",
-    "text": "Results\n\n\n\nFig, 1. Screenshot\n\n\nCuadro 1. Métodos utilizados para incorporar referencias bibliográficas a Zotero.\n\n\n\n\n\n\n\nMétodo\n¿Cuándo utilizarlo?\n\n\n\n\nDOI\nCuando la publicación tienen un DOI conocido.\n\n\nArchivo RIS\nCuando la revista o base de datos permite exportar la referencia.\n\n\nZotero Connector\nPara capturar referencias directamente desde el navegador.\n\n\nEntrada manual\nCuando la información no puede importarse automáticamente.\n\n\n\namphibian conservation (Pabijan et al. 2020)"
+    "text": "Results\n\n\n\nFigura 1. Zotero library\n\n\nCuadro 1. Métodos utilizados para incorporar referencias bibliográficas a Zotero.\n\n\n\n\n\n\n\nMétodo\n¿Cuándo utilizarlo?\n\n\n\n\nDOI\nCuando la publicación tienen un DOI conocido.\n\n\nArchivo RIS\nCuando la revista o base de datos permite exportar la referencia.\n\n\nZotero Connector\nPara capturar referencias directamente desde el navegador.\n\n\nEntrada manual\nCuando la información no puede importarse automáticamente.\n\n\n\namphibian conservation (Pabijan et al. 2020) plan general de manejo de las áreas de vida silvestre protegidas (MINAE y SINAC 2016)"
   },
   {
-    "objectID": "zotero qmd.html#section",
-    "href": "zotero qmd.html#section",
-    "title": "Gestión de referencias bibliográficas con Zotero",
-    "section": "",
-    "text": "amphibian conservation (Pabijan et al. 2020)"
-  },
-  {
-    "objectID": "zotero qmd.html#conclusions",
-    "href": "zotero qmd.html#conclusions",
+    "objectID": "zotero.html#conclusions",
+    "href": "zotero.html#conclusions",
     "title": "Gestión de referencias bibliográficas con Zotero",
     "section": "Conclusions",
     "text": "Conclusions\nZotero is a useful and practical tool for organizing academic information and managing references. It simplifies the process of creating citations and bibliographies, saves time, and helps maintain accurate and organized research sources."
@@ -238,46 +84,151 @@
     "text": "Bibliography"
   },
   {
-    "objectID": "zotero.html",
-    "href": "zotero.html",
-    "title": "Gestión de referencias bibliográficas con Zotero",
+    "objectID": "portfolio.html",
+    "href": "portfolio.html",
+    "title": "Portafolio académico",
     "section": "",
-    "text": "This practice was carried out as a free reference management tool that helps students and researchers collect, organize, and cite academic sources. It makes it easier to create citations and bibliographies in differente citation styles while keeping research materials organized."
+    "text": "En esta sección se documentan las prácticas de laboratorio, proyectos, análisis y productos desarrollados durante el curso Ecología de Poblaciones y Comunidades.\nCada práctica constituye una evidencia del aprendizaje adquirido durante el semestre y forma parte de mi portafolio profesional."
   },
   {
-    "objectID": "zotero.html#introduction",
-    "href": "zotero.html#introduction",
-    "title": "Gestión de referencias bibliográficas con Zotero",
+    "objectID": "portfolio.html#prácticas-de-laboratorio",
+    "href": "portfolio.html#prácticas-de-laboratorio",
+    "title": "Portafolio académico",
+    "section": "Prácticas de laboratorio",
+    "text": "Prácticas de laboratorio\n\n📚 Gestión de referencias bibliográficas con Zotero\nEn esta práctica se documentará la creación de una biblioteca bibliográfica utilizando Zotero y su integración con Microsoft Word.\nVer práctica →\n\n\n📄 Manejo de datos con Tidyverse\nIntroducción al uso del portafolio digital académico y documentación de una práctica mediante Quarto.\nVer práctica →"
+  },
+  {
+    "objectID": "portfolio.html#objetivo-del-portafolio",
+    "href": "portfolio.html#objetivo-del-portafolio",
+    "title": "Portafolio académico",
+    "section": "Objetivo del portafolio",
+    "text": "Objetivo del portafolio\nMás que una colección de tareas, este portafolio constituye un registro organizado del aprendizaje, donde se documentan procedimientos, resultados y reflexiones desarrolladas a lo largo del curso.\nAl finalizar el semestre este sitio mostrará la evolución de mis competencias en análisis de datos ecológicos, programación en R y comunicación científica."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Perfil",
     "section": "",
-    "text": "This practice was carried out as a free reference management tool that helps students and researchers collect, organize, and cite academic sources. It makes it easier to create citations and bibliographies in differente citation styles while keeping research materials organized."
+    "text": "Escuela de Ciencias Biológicas\nUniversidad Nacional, Costa Rica\n\n Correo\n GitHub\n ORCID\n LinkedIn"
   },
   {
-    "objectID": "zotero.html#objetive",
-    "href": "zotero.html#objetive",
-    "title": "Gestión de referencias bibliográficas con Zotero",
-    "section": "Objetive",
-    "text": "Objetive\nBy the end of this tutorial, the student will be able to:\nCreate and organize a bibliographic library in Zotero.\nAdd references using DOIs, RIS files, and the Zotero Connector.\nReview and correct reference metadata.\nInstall and use a citation style.\nAutomatically insert citations and bibliographies in Microsoft Word.\nAdd references other than scientific articles, such as reports, web pages, and software.\nCite R, RStudio, and R packages."
+    "objectID": "about.html#estudiante-de-bachillerato-en-biología-tropical",
+    "href": "about.html#estudiante-de-bachillerato-en-biología-tropical",
+    "title": "Perfil",
+    "section": "",
+    "text": "Escuela de Ciencias Biológicas\nUniversidad Nacional, Costa Rica\n\n Correo\n GitHub\n ORCID\n LinkedIn"
   },
   {
-    "objectID": "zotero.html#metodology",
-    "href": "zotero.html#metodology",
-    "title": "Gestión de referencias bibliográficas con Zotero",
-    "section": "Metodology",
-    "text": "Metodology\nZotero was used to collect and organize the academic sources consulted during the research. The references were imported into zotero, organized into folder, and cited using the appropiate citation style. This tool helped maintain an organized database and facilitated the creation of the final bibliography."
+    "objectID": "about.html#biografía",
+    "href": "about.html#biografía",
+    "title": "Perfil",
+    "section": "Biografía",
+    "text": "Biografía\nSoy estudiante de bachillerato en Biología Tropical. Interesada en la ecología y conservación de la biodiversidad trópical, con especial atención a la fauna y flora silvestres. Me apasiona la ornitología en especial las aves rapaces, mastozología, en especial los felinos, entomología, los escarabajos y plantas en especial las araceae. Integrando a su vez herramientas como Sistemas de Información Geográfica (SIG), como el análisis espacialy el modelado de distribución de especies para comprender patrones ecológicos y apoyar estrategias de conservación de la vida silvestre.\nMi objetivo profesional es contribuir a la investigación científica y al desarrollo de soluciones que favorezcan la protección y el manejo sostenible de los ecosistemas tropicales."
   },
   {
-    "objectID": "zotero.html#results",
-    "href": "zotero.html#results",
-    "title": "Gestión de referencias bibliográficas con Zotero",
-    "section": "Results",
-    "text": "Results\n\n\n\nFigura 1. Zotero library\n\n\nCuadro 1. Métodos utilizados para incorporar referencias bibliográficas a Zotero.\n\n\n\n\n\n\n\nMétodo\n¿Cuándo utilizarlo?\n\n\n\n\nDOI\nCuando la publicación tienen un DOI conocido.\n\n\nArchivo RIS\nCuando la revista o base de datos permite exportar la referencia.\n\n\nZotero Connector\nPara capturar referencias directamente desde el navegador.\n\n\nEntrada manual\nCuando la información no puede importarse automáticamente.\n\n\n\namphibian conservation (Pabijan et al. 2020) plan general de manejo de las áreas de vida silvestre protegidas (MINAE y SINAC 2016)"
+    "objectID": "about.html#áreas-de-interés",
+    "href": "about.html#áreas-de-interés",
+    "title": "Perfil",
+    "section": "Áreas de interés",
+    "text": "Áreas de interés\n\nEcología\nConservación\nBiodiversidad\nBiogeografía\nManejo de Vida Silvestre\nCiencia de datos\nRestauración Ecológica\nMonitoreo de Biodiversidad\nBotánica"
   },
   {
-    "objectID": "zotero.html#conclusions",
-    "href": "zotero.html#conclusions",
-    "title": "Gestión de referencias bibliográficas con Zotero",
-    "section": "Conclusions",
-    "text": "Conclusions\nZotero is a useful and practical tool for organizing academic information and managing references. It simplifies the process of creating citations and bibliographies, saves time, and helps maintain accurate and organized research sources."
+    "objectID": "about.html#habilidades",
+    "href": "about.html#habilidades",
+    "title": "Perfil",
+    "section": "Habilidades",
+    "text": "Habilidades\n\nR\nQuarto (en entrenamiento)\nGit y GitHub\nSistemas de Información Geográfica (SIG)\nMicrosoft Office\nInvestigación Científica\nTrabajo de Campo\nMuestreo Ecológico\nIdentificación de Fauna Tropical\nVisualización de Datos\nModelado de distribución de especies"
+  },
+  {
+    "objectID": "about.html#formación-académica",
+    "href": "about.html#formación-académica",
+    "title": "Perfil",
+    "section": "Formación académica",
+    "text": "Formación académica\nUniversidad Nacional (UNA)\nBachillerato en Biología Tropical\n2021 – Presente"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Inicio",
+    "section": "",
+    "text": "Escuela de Ciencias Biológicas\nUniversidad Nacional, Costa Rica\nVer mi perfil\nExplorar mi portafolio"
+  },
+  {
+    "objectID": "index.html#estudiante-de-bachillerato-en-biología",
+    "href": "index.html#estudiante-de-bachillerato-en-biología",
+    "title": "Inicio",
+    "section": "",
+    "text": "Escuela de Ciencias Biológicas\nUniversidad Nacional, Costa Rica\nVer mi perfil\nExplorar mi portafolio"
+  },
+  {
+    "objectID": "index.html#bienvenidoa",
+    "href": "index.html#bienvenidoa",
+    "title": "Inicio",
+    "section": "Bienvenido(a)",
+    "text": "Bienvenido(a)\nEste sitio web constituye mi portafolio digital académico, donde documentaré las prácticas de laboratorio, proyectos, análisis y productos desarrollados durante el curso Ecología de Poblaciones y Comunidades.\nEste portafolio utiliza herramientas de ciencia reproducible como R, Quarto, Git y GitHub, permitiendo organizar y compartir mi trabajo de manera profesional."
+  },
+  {
+    "objectID": "index.html#contenido-del-sitio",
+    "href": "index.html#contenido-del-sitio",
+    "title": "Inicio",
+    "section": "Contenido del sitio",
+    "text": "Contenido del sitio\n\n\nPerfil\nInformación personal, intereses académicos y experiencia.\nIr al perfil →\n\n\nPortafolio\nRegistro de las prácticas, proyectos y productos desarrollados durante el semestre.\nVer el portafolio →\n\n\n\n\nLa ciencia solo adquiere valor cuando puede ser comunicada y reproducida."
+  },
+  {
+    "objectID": "index.html#herramientas-y-afiliación",
+    "href": "index.html#herramientas-y-afiliación",
+    "title": "Inicio",
+    "section": "Herramientas y afiliación",
+    "text": "Herramientas y afiliación\nEste portafolio fue desarrollado con herramientas de ciencia reproducible.\n\n\n\n\n\nÚltima actualización: 4 de Agosto 2026"
+  },
+  {
+    "objectID": "práctica-ejemplo.html",
+    "href": "práctica-ejemplo.html",
+    "title": "Práctica 1. Creación de sitio web personalizado",
+    "section": "",
+    "text": "Crear sitio web personalizado utilizando Quarto, RStudio y GitHub Pages."
+  },
+  {
+    "objectID": "práctica-ejemplo.html#objetivo",
+    "href": "práctica-ejemplo.html#objetivo",
+    "title": "Práctica 1. Creación de sitio web personalizado",
+    "section": "",
+    "text": "Crear sitio web personalizado utilizando Quarto, RStudio y GitHub Pages."
+  },
+  {
+    "objectID": "práctica-ejemplo.html#materiales-y-herramientas",
+    "href": "práctica-ejemplo.html#materiales-y-herramientas",
+    "title": "Práctica 1. Creación de sitio web personalizado",
+    "section": "Materiales y herramientas",
+    "text": "Materiales y herramientas\n\nRStudio\nQuarto\nGit\nGitHub"
+  },
+  {
+    "objectID": "práctica-ejemplo.html#procedimiento",
+    "href": "práctica-ejemplo.html#procedimiento",
+    "title": "Práctica 1. Creación de sitio web personalizado",
+    "section": "Procedimiento",
+    "text": "Procedimiento\nExplique de forma ordenada los pasos realizados durante la práctica."
+  },
+  {
+    "objectID": "práctica-ejemplo.html#resultados",
+    "href": "práctica-ejemplo.html#resultados",
+    "title": "Práctica 1. Creación de sitio web personalizado",
+    "section": "Resultados",
+    "text": "Resultados\nSe realizó la creación exitosa del sitio web."
+  },
+  {
+    "objectID": "práctica-ejemplo.html#figuras-y-tablas",
+    "href": "práctica-ejemplo.html#figuras-y-tablas",
+    "title": "Práctica 1. Creación de sitio web personalizado",
+    "section": "Figuras y tablas",
+    "text": "Figuras y tablas\n\n\n\nfigura1. imagen de sitio web activo"
+  },
+  {
+    "objectID": "práctica-ejemplo.html#reflexión-final",
+    "href": "práctica-ejemplo.html#reflexión-final",
+    "title": "Práctica 1. Creación de sitio web personalizado",
+    "section": "Reflexión final",
+    "text": "Reflexión final\nResponda brevemente:\n\n¿Qué aprendí?\n\nEste día aprendí sobre como actualizar y crear una página web desde el programa r.\n\n\n\n\n¿Qué dificultad encontré?\n\nCrear la página web, puesto que mi profesor iba muy rápido.\n\n\n\n\n¿Cómo podría aplicar esta herramienta o conocimiento en otro contexto?\n\nCrear páginas web para otras personas que deseen tener su propia página para su negocio en línea."
   },
   {
     "objectID": "Tidy.html#objetive",

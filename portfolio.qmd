@@ -12,13 +12,6 @@ Cada práctica constituye una evidencia del aprendizaje adquirido durante el sem
 
 ## Prácticas de laboratorio
 
-::: portfolio-item
-### 📄 Práctica de ejemplo
-
-Introducción al uso del portafolio digital académico y documentación de una práctica mediante Quarto.
-
-[Ver práctica →](práctica-ejemplo.qmd)
-:::
 
 ::: portfolio-item
 ### 📚 Gestión de referencias bibliográficas con Zotero
