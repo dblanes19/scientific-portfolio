@@ -12,7 +12,6 @@ Cada práctica constituye una evidencia del aprendizaje adquirido durante el sem
 
 ## Prácticas de laboratorio
 
-
 ::: portfolio-item
 ### 📚 Gestión de referencias bibliográficas con Zotero
 
@@ -27,6 +26,14 @@ En esta práctica se documentará la creación de una biblioteca bibliográfica 
 Introducción al uso del portafolio digital académico y documentación de una práctica mediante Quarto.
 
 [Ver práctica →](tidy.qmd)
+:::
+
+::: portfolio-item
+### 📚 Descarga de Ocurrencias de GBIF y iNaturalist
+
+En esta práctica se realizará la descarga de las ocurrencias directamente desde GBIF Y iNaturalist para el proyecto final del curso.
+
+[Ver práctica →](ocurrencias.qmd)
 :::
 
 ------------------------------------------------------------------------
