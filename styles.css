@@ -642,3 +642,35 @@ nav[role="doc-toc"] a:hover {
     scroll-behavior: auto !important;
   }
 }
+
+/* Fondo fotográfico de bosque tropical */
+
+body {
+  background-color: #14271E;
+  background-image:
+    linear-gradient(
+      rgba(13, 31, 23, 0.76),
+      rgba(13, 31, 23, 0.84)
+    ),
+    url("images/fondo-botanico.jpg");
+
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+/* Mantener el contenido como papel claro */
+
+main.content {
+  background-color: #FBF7EC;
+  background-image: none;
+}
+
+/* En pantallas pequeñas, evitar problemas de desplazamiento */
+
+@media (max-width: 768px) {
+  body {
+    background-attachment: scroll;
+  }
+}
