@@ -7,7 +7,7 @@ page-layout: full
 ::: hero-texto
 # Daniela Blanco
 
-## Estudiante de Bachillerato en Biología
+## Estudiante de Bachillerato en Biología Tropical
 
 Escuela de Ciencias Biológicas\
 Universidad Nacional, Costa Rica

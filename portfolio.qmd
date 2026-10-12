@@ -44,6 +44,14 @@ En esta práctica se realizará la descarga de las ocurrencias directamente desd
 [Ver práctica →](Kernel_density.qmd)
 :::
 
+::: portfolio-item
+### 📚 Spatial Distribution
+
+En esta práctica se identificaran distintos patrones de distribución espacial de dos especies vegetales (Elephantopus mollis; Rhynchospora nervosa).
+
+[Ver práctica →](Distribution.qmd)
+:::
+
 ------------------------------------------------------------------------
 
 ## Objetivo del portafolio
