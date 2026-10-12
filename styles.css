@@ -649,8 +649,8 @@ body {
   background-color: #14271E;
   background-image:
     linear-gradient(
-      rgba(13, 31, 23, 0.76),
-      rgba(13, 31, 23, 0.84)
+      rgba(13, 31, 23, 0.45),
+      rgba(13, 31, 23, 0.45)
     ),
     url("images/fondo-botanico.jpg");
 
