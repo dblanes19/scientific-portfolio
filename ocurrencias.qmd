@@ -8,9 +8,13 @@ editor: visual
 
 ## Objetive
 
+Descargar datos de ocurrencias directamente desde fuentes de datos de iNaturalist y GBIF
+
 ## Metodology
 
 ## Results
+
+![Figure 1. Registros de Ocurrencias de Pulsatrix perspicillata en Costa Rica.](images/pulsatrix_perspicillata_occurrences-01.jpg)
 
 ## Interpretations
 

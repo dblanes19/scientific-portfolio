@@ -36,6 +36,14 @@ En esta práctica se realizará la descarga de las ocurrencias directamente desd
 [Ver práctica →](ocurrencias.qmd)
 :::
 
+::: portfolio-item
+### 📚 Kernel Density
+
+En esta práctica se realizará la descarga de las ocurrencias directamente desde GBIF Y iNaturalist para el proyecto final del curso.
+
+[Ver práctica →](Kernel_density.qmd)
+:::
+
 ------------------------------------------------------------------------
 
 ## Objetivo del portafolio
