@@ -39,7 +39,7 @@ Zotero was used to collect and organize the academic sources consulted during th
 Cuadro 1. Métodos utilizados para incorporar referencias bibliográficas a Zotero.
 
 | Método | ¿Cuándo utilizarlo? |
-|------------------------------------|------------------------------------|
+|----|----|
 | DOI | Cuando la publicación tienen un DOI conocido. |
 | Archivo RIS | Cuando la revista o base de datos permite exportar la referencia. |
 | Zotero Connector | Para capturar referencias directamente desde el navegador. |

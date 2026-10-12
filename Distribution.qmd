@@ -1,0 +1,51 @@
+---
+title: "Patrones de Distribución Espacial en Especies Vegetales"
+author: "Daniela Blanco - Universidad Nacional de Costa Rica"
+editor: visual
+---
+
+## Summary
+
+## Introduction
+
+## Objetive
+
+Evaluar y comparar el patrón de distribución espacial de dos especies vegetales mediante datos de abundancia obtenidos utilizando cuadrículas.
+
+Objetivos específicos
+
+ Estimar la abundancia de Elephantopus mollis y Rhynchospora nervosa en unidades de muestreo de 1 × 1 m.
+
+ Caracterizar la variación espacial de la abundancia mediante la media, la varianza y el índice de dispersión.
+
+ Evaluar estadísticamente si los conteos son compatibles con un patrón espacial aleatorio.
+
+ Evaluar el ajuste de los conteos a distribuciones teóricas asociadas con diferentes patrones espaciales.
+
+ Representar gráficamente la distribución espacial de ambas especies e interpretar los patrones encontrados. \
+
+## Metodology
+
+**Área de estudio**
+
+Proporcione la información necesaria para comprender dónde se realizó el estudio y describa brevemente las características relevantes del sitio.
+
+**Especies de estudio**
+
+Identifique las especies estudiadas e incluya únicamente la información biológica necesaria para comprender el muestreo. Explique claramente qué se consideró un individuo o unidad de conteo.
+
+**Diseño de muestreo**
+
+Describa el tamaño del área estudiada, su división espacial, número y tamaño de las cuadrículas, procedimiento de ubicación de las unidades de muestreo y variables registradas. El procedimiento debe quedar suficientemente claro para que otra persona pueda comprender cómo se obtuvieron los datos.
+
+**Análisis de datos**
+
+Explique, con sus propias palabras, las estadísticas descriptivas utilizadas, cómo se calculó e interpretó el índice de dispersión, qué prueba se utilizó para evaluar la aleatoriedad, qué distribuciones teóricas se evaluaron, cómo se evaluó su ajuste, qué representaciones gráficas se utilizaron y qué software se empleó para los análisis. No es necesario describir línea por línea el código de R. \
+
+## Results
+
+## Interpretations
+
+## Conclusions
+
+## Bibliography
