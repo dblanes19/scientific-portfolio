@@ -1,423 +1,255 @@
 /* =========================================================
-   PORTAFOLIO CIENTÍFICO COLORIDO
+   PORTAFOLIO CIENTÍFICO — CUADERNO BOTÁNICO
+   Biología tropical · Ecología · Biodiversidad · Conservación
+   Reemplaza el CSS anterior completo por este archivo.
    ========================================================= */
 
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@500;600;700&display=swap');
+
 :root {
-  --verde: #0f766e;
-  --verde-oscuro: #115e59;
-  --azul: #2563eb;
-  --coral: #e76f51;
-  --morado: #7c3aed;
-  --amarillo: #f4c95d;
-
-  --fondo: #fffaf2;
-  --fondo-tarjeta: #ffffff;
-  --fondo-suave: #eef8f6;
-
-  --texto: #253238;
-  --texto-secundario: #5d6770;
-  --borde: #d7e5e2;
+  --forest: #25483A;
+  --forest-deep: #18382D;
+  --fern: #647B59;
+  --sage: #DDE5D5;
+  --paper: #FBF7EC;
+  --paper-light: #FFFDF7;
+  --ink: #29352C;
+  --muted: #687166;
+  --line: #D8D9C8;
+  --rust: #B76545;
+  --ochre: #D2A34A;
+  --pencil: #8A927F;
 }
 
-
-/* ---------------------------------------------------------
-   Fondo general y tipografía
-   --------------------------------------------------------- */
-
+/* Fondo tipo papel y tipografía editorial */
 body {
-  background-color: var(--fondo);
-  color: var(--texto);
-  font-family:
-    -apple-system,
-    BlinkMacSystemFont,
-    "Segoe UI",
-    Roboto,
-    Helvetica,
-    Arial,
-    sans-serif;
-  font-size: 1.05rem;
-  line-height: 1.7;
+  background-color: var(--paper);
+  background-image:
+    radial-gradient(rgba(67, 81, 57, 0.055) 0.65px, transparent 0.65px);
+  background-size: 7px 7px;
+  color: var(--ink);
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.02rem;
+  line-height: 1.78;
 }
-
-
-/* El contenido se muestra como una tarjeta */
 
 main.content {
-  max-width: 980px;
-  margin: 2rem auto 3rem auto;
-  padding: 2.4rem 3rem;
-  background-color: var(--fondo-tarjeta);
-  border-radius: 18px;
-  box-shadow: 0 10px 30px rgba(37, 50, 56, 0.09);
+  max-width: 1120px;
+  margin: 1.8rem auto 3rem;
+  padding: clamp(1.25rem, 3.5vw, 3.2rem);
+  background: rgba(255, 253, 247, 0.96);
+  border: 1px solid var(--line);
+  border-radius: 4px 18px 18px 4px;
+  box-shadow: 5px 7px 0 rgba(37, 72, 58, 0.045);
+  position: relative;
 }
 
+/* Pequeño detalle de cuaderno en el borde de la página */
+main.content::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 1.5rem;
+  bottom: 1.5rem;
+  width: 4px;
+  background: var(--fern);
+  opacity: 0.7;
+}
 
-/* ---------------------------------------------------------
-   Barra de navegación
-   --------------------------------------------------------- */
-
+/* Navegación */
 .navbar {
-  background: linear-gradient(
-    90deg,
-    var(--verde-oscuro),
-    var(--verde)
-  ) !important;
-
-  box-shadow: 0 4px 14px rgba(17, 94, 89, 0.22);
+  background: var(--forest-deep) !important;
+  border-bottom: 4px solid var(--ochre);
+  box-shadow: 0 4px 15px rgba(24, 56, 45, 0.12);
 }
-
 
 .navbar-brand {
-  color: #ffffff !important;
-  font-size: 1.3rem;
-  font-weight: 750;
+  color: #FFFDF7 !important;
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 1.25rem;
+  font-weight: 600;
 }
 
-
 .navbar-nav .nav-link {
-  color: rgba(255, 255, 255, 0.88) !important;
+  color: rgba(255, 253, 247, 0.88) !important;
   font-weight: 600;
-  border-radius: 8px;
+  border-radius: 5px;
   padding-left: 0.85rem !important;
   padding-right: 0.85rem !important;
 }
 
-
 .navbar-nav .nav-link:hover,
 .navbar-nav .nav-link:focus,
 .navbar-nav .nav-link.active {
-  color: #ffffff !important;
-  background-color: rgba(255, 255, 255, 0.16);
+  color: #FFFFFF !important;
+  background: rgba(255, 253, 247, 0.13);
 }
 
-
-/* ---------------------------------------------------------
-   Títulos
-   --------------------------------------------------------- */
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: var(--texto);
-  font-weight: 750;
+/* Jerarquía editorial */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--forest);
+  font-family: "Playfair Display", Georgia, serif;
+  font-weight: 600;
   line-height: 1.25;
 }
 
-
 h1,
 .quarto-title h1.title {
-  color: var(--azul);
-  font-size: 2.5rem;
-  font-weight: 800;
+  font-size: clamp(2.2rem, 4.4vw, 3.4rem);
+  color: var(--forest-deep);
+  letter-spacing: -0.035em;
 }
-
 
 h2 {
-  color: var(--coral);
-  font-size: 1.7rem;
-  margin-top: 2.5rem;
-  padding-bottom: 0.45rem;
-  border-bottom: 3px solid rgba(231, 111, 81, 0.25);
+  font-size: 1.8rem;
+  margin-top: 2.4rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid var(--line);
+  position: relative;
 }
 
+h2::after {
+  content: "";
+  display: block;
+  width: 3.4rem;
+  height: 3px;
+  margin-top: 0.55rem;
+  background: var(--rust);
+}
 
 h3 {
-  color: var(--verde);
-  font-size: 1.3rem;
-  margin-top: 1.8rem;
+  color: var(--fern);
+  font-size: 1.35rem;
+  margin-top: 1.7rem;
 }
 
-
-/* ---------------------------------------------------------
-   Texto y enlaces
-   --------------------------------------------------------- */
-
-p {
-  margin-bottom: 1.15rem;
-}
-
+p { margin-bottom: 1.05rem; }
 
 a {
-  color: var(--morado);
-  font-weight: 550;
-  text-decoration: none;
-}
-
-
-a:hover,
-a:focus {
-  color: #5b21b6;
-  text-decoration: underline;
+  color: var(--forest);
+  font-weight: 600;
+  text-decoration-color: rgba(183, 101, 69, 0.55);
   text-underline-offset: 0.2em;
 }
 
-
-/* ---------------------------------------------------------
-   Listas
-   --------------------------------------------------------- */
-
-li {
-  margin-bottom: 0.4rem;
+a:hover, a:focus {
+  color: var(--rust);
+  text-decoration-thickness: 2px;
 }
 
+li { margin-bottom: 0.35rem; }
+li::marker { color: var(--rust); }
 
-li::marker {
-  color: var(--coral);
-}
-
-
-/* ---------------------------------------------------------
-   Fotografías e imágenes
-   --------------------------------------------------------- */
-
+/* Imágenes: láminas de un cuaderno de historia natural */
 img {
   max-width: 100%;
   height: auto;
 }
 
-
 .quarto-figure img,
 .figure-img {
-  border-radius: 14px;
-  box-shadow: 0 7px 22px rgba(37, 50, 56, 0.12);
+  border: 1px solid var(--line);
+  border-radius: 3px;
+  box-shadow: 4px 5px 0 rgba(37, 72, 58, 0.08);
 }
 
-
-/* Fotografía circular del perfil */
+.quarto-figure figcaption,
+.figure-caption {
+  color: var(--muted);
+  font-size: 0.88rem;
+  font-style: italic;
+  text-align: left;
+  margin-top: 0.55rem;
+}
 
 img[alt="Fotografía de perfil"] {
   border-radius: 50%;
   object-fit: cover;
   aspect-ratio: 1 / 1;
-  border: 6px solid var(--amarillo);
-  box-shadow: 0 8px 24px rgba(37, 50, 56, 0.18);
+  border: 5px solid var(--paper-light);
+  outline: 1px solid var(--fern);
+  box-shadow: 5px 6px 0 rgba(37, 72, 58, 0.12);
 }
 
-
-/* ---------------------------------------------------------
-   Separadores
-   --------------------------------------------------------- */
-
+/* Separadores sobrios */
 hr {
   border: 0;
-  height: 4px;
-  width: 90px;
+  height: 1px;
   margin: 2.2rem auto;
-  border-radius: 999px;
-
-  background: linear-gradient(
-    90deg,
-    var(--azul),
-    var(--morado),
-    var(--coral)
-  );
+  background: var(--line);
+  max-width: 100%;
 }
 
-
-/* ---------------------------------------------------------
-   Citas y bloques destacados
-   --------------------------------------------------------- */
-
+/* Citas: anotación en el margen */
 blockquote {
   margin: 1.8rem 0;
-  padding: 1.2rem 1.5rem;
-  background-color: #fff4dc;
-  border-left: 6px solid var(--amarillo);
-  border-radius: 10px;
-  color: var(--texto-secundario);
-  box-shadow: 0 5px 15px rgba(37, 50, 56, 0.06);
+  padding: 1.1rem 1.4rem;
+  background: #F2F0E3;
+  border-left: 4px solid var(--rust);
+  border-radius: 0 8px 8px 0;
+  color: #505A4F;
+  box-shadow: none;
 }
 
+blockquote p:last-child { margin-bottom: 0; }
 
-blockquote p:last-child {
-  margin-bottom: 0;
-}
-
-
-/* ---------------------------------------------------------
-   Código
-   --------------------------------------------------------- */
-
+/* Código y resultados reproducibles */
 code {
-  color: var(--morado);
-  background-color: #f3edff;
-  border-radius: 5px;
-  padding: 0.15rem 0.35rem;
+  color: var(--forest-deep);
+  background: #E9EEE3;
+  border-radius: 3px;
+  padding: 0.12rem 0.3rem;
 }
-
 
 pre {
-  border: 1px solid #ddd4f4;
-  border-radius: 12px;
-  box-shadow: 0 5px 16px rgba(37, 50, 56, 0.06);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  box-shadow: none;
 }
 
-
-/* ---------------------------------------------------------
-   Tablas
-   --------------------------------------------------------- */
-
+/* Tablas */
 table {
   width: 100%;
-  margin: 1.5rem 0 2rem 0;
+  margin: 1.4rem 0 2rem;
   border-collapse: separate;
   border-spacing: 0;
   overflow: hidden;
-  border: 1px solid var(--borde);
-  border-radius: 12px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  background: var(--paper-light);
 }
-
 
 thead {
-  background-color: var(--verde);
-  color: #ffffff;
+  background: var(--forest);
+  color: #FFFDF7;
 }
 
-
-th,
-td {
-  padding: 0.8rem;
-  border-bottom: 1px solid var(--borde);
+th, td {
+  padding: 0.75rem;
+  border-bottom: 1px solid var(--line);
 }
 
+tbody tr:nth-child(even) { background: #F3F3E9; }
 
-tbody tr:nth-child(even) {
-  background-color: var(--fondo-suave);
-}
-
-
-/* ---------------------------------------------------------
-   Tarjetas para las prácticas
-   --------------------------------------------------------- */
-
-
-
-/* ---------------------------------------------------------
-   Tabla de contenido
-   --------------------------------------------------------- */
-
-#TOC {
-  background-color: #eef8f6;
-  border-left: 4px solid var(--verde);
-  border-radius: 10px;
+/* Índice lateral */
+#TOC,
+nav[role="doc-toc"] {
+  background: #F1F2E8;
+  border-left: 3px solid var(--fern);
+  border-radius: 0 8px 8px 0;
   padding: 1rem;
 }
 
-
-#TOC a {
-  color: var(--texto-secundario);
+#TOC a,
+nav[role="doc-toc"] a {
+  color: var(--muted);
+  text-decoration: none;
 }
-
 
 #TOC a:hover,
-#TOC a.active {
-  color: var(--coral);
-}
-
-
-/* ---------------------------------------------------------
-   Pie de página
-   --------------------------------------------------------- */
-
-/* ---------------------------------------------------------
-   Pie de página
-   --------------------------------------------------------- */
-
-.nav-footer {
-
-    background: linear-gradient(
-        90deg,
-        var(--verde-oscuro),
-        var(--verde)
-    );
-
-    color: rgba(255,255,255,.92);
-
-    border-top: 5px solid var(--amarillo);
-
-    padding-top: 1.3rem;
-    padding-bottom: 1.3rem;
-
-    font-size: .95rem;
-
-}
-
-.nav-footer a{
-
-    color:white;
-    text-decoration:none;
-
-}
-
-.nav-footer a:hover{
-
-    text-decoration:underline;
-
-}
-
-/* ---------------------------------------------------------
-   Celulares
-   --------------------------------------------------------- */
-
-@media (max-width: 768px) {
-
-  main.content {
-    margin: 1rem;
-    padding: 1.5rem;
-    border-radius: 14px;
-  }
-
-  body {
-    font-size: 1rem;
-  }
-
-  h1,
-  .quarto-title h1.title {
-    font-size: 2rem;
-  }
-
-  h2 {
-    font-size: 1.45rem;
-  }
-
-  img[alt="Fotografía de perfil"] {
-    width: 170px !important;
-  }
-}
-
-
-/* ---------------------------------------------------------
-   Impresión
-   --------------------------------------------------------- */
-
-@media print {
-
-  .navbar,
-  .nav-footer,
-  #TOC {
-    display: none !important;
-  }
-
-  body,
-  main.content {
-    background-color: #ffffff;
-    color: #000000;
-    box-shadow: none;
-  }
-
-  main.content {
-    margin: 0;
-    padding: 0;
-    max-width: none;
-  }
-
-  a {
-    color: #000000;
-    text-decoration: none;
-  }
+#TOC a.active,
+nav[role="doc-toc"] a:hover {
+  color: var(--rust);
 }
 
 /* =========================================================
@@ -426,220 +258,318 @@ tbody tr:nth-child(even) {
 
 .hero-portada {
   display: grid;
-  grid-template-columns: 1.15fr 0.85fr;
-  gap: 2.5rem;
+  grid-template-columns: 1.05fr 0.95fr;
+  gap: clamp(1.5rem, 4vw, 3.2rem);
   align-items: center;
-  margin: 1.5rem 0 3rem 0;
-  padding: 3rem;
-  border-radius: 24px;
-  background:
-    linear-gradient(
-      135deg,
-      rgba(37, 99, 235, 0.12),
-      rgba(124, 58, 237, 0.10),
-      rgba(231, 111, 81, 0.14)
-    );
-  border: 1px solid rgba(124, 58, 237, 0.14);
+  margin: 0.5rem 0 3rem;
+  padding: clamp(1.4rem, 4vw, 3.2rem);
+  background: var(--paper-light);
+  border: 1px solid var(--line);
+  border-radius: 3px 18px 18px 3px;
+  box-shadow: 5px 6px 0 rgba(37, 72, 58, 0.06);
+  position: relative;
   overflow: hidden;
 }
 
+/* Línea de ficha botánica */
+.hero-portada::before {
+  content: "FIELD NOTES  /  BIOLOGY";
+  position: absolute;
+  top: 0.8rem;
+  right: 1rem;
+  color: var(--fern);
+  font-size: 0.65rem;
+  letter-spacing: 0.14em;
+  font-weight: 700;
+}
+
 .hero-texto h1 {
-  margin-top: 0;
-  margin-bottom: 0.6rem;
-  font-size: 3.2rem;
-  color: var(--azul);
+  margin-top: 0.8rem;
+  margin-bottom: 0.55rem;
+  color: var(--forest-deep);
+  font-size: clamp(2.5rem, 5vw, 4rem);
 }
 
 .hero-texto h2 {
   margin-top: 0;
-  margin-bottom: 1.2rem;
-  padding-bottom: 0;
-  border-bottom: none;
-  color: var(--coral);
-  font-size: 1.45rem;
+  margin-bottom: 1.1rem;
+  padding: 0;
+  border: 0;
+  color: var(--rust);
+  font-family: "DM Sans", sans-serif;
+  font-size: clamp(1.05rem, 2vw, 1.35rem);
+  font-weight: 600;
+}
+
+.hero-texto h2::after { display: none; }
+
+.hero-imagen {
+  position: relative;
+  padding: 0.55rem;
+  background: #FFFFFF;
+  border: 1px solid var(--line);
+  transform: rotate(1deg);
+  box-shadow: 3px 5px 0 rgba(37, 72, 58, 0.08);
+}
+
+.hero-imagen::after {
+  content: "Biodiversidad tropical";
+  display: block;
+  padding: 0.45rem 0.25rem 0.1rem;
+  color: var(--muted);
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 0.85rem;
+  font-style: italic;
+  text-align: center;
 }
 
 .hero-imagen img {
+  display: block;
   width: 100%;
-  height: 360px;
+  height: 340px;
   object-fit: cover;
-  border-radius: 18px;
-  box-shadow: 0 12px 30px rgba(37, 50, 56, 0.18);
+  border-radius: 1px;
+  box-shadow: none;
+  border: 0;
 }
 
+/* Botones con aspecto de etiqueta de campo */
 .btn-portada {
   display: inline-block;
-  margin-top: 1.2rem;
-  margin-right: 0.8rem;
-  padding: 0.75rem 1.15rem;
-  border-radius: 10px;
-  background-color: var(--verde);
-  color: #ffffff !important;
+  margin: 0.7rem 0.45rem 0.15rem 0;
+  padding: 0.68rem 1rem;
+  border: 1px solid var(--forest);
+  border-radius: 4px;
+  background: var(--forest);
+  color: #FFFDF7 !important;
   font-weight: 700;
   text-decoration: none !important;
-  box-shadow: 0 5px 14px rgba(15, 118, 110, 0.22);
+  box-shadow: 3px 3px 0 rgba(37, 72, 58, 0.13);
+  transition: transform 0.18s ease, background 0.18s ease;
 }
 
 .btn-portada:hover {
-  background-color: var(--verde-oscuro);
-  transform: translateY(-1px);
+  background: var(--forest-deep);
+  transform: translateY(-2px);
 }
 
-.btn-secundario {
-  background-color: var(--morado);
+.btn-portada.btn-secundario {
+  background: transparent;
+  color: var(--forest) !important;
+  box-shadow: none;
 }
 
-.btn-secundario:hover {
-  background-color: #5b21b6;
-}
+.btn-portada.btn-secundario:hover { background: var(--sage); }
 
+/* Bienvenida: ficha de notas */
 .bloque-bienvenida {
   margin: 2rem 0;
-  padding: 1.8rem 2rem;
-  background-color: #ffffff;
-  border-left: 7px solid var(--amarillo);
-  border-radius: 14px;
-  box-shadow: 0 6px 18px rgba(37, 50, 56, 0.07);
+  padding: 1.6rem 1.8rem;
+  background: #F0F1E5;
+  border-left: 4px solid var(--fern);
+  border-radius: 0 10px 10px 0;
 }
 
+.bloque-bienvenida h2 {
+  margin-top: 0;
+  border: 0;
+}
+
+.bloque-bienvenida h2::after { display: none; }
+
+/* Tarjetas de navegación */
 .tarjetas-inicio {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 1.4rem;
-  margin: 2.2rem 0;
+  gap: 1.25rem;
+  margin: 1.7rem 0 2.7rem;
 }
 
 .tarjeta-inicio {
+  position: relative;
   padding: 1.6rem;
-  background: linear-gradient(145deg, #ffffff, #f5f3ff);
-  border-radius: 16px;
-  border-top: 6px solid var(--coral);
-  box-shadow: 0 7px 20px rgba(37, 50, 56, 0.08);
+  background: var(--paper-light);
+  border: 1px solid var(--line);
+  border-top: 3px solid var(--fern);
+  border-radius: 4px 12px 12px 12px;
+  box-shadow: 4px 5px 0 rgba(37, 72, 58, 0.055);
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
 }
 
-.tarjeta-inicio:nth-child(2) {
-  border-top-color: var(--verde);
+.tarjeta-inicio:nth-child(2) { border-top-color: var(--rust); }
+
+.tarjeta-inicio:hover {
+  transform: translateY(-3px);
+  box-shadow: 5px 8px 0 rgba(37, 72, 58, 0.08);
 }
 
 .tarjeta-inicio h3 {
   margin-top: 0;
+  color: var(--forest);
 }
 
+/* Cita final */
 .mensaje-final {
-  margin-top: 2.5rem;
+  margin: 2.5rem 0;
+  padding: 1.3rem 1.5rem;
+  background: #F4EBDD;
+  border-left: 4px solid var(--ochre);
+  border-radius: 0 8px 8px 0;
 }
 
-@media (max-width: 850px) {
-  .hero-portada {
-    grid-template-columns: 1fr;
-    padding: 2rem;
-  }
+.mensaje-final blockquote {
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  border: 0;
+  color: var(--forest);
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 1.12rem;
+  font-style: italic;
+  box-shadow: none;
+}
 
-  .hero-texto h1 {
-    font-size: 2.4rem;
-  }
+/* Logos */
+.logos-portada {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin: 1.5rem auto;
+}
 
-  .hero-imagen img {
-    height: 260px;
-  }
-
-  .tarjetas-inicio {
-    grid-template-columns: 1fr;
-  }
+.logos-portada img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  box-shadow: none;
+  border: 0;
 }
 
 /* =========================================================
    PERFIL
    ========================================================= */
 
-.perfil-superior{
-
-    display:grid;
-    grid-template-columns:280px 1fr;
-
-    gap:3rem;
-
-    align-items:center;
-
-    margin-bottom:3rem;
-
-    padding:2.5rem;
-
-    background:white;
-
-    border-radius:18px;
-
-    box-shadow:0 10px 25px rgba(0,0,0,.08);
-
+.perfil-superior {
+  display: grid;
+  grid-template-columns: 250px 1fr;
+  gap: 2.5rem;
+  align-items: center;
+  margin-bottom: 3rem;
+  padding: 2rem;
+  background: var(--paper-light);
+  border: 1px solid var(--line);
+  border-radius: 4px 14px 14px 4px;
+  box-shadow: 4px 5px 0 rgba(37, 72, 58, 0.05);
 }
 
+.perfil-foto { text-align: center; }
 
-.perfil-foto{
-
-    text-align:center;
-
+.perfil-foto img {
+  width: 215px;
+  height: 215px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid var(--paper-light);
+  outline: 1px solid var(--fern);
+  box-shadow: 4px 5px 0 rgba(37, 72, 58, 0.12);
 }
 
+.perfil-info h1 { margin-top: 0; margin-bottom: 0.4rem; }
 
-.perfil-foto img{
-
-    width:230px;
-
-    height:230px;
-
-    object-fit:cover;
-
-    border-radius:50%;
-
-    border:8px solid white;
-
-    box-shadow:0 8px 24px rgba(0,0,0,.18);
-
+.perfil-info h2 {
+  margin-top: 0;
+  border: 0;
+  padding: 0;
+  font-family: "DM Sans", sans-serif;
+  font-size: 1.2rem;
 }
 
+.perfil-info h2::after { display: none; }
+.perfil-info p { margin-bottom: 0.5rem; }
 
-.perfil-info h1{
-
-    margin-top:0;
-
-    margin-bottom:.4rem;
-
+.enlaces-perfil {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.7rem;
+  margin-top: 1.3rem;
 }
 
+.enlaces-perfil p { margin: 0; }
 
-.perfil-info h2{
-
-    margin-top:0;
-
-    border-bottom:none;
-
-    padding-bottom:0;
-
-    font-size:1.35rem;
-
+.enlaces-perfil a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  padding: 0.58rem 0.85rem;
+  color: #FFFDF7;
+  background: var(--forest);
+  border: 1px solid var(--forest);
+  border-radius: 4px;
+  text-decoration: none;
+  box-shadow: 2px 2px 0 rgba(37, 72, 58, 0.12);
 }
 
-
-.perfil-info p{
-
-    margin-bottom:.5rem;
-
+.enlaces-perfil a:hover {
+  background: var(--rust);
+  border-color: var(--rust);
+  color: white;
 }
 
+/* =========================================================
+   PORTAFOLIO Y PRÁCTICAS
+   ========================================================= */
 
-@media (max-width:850px){
-
-.perfil-superior{
-
-grid-template-columns:1fr;
-
-text-align:center;
-
+.portfolio-item {
+  margin: 1.5rem 0;
+  padding: 1.5rem 1.7rem;
+  background: var(--paper-light);
+  border: 1px solid var(--line);
+  border-left: 5px solid var(--fern);
+  border-radius: 3px 12px 12px 3px;
+  box-shadow: 4px 5px 0 rgba(37, 72, 58, 0.055);
+  transition: transform 0.18s ease, box-shadow 0.18s ease;
 }
 
+.portfolio-item:nth-of-type(even) { border-left-color: var(--rust); }
+
+.portfolio-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 5px 7px 0 rgba(37, 72, 58, 0.075);
 }
 
-/* Organización vertical del texto central del footer */
+.portfolio-item h3 {
+  margin-top: 0;
+  color: var(--forest);
+}
+
+.portfolio-item a {
+  display: inline-block;
+  margin-top: 0.55rem;
+  padding: 0.5rem 0.85rem;
+  background: var(--forest);
+  color: #FFFDF7 !important;
+  border-radius: 4px;
+  text-decoration: none;
+}
+
+.portfolio-item a:hover {
+  background: var(--rust);
+}
+
+/* Pie de página */
+.nav-footer {
+  background: var(--forest-deep);
+  color: rgba(255, 253, 247, 0.92);
+  border-top: 4px solid var(--ochre);
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  font-size: 0.92rem;
+}
+
+.nav-footer a { color: #FFFDF7; }
+.nav-footer a:hover { color: #E8D4A9; }
 
 .footer-curso {
   display: flex;
@@ -649,115 +579,66 @@ text-align:center;
   text-align: center;
 }
 
-.footer-titulo {
-  display: block;
-  font-weight: 700;
+.footer-titulo { display: block; font-weight: 700; }
+.footer-institucion { display: block; font-weight: 400; }
+
+/* Impresión */
+@media print {
+  .navbar, .nav-footer, #TOC { display: none !important; }
+
+  body, main.content {
+    background: #FFFFFF;
+    color: #000000;
+    box-shadow: none;
+  }
+
+  main.content {
+    margin: 0;
+    padding: 0;
+    max-width: none;
+  }
 }
 
-.footer-institucion {
-  display: block;
-  font-weight: 400;
+/* Adaptación a pantallas pequeñas */
+@media (max-width: 850px) {
+  main.content {
+    margin: 0.75rem;
+    padding: 1.25rem;
+  }
+
+  main.content::before { display: none; }
+
+  .hero-portada {
+    grid-template-columns: 1fr;
+    gap: 1.4rem;
+    padding: 1.5rem;
+  }
+
+  .hero-texto h1 { font-size: 2.6rem; }
+  .hero-imagen img { height: 260px; }
+
+  .tarjetas-inicio { grid-template-columns: 1fr; }
+
+  .perfil-superior {
+    grid-template-columns: 1fr;
+    text-align: center;
+    padding: 1.5rem;
+  }
+
+  .perfil-info h1 { margin-top: 0.5rem; }
+  .enlaces-perfil { justify-content: center; }
 }
 
-/* =========================================================
-   ENLACES DEL PERFIL
-   ========================================================= */
-
-/* =========================================================
-   ENLACES DEL PERFIL
-   ========================================================= */
-
-.enlaces-perfil {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 0.75rem;
-  margin-top: 1.4rem;
+@media (max-width: 480px) {
+  .hero-texto h1 { font-size: 2.2rem; }
+  .hero-portada { padding: 1.15rem; }
+  .hero-imagen img { height: 220px; }
+  .btn-portada { margin-right: 0.25rem; }
 }
 
-.enlaces-perfil p {
-  margin: 0;
-}
-
-.enlaces-perfil a {
-  display: inline-flex;
-  align-items: center;
-  gap: 0.5rem;
-  padding: 0.62rem 0.9rem;
-  color: #ffffff;
-  background-color: var(--morado);
-  border-radius: 10px;
-  font-weight: 650;
-  text-decoration: none;
-  box-shadow: 0 4px 12px rgba(37, 50, 56, 0.12);
-  transition:
-    transform 0.15s ease,
-    background-color 0.15s ease;
-}
-
-.enlaces-perfil a:hover {
-  color: #ffffff;
-  background-color: #5b21b6;
-  text-decoration: none;
-  transform: translateY(-2px);
-}
-
-.enlaces-perfil i {
-  font-size: 1.05rem;
-}
-
-/* =========================================================
-   MEJORA DE LAS CAJAS DEL PORTAFOLIO
-   ========================================================= */
-
-/* =========================================================
-   CAJAS DEL PORTAFOLIO
-   ========================================================= */
-
-.portfolio-item {
-  margin: 1.8rem 0;
-  padding: 1.8rem 2rem;
-
-  background: linear-gradient(
-    135deg,
-    #fff4dc,
-    #f3edff
-  );
-
-  border: 3px solid var(--morado);
-  border-left: 12px solid var(--coral);
-  border-radius: 20px;
-
-  box-shadow: 0 10px 25px rgba(37, 50, 56, 0.16);
-
-  transition:
-    transform 0.2s ease,
-    box-shadow 0.2s ease;
-}
-
-.portfolio-item:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 15px 32px rgba(37, 50, 56, 0.22);
-}
-
-.portfolio-item h3 {
-  margin-top: 0;
-  color: var(--morado);
-}
-
-.portfolio-item a {
-  display: inline-block;
-  margin-top: 0.7rem;
-  padding: 0.6rem 1rem;
-
-  background-color: var(--verde);
-  color: #ffffff !important;
-
-  border-radius: 10px;
-  font-weight: 700;
-  text-decoration: none;
-}
-
-.portfolio-item a:hover {
-  background-color: var(--verde-oscuro);
-  text-decoration: none;
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
 }
