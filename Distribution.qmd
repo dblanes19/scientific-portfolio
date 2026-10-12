@@ -44,6 +44,15 @@ Explique, con sus propias palabras, las estadísticas descriptivas utilizadas, c
 
 ## Results
 
+| Col1 | Col2 | Col3 | Col4 | Col5 |
+|------|------|------|------|------|
+|      |      |      |      |      |
+|      |      |      |      |      |
+|      |      |      |      |      |
+|      |      |      |      |      |
+
+: Table 1.
+
 ## Interpretations
 
 ## Conclusions
