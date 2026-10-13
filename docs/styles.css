@@ -674,3 +674,1146 @@ main.content {
     background-attachment: scroll;
   }
 }
+
+
+/* === FONDO OSCURO BOTÁNICO === */
+
+main.content {
+  background-color: rgba(0, 0, 0, 0.68);
+  color: #F0EEE5;
+}
+
+/* === JERARQUÍA DE TÍTULOS === */
+
+/* Título principal */
+main.content h1 {
+  color: #D6E99A;
+  font-weight: 700;
+}
+
+/* Títulos de sección */
+main.content h2 {
+  color: #78C6A3;
+  font-weight: 650;
+  border-bottom: 1px solid rgba(120, 198, 163, 0.4);
+  padding-bottom: 0.3em;
+}
+
+/* Subtítulos */
+main.content h3 {
+  color: #E6B566;
+  font-weight: 600;
+}
+
+/* Títulos de nivel inferior */
+main.content h4,
+main.content h5,
+main.content h6 {
+  color: #B8D7A3;
+}
+
+/* === TEXTO Y ENLACES === */
+
+main.content p,
+main.content li {
+  color: #F0EEE5;
+}
+
+main.content a {
+  color: #9ED9C1;
+  text-decoration-color: rgba(158, 217, 193, 0.6);
+  text-underline-offset: 3px;
+}
+
+main.content a:hover {
+  color: #D6E99A;
+}
+
+/* === ÉNFASIS === */
+
+main.content strong {
+  color: #D6E99A;
+}
+
+main.content blockquote {
+  border-left-color: #78C6A3;
+  color: #E0E6DA;
+}
+
+
+/* Tarjeta principal de presentación */
+main.content .hero,
+main.content .about-card,
+main.content .profile-card {
+  background-color: rgba(0, 0, 0, 0.58) !important;
+  color: #F0EEE5;
+  border-color: rgba(214, 233, 154, 0.35);
+}
+
+/* Título principal */
+main.content h1 {
+  color: #D6E99A;
+}
+
+/* Subtítulos */
+main.content h2 {
+  color: #78C6A3;
+}
+
+main.content h3 {
+  color: #E6B566;
+}
+
+/* Texto de presentación */
+main.content p {
+  color: #F0EEE5;
+}
+
+/* Texto destacado */
+main.content strong {
+  color: #D6E99A;
+}
+
+
+/* ===== TARJETA PRINCIPAL: BOTÁNICA OSCURA ===== */
+
+main.content .card,
+main.content .card-body {
+  background-color: rgba(9, 18, 13, 0.82) !important;
+  color: #F3F0E6 !important;
+  border-color: rgba(214, 233, 154, 0.35) !important;
+}
+
+/* Título principal */
+main.content h1 {
+  color: #D6E99A !important;
+}
+
+/* Subtítulo profesional */
+main.content h2 {
+  color: #78D6B0 !important;
+}
+
+/* Subtítulos secundarios */
+main.content h3,
+main.content h4 {
+  color: #F0C879 !important;
+}
+
+/* Texto descriptivo y afiliación */
+main.content p,
+main.content li {
+  color: #F3F0E6 !important;
+}
+
+/* Etiqueta FIELD NOTES / BIOLOGY */
+main.content .card strong,
+main.content .card small {
+  color: #B8D7A3 !important;
+}
+
+/* Enlaces */
+main.content a {
+  color: #9FE5C5 !important;
+}
+
+main.content a:hover {
+  color: #E0F3A8 !important;
+}
+
+/* Botones */
+main.content .btn-primary {
+  background-color: #28604A !important;
+  border-color: #78C6A3 !important;
+  color: #FFFFFF !important;
+}
+
+
+/* ===== TARJETAS DE PRÁCTICAS ===== */
+
+main.content .card,
+main.content .card-body,
+main.content .card-header,
+main.content .card-footer,
+main.content .callout,
+main.content .callout-body {
+  background-color: rgba(8, 18, 13, 0.90) !important;
+  color: #F0EEE5 !important;
+  border-color: rgba(120, 198, 163, 0.45) !important;
+}
+
+/* Títulos de las tarjetas */
+main.content .card h1,
+main.content .card h2,
+main.content .card h3,
+main.content .card h4,
+main.content .card-title {
+  color: #E6B566 !important;
+}
+
+/* Descripciones */
+main.content .card p,
+main.content .card li,
+main.content .callout p {
+  color: #F0EEE5 !important;
+}
+
+/* Enlaces de las tarjetas */
+main.content .card a,
+main.content .callout a {
+  color: #9FE5C5 !important;
+}
+
+main.content .card a:hover,
+main.content .callout a:hover {
+  color: #D6E99A !important;
+}
+
+/* ===== ÍNDICE LATERAL ===== */
+
+#TOC,
+#TOC a,
+.sidebar nav a {
+  color: #D8E2D7 !important;
+}
+
+#TOC a:hover,
+.sidebar nav a:hover {
+  color: #9FE5C5 !important;
+}
+
+#TOC a.active,
+.sidebar nav a.active {
+  color: #D6E99A !important;
+}
+
+/* ===== FONDO DE LA PÁGINA ===== */
+
+body {
+  background-color: transparent;
+}
+
+/* ===== TARJETAS DEL PORTAFOLIO ===== */
+
+.card,
+.card-body {
+  background-color: rgba(8, 18, 13, 0.88) !important;
+  color: #F0EEE5 !important;
+  border-color: rgba(184, 215, 163, 0.35) !important;
+  box-shadow: 0 5px 16px rgba(0, 0, 0, 0.18);
+}
+
+/* Títulos de las tarjetas */
+.card h3,
+.card h4,
+.card-title {
+  color: #E6B566 !important;
+}
+
+/* Descripciones */
+.card p {
+  color: #F0EEE5 !important;
+}
+
+/* Enlaces y botones */
+.card a {
+  color: #9FE5C5 !important;
+}
+
+.card .btn {
+  background-color: #244B3B !important;
+  border-color: #78C6A3 !important;
+  color: #FFFFFF !important;
+}
+
+/* Índice lateral */
+#TOC {
+  background-color: rgba(8, 18, 13, 0.92) !important;
+}
+
+#TOC a {
+  color: #E0E8DD !important;
+}
+
+#TOC a.active {
+  color: #D6E99A !important;
+}
+
+/* =====================================================
+   TEMA OSCURO BOTÁNICO — CORRECCIÓN DEFINITIVA
+   ===================================================== */
+
+/* Contenedor general de cada página */
+main.content {
+  background: rgba(5, 15, 10, 0.76) !important;
+  color: #F0EEE5 !important;
+  border-color: rgba(221, 229, 213, 0.55);
+}
+
+/* Tarjeta de presentación: nombre y fotografía */
+.hero-portada,
+.perfil-superior {
+  background: rgba(8, 20, 14, 0.90) !important;
+  color: #F0EEE5 !important;
+  border-color: rgba(184, 215, 163, 0.4) !important;
+  box-shadow: 4px 6px 18px rgba(0, 0, 0, 0.2);
+}
+
+/* Tarjetas de prácticas y proyectos */
+.portfolio-item,
+.tarjeta-inicio {
+  background: rgba(8, 20, 14, 0.90) !important;
+  color: #F0EEE5 !important;
+  border-top-color: #647B59;
+  border-right-color: rgba(184, 215, 163, 0.4) !important;
+  border-bottom-color: rgba(184, 215, 163, 0.4) !important;
+  border-left-color: #78C6A3;
+  box-shadow: 4px 5px 14px rgba(0, 0, 0, 0.22);
+}
+
+/* Alternar detalles terracota en las tarjetas */
+.portfolio-item:nth-of-type(even),
+.tarjeta-inicio:nth-child(2) {
+  border-left-color: #C77B5B !important;
+}
+
+/* Título principal de la portada */
+.hero-texto h1,
+.perfil-info h1 {
+  color: #D6E99A !important;
+}
+
+/* Subtítulos de presentación */
+.hero-texto h2,
+.perfil-info h2 {
+  color: #78C6A3 !important;
+}
+
+/* Títulos de prácticas */
+.portfolio-item h3,
+.tarjeta-inicio h3 {
+  color: #E6B566 !important;
+}
+
+/* Etiqueta decorativa de la portada */
+.hero-portada::before {
+  color: #B8D7A3 !important;
+}
+
+/* Texto general de las tarjetas */
+.hero-portada p,
+.perfil-superior p,
+.portfolio-item p,
+.tarjeta-inicio p {
+  color: #F0EEE5 !important;
+}
+
+/* Enlaces de las tarjetas */
+.portfolio-item a,
+.tarjeta-inicio a {
+  color: #9FE5C5 !important;
+}
+
+.portfolio-item a:hover,
+.tarjeta-inicio a:hover {
+  color: #D6E99A !important;
+}
+
+/* Botones de presentación */
+.btn-portada {
+  background: #25483A !important;
+  border-color: #78C6A3 !important;
+  color: #FFFFFF !important;
+}
+
+.btn-portada:hover {
+  background: #32664F !important;
+}
+
+/* Marco de la fotografía: se conserva claro para destacarla */
+.hero-imagen {
+  background: #FFFDF7 !important;
+}
+
+/* Tarjeta de bienvenida */
+.bloque-bienvenida {
+  background: rgba(20, 39, 28, 0.90) !important;
+  color: #F0EEE5 !important;
+  border-left-color: #78C6A3 !important;
+}
+
+/* Texto dentro del bloque de bienvenida */
+.bloque-bienvenida p {
+  color: #F0EEE5 !important;
+}
+
+/* Encabezados generales */
+main.content > h1,
+main.content h1 {
+  color: #D6E99A !important;
+}
+
+main.content h2 {
+  color: #78C6A3 !important;
+}
+
+main.content h3 {
+  color: #E6B566 !important;
+}
+
+/* Líneas decorativas */
+main.content h2 {
+  border-bottom-color: rgba(120, 198, 163, 0.4);
+}
+
+/* Índice lateral: conservar el estilo oscuro */
+#TOC,
+nav[role="doc-toc"] {
+  background: rgba(8, 20, 14, 0.94) !important;
+  border-left-color: #647B59 !important;
+}
+
+#TOC a,
+nav[role="doc-toc"] a {
+  color: #E0E8DD !important;
+}
+
+#TOC a:hover,
+#TOC a.active,
+nav[role="doc-toc"] a:hover {
+  color: #D6E99A !important;
+}
+
+
+/* ===== CORREGIR BOTÓN SECUNDARIO DE PORTADA ===== */
+
+.btn-portada.btn-secundario {
+  background: #32664F !important;
+  color: #E0F3A8 !important;
+  border: 1px solid #78C6A3 !important;
+  box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.25);
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+/* Mantener el texto visible al pasar el mouse */
+.btn-portada.btn-secundario:hover,
+.btn-portada.btn-secundario:focus {
+  background: #407A5F !important;
+  color: #FFFFFF !important;
+  border-color: #D6E99A !important;
+  opacity: 1 !important;
+}
+
+/* Garantizar contraste para ambos botones de portada */
+.btn-portada {
+  opacity: 1 !important;
+  visibility: visible !important;
+}
+
+.btn-portada:not(.btn-secundario) {
+  color: #FFFFFF !important;
+}
+
+
+/* ===== CITA DESTACADA: TEMA OSCURO ===== */
+
+main.content blockquote {
+  background: rgba(8, 20, 14, 0.92) !important;
+  color: #F0EEE5 !important;
+  border-left: 5px solid #E6B566 !important;
+  border-radius: 0 12px 12px 0;
+  padding: 1.2rem 1.5rem !important;
+}
+
+/* Texto de la cita */
+main.content blockquote p,
+main.content blockquote em,
+main.content blockquote strong {
+  color: #D6E99A !important;
+  opacity: 1 !important;
+}
+
+/* Evitar que otros estilos oculten el texto */
+main.content blockquote * {
+  background-color: transparent !important;
+  text-shadow: none;
+}
+
+
+/* ===== CORRECCIÓN: ELIMINAR EL DOBLE FONDO DE LA CITA ===== */
+
+.bloque-bienvenida {
+  background: rgba(8, 20, 14, 0.92) !important;
+  color: #D6E99A !important;
+  border: none !important;
+  border-left: 5px solid #E6B566 !important;
+  border-radius: 0 12px 12px 0 !important;
+  padding: 1.2rem 1.5rem !important;
+  box-shadow: none !important;
+}
+
+/* Evitar un segundo cuadro dentro del contenedor */
+.bloque-bienvenida blockquote {
+  background: transparent !important;
+  color: #D6E99A !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  box-shadow: none !important;
+}
+
+
+/* Cita final: tema oscuro botánico */
+.mensaje-final {
+  margin: 2.5rem 0;
+  padding: 1.3rem 1.5rem;
+  background: rgba(8, 20, 14, 0.92) !important;
+  border: 1px solid rgba(184, 215, 163, 0.35);
+  border-left: 4px solid var(--ochre) !important;
+  border-radius: 0 8px 8px 0;
+  box-shadow: none;
+}
+
+/* Texto de la cita */
+.mensaje-final blockquote {
+  margin: 0;
+  padding: 0;
+  background: transparent !important;
+  border: 0 !important;
+  color: #D6E99A !important;
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 1.12rem;
+  font-style: italic;
+  box-shadow: none;
+}
+
+/* Evitar fondos claros en los elementos internos */
+.mensaje-final blockquote p {
+  margin: 0;
+  background: transparent !important;
+  color: #D6E99A !important;
+}
+
+/* Cita final: tema oscuro botánico */
+.mensaje-final {
+  margin: 2.5rem 0;
+  padding: 1.3rem 1.5rem;
+  background: rgba(8, 20, 14, 0.92) !important;
+  border: 1px solid rgba(184, 215, 163, 0.35);
+  border-left: 4px solid var(--ochre) !important;
+  border-radius: 0 8px 8px 0;
+  box-shadow: none;
+}
+
+/* Texto de la cita */
+.mensaje-final blockquote {
+  margin: 0;
+  padding: 0;
+  background: transparent !important;
+  border: 0 !important;
+  color: #D6E99A !important;
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 1.12rem;
+  font-style: italic;
+  box-shadow: none;
+}
+
+/* Evitar fondos claros en los elementos internos */
+.mensaje-final blockquote p {
+  margin: 0;
+  background: transparent !important;
+  color: #D6E99A !important;
+}
+
+
+/* Cita final: tema oscuro botánico */
+.mensaje-final {
+  margin: 2.5rem 0;
+  padding: 1.3rem 1.5rem;
+  background: rgba(8, 20, 14, 0.92) !important;
+  border: 1px solid rgba(184, 215, 163, 0.35);
+  border-left: 4px solid var(--ochre) !important;
+  border-radius: 0 8px 8px 0;
+  box-shadow: none;
+}
+
+/* Texto de la cita */
+.mensaje-final blockquote {
+  margin: 0;
+  padding: 0;
+  background: transparent !important;
+  border: 0 !important;
+  color: #D6E99A !important;
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 1.12rem;
+  font-style: italic;
+  box-shadow: none;
+}
+
+/* Evitar fondos claros en los elementos internos */
+.mensaje-final blockquote p {
+  margin: 0;
+  background: transparent !important;
+  color: #D6E99A !important;
+}
+
+/* Cita final: tema oscuro botánico */
+.mensaje-final {
+  margin: 2.5rem 0;
+  padding: 1.3rem 1.5rem;
+  background: rgba(8, 20, 14, 0.92) !important;
+  border: 1px solid rgba(184, 215, 163, 0.35);
+  border-left: 4px solid var(--ochre) !important;
+  border-radius: 0 8px 8px 0;
+  box-shadow: none;
+}
+
+/* Texto de la cita */
+.mensaje-final blockquote {
+  margin: 0;
+  padding: 0;
+  background: transparent !important;
+  border: 0 !important;
+  color: #D6E99A !important;
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 1.12rem;
+  font-style: italic;
+  box-shadow: none;
+}
+
+/* Evitar fondos claros en los elementos internos */
+.mensaje-final blockquote p {
+  margin: 0;
+  background: transparent !important;
+  color: #D6E99A !important;
+}
+
+/* Cita final: tema oscuro botánico */
+.mensaje-final {
+  margin: 2.5rem 0;
+  padding: 1.3rem 1.5rem;
+  background: rgba(8, 20, 14, 0.92) !important;
+  border: 1px solid rgba(184, 215, 163, 0.35);
+  border-left: 4px solid var(--ochre) !important;
+  border-radius: 0 8px 8px 0;
+  box-shadow: none;
+}
+
+/* Texto de la cita */
+.mensaje-final blockquote {
+  margin: 0;
+  padding: 0;
+  background: transparent !important;
+  border: 0 !important;
+  color: #D6E99A !important;
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 1.12rem;
+  font-style: italic;
+  box-shadow: none;
+}
+
+/* Evitar fondos claros en los elementos internos */
+.mensaje-final blockquote p {
+  margin: 0;
+  background: transparent !important;
+  color: #D6E99A !important;
+}
+
+/* Cita final: tema oscuro botánico */
+.mensaje-final {
+  margin: 2.5rem 0;
+  padding: 1.3rem 1.5rem;
+  background: rgba(8, 20, 14, 0.92) !important;
+  border: 1px solid rgba(184, 215, 163, 0.35);
+  border-left: 4px solid var(--ochre) !important;
+  border-radius: 0 8px 8px 0;
+  box-shadow: none;
+}
+
+/* Texto de la cita */
+.mensaje-final blockquote {
+  margin: 0;
+  padding: 0;
+  background: transparent !important;
+  border: 0 !important;
+  color: #D6E99A !important;
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 1.12rem;
+  font-style: italic;
+  box-shadow: none;
+}
+
+/* Evitar fondos claros en los elementos internos */
+.mensaje-final blockquote p {
+  margin: 0;
+  background: transparent !important;
+  color: #D6E99A !important;
+}
+
+/* Cita final: tema oscuro botánico */
+.mensaje-final {
+  margin: 2.5rem 0;
+  padding: 1.3rem 1.5rem;
+  background: rgba(8, 20, 14, 0.92) !important;
+  border: 1px solid rgba(184, 215, 163, 0.35);
+  border-left: 4px solid var(--ochre) !important;
+  border-radius: 0 8px 8px 0;
+  box-shadow: none;
+}
+
+/* Texto de la cita */
+.mensaje-final blockquote {
+  margin: 0;
+  padding: 0;
+  background: transparent !important;
+  border: 0 !important;
+  color: #D6E99A !important;
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 1.12rem;
+  font-style: italic;
+  box-shadow: none;
+}
+
+/* Evitar fondos claros en los elementos internos */
+.mensaje-final blockquote p {
+  margin: 0;
+  background: transparent !important;
+  color: #D6E99A !important;
+}
+
+/* Cita final: tema oscuro botánico */
+.mensaje-final {
+  margin: 2.5rem 0;
+  padding: 1.3rem 1.5rem;
+  background: rgba(8, 20, 14, 0.92) !important;
+  border: 1px solid rgba(184, 215, 163, 0.35);
+  border-left: 4px solid var(--ochre) !important;
+  border-radius: 0 8px 8px 0;
+  box-shadow: none;
+}
+
+/* Texto de la cita */
+.mensaje-final blockquote {
+  margin: 0;
+  padding: 0;
+  background: transparent !important;
+  border: 0 !important;
+  color: #D6E99A !important;
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 1.12rem;
+  font-style: italic;
+  box-shadow: none;
+}
+
+/* Evitar fondos claros en los elementos internos */
+.mensaje-final blockquote p {
+  margin: 0;
+  background: transparent !important;
+  color: #D6E99A !important;
+}
+
+
+/* Cita final: tema oscuro botánico */
+.mensaje-final {
+  margin: 2.5rem 0;
+  padding: 1.3rem 1.5rem;
+  background: rgba(8, 20, 14, 0.92) !important;
+  border: 1px solid rgba(184, 215, 163, 0.35);
+  border-left: 4px solid var(--ochre) !important;
+  border-radius: 0 8px 8px 0;
+  box-shadow: none;
+}
+
+/* Texto de la cita */
+.mensaje-final blockquote {
+  margin: 0;
+  padding: 0;
+  background: transparent !important;
+  border: 0 !important;
+  color: #D6E99A !important;
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 1.12rem;
+  font-style: italic;
+  box-shadow: none;
+}
+
+/* Evitar fondos claros en los elementos internos */
+.mensaje-final blockquote p {
+  margin: 0;
+  background: transparent !important;
+  color: #D6E99A !important;
+}
+
+/* Cita final: tema oscuro botánico */
+.mensaje-final {
+  margin: 2.5rem 0;
+  padding: 1.3rem 1.5rem;
+  background: rgba(8, 20, 14, 0.92) !important;
+  border: 1px solid rgba(184, 215, 163, 0.35);
+  border-left: 4px solid var(--ochre) !important;
+  border-radius: 0 8px 8px 0;
+  box-shadow: none;
+}
+
+/* Texto de la cita */
+.mensaje-final blockquote {
+  margin: 0;
+  padding: 0;
+  background: transparent !important;
+  border: 0 !important;
+  color: #D6E99A !important;
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 1.12rem;
+  font-style: italic;
+  box-shadow: none;
+}
+
+/* Evitar fondos claros en los elementos internos */
+.mensaje-final blockquote p {
+  margin: 0;
+  background: transparent !important;
+  color: #D6E99A !important;
+}
+
+/* Cita final: tema oscuro botánico */
+.mensaje-final {
+  margin: 2.5rem 0;
+  padding: 1.3rem 1.5rem;
+  background: rgba(8, 20, 14, 0.92) !important;
+  border: 1px solid rgba(184, 215, 163, 0.35);
+  border-left: 4px solid var(--ochre) !important;
+  border-radius: 0 8px 8px 0;
+  box-shadow: none;
+}
+
+/* Texto de la cita */
+.mensaje-final blockquote {
+  margin: 0;
+  padding: 0;
+  background: transparent !important;
+  border: 0 !important;
+  color: #D6E99A !important;
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 1.12rem;
+  font-style: italic;
+  box-shadow: none;
+}
+
+/* Evitar fondos claros en los elementos internos */
+.mensaje-final blockquote p {
+  margin: 0;
+  background: transparent !important;
+  color: #D6E99A !important;
+}
+
+/* Cita final: tema oscuro botánico */
+.mensaje-final {
+  margin: 2.5rem 0;
+  padding: 1.3rem 1.5rem;
+  background: rgba(8, 20, 14, 0.92) !important;
+  border: 1px solid rgba(184, 215, 163, 0.35);
+  border-left: 4px solid var(--ochre) !important;
+  border-radius: 0 8px 8px 0;
+  box-shadow: none;
+}
+
+/* Texto de la cita */
+.mensaje-final blockquote {
+  margin: 0;
+  padding: 0;
+  background: transparent !important;
+  border: 0 !important;
+  color: #D6E99A !important;
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 1.12rem;
+  font-style: italic;
+  box-shadow: none;
+}
+
+/* Evitar fondos claros en los elementos internos */
+.mensaje-final blockquote p {
+  margin: 0;
+  background: transparent !important;
+  color: #D6E99A !important;
+}
+
+/* Cita final: tema oscuro botánico */
+.mensaje-final {
+  margin: 2.5rem 0;
+  padding: 1.3rem 1.5rem;
+  background: rgba(8, 20, 14, 0.92) !important;
+  border: 1px solid rgba(184, 215, 163, 0.35);
+  border-left: 4px solid var(--ochre) !important;
+  border-radius: 0 8px 8px 0;
+  box-shadow: none;
+}
+
+/* Texto de la cita */
+.mensaje-final blockquote {
+  margin: 0;
+  padding: 0;
+  background: transparent !important;
+  border: 0 !important;
+  color: #D6E99A !important;
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 1.12rem;
+  font-style: italic;
+  box-shadow: none;
+}
+
+/* Evitar fondos claros en los elementos internos */
+.mensaje-final blockquote p {
+  margin: 0;
+  background: transparent !important;
+  color: #D6E99A !important;
+}
+
+/* Cita final: tema oscuro botánico */
+.mensaje-final {
+  margin: 2.5rem 0;
+  padding: 1.3rem 1.5rem;
+  background: rgba(8, 20, 14, 0.92) !important;
+  border: 1px solid rgba(184, 215, 163, 0.35);
+  border-left: 4px solid var(--ochre) !important;
+  border-radius: 0 8px 8px 0;
+  box-shadow: none;
+}
+
+/* Texto de la cita */
+.mensaje-final blockquote {
+  margin: 0;
+  padding: 0;
+  background: transparent !important;
+  border: 0 !important;
+  color: #D6E99A !important;
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 1.12rem;
+  font-style: italic;
+  box-shadow: none;
+}
+
+/* Evitar fondos claros en los elementos internos */
+.mensaje-final blockquote p {
+  margin: 0;
+  background: transparent !important;
+  color: #D6E99A !important;
+}
+
+/* Cita final: tema oscuro botánico */
+.mensaje-final {
+  margin: 2.5rem 0;
+  padding: 1.3rem 1.5rem;
+  background: rgba(8, 20, 14, 0.92) !important;
+  border: 1px solid rgba(184, 215, 163, 0.35);
+  border-left: 4px solid var(--ochre) !important;
+  border-radius: 0 8px 8px 0;
+  box-shadow: none;
+}
+
+/* Texto de la cita */
+.mensaje-final blockquote {
+  margin: 0;
+  padding: 0;
+  background: transparent !important;
+  border: 0 !important;
+  color: #D6E99A !important;
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 1.12rem;
+  font-style: italic;
+  box-shadow: none;
+}
+
+/* Evitar fondos claros en los elementos internos */
+.mensaje-final blockquote p {
+  margin: 0;
+  background: transparent !important;
+  color: #D6E99A !important;
+}
+
+/* Cita final: tema oscuro botánico */
+.mensaje-final {
+  margin: 2.5rem 0;
+  padding: 1.3rem 1.5rem;
+  background: rgba(8, 20, 14, 0.92) !important;
+  border: 1px solid rgba(184, 215, 163, 0.35);
+  border-left: 4px solid var(--ochre) !important;
+  border-radius: 0 8px 8px 0;
+  box-shadow: none;
+}
+
+/* Texto de la cita */
+.mensaje-final blockquote {
+  margin: 0;
+  padding: 0;
+  background: transparent !important;
+  border: 0 !important;
+  color: #D6E99A !important;
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 1.12rem;
+  font-style: italic;
+  box-shadow: none;
+}
+
+/* Evitar fondos claros en los elementos internos */
+.mensaje-final blockquote p {
+  margin: 0;
+  background: transparent !important;
+  color: #D6E99A !important;
+}
+
+/* Cita final: tema oscuro botánico */
+.mensaje-final {
+  margin: 2.5rem 0;
+  padding: 1.3rem 1.5rem;
+  background: rgba(8, 20, 14, 0.92) !important;
+  border: 1px solid rgba(184, 215, 163, 0.35);
+  border-left: 4px solid var(--ochre) !important;
+  border-radius: 0 8px 8px 0;
+  box-shadow: none;
+}
+
+/* Texto de la cita */
+.mensaje-final blockquote {
+  margin: 0;
+  padding: 0;
+  background: transparent !important;
+  border: 0 !important;
+  color: #D6E99A !important;
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 1.12rem;
+  font-style: italic;
+  box-shadow: none;
+}
+
+/* Evitar fondos claros en los elementos internos */
+.mensaje-final blockquote p {
+  margin: 0;
+  background: transparent !important;
+  color: #D6E99A !important;
+}
+
+/* Cita final: tema oscuro botánico */
+.mensaje-final {
+  margin: 2.5rem 0;
+  padding: 1.3rem 1.5rem;
+  background: rgba(8, 20, 14, 0.92) !important;
+  border: 1px solid rgba(184, 215, 163, 0.35);
+  border-left: 4px solid var(--ochre) !important;
+  border-radius: 0 8px 8px 0;
+  box-shadow: none;
+}
+
+/* Texto de la cita */
+.mensaje-final blockquote {
+  margin: 0;
+  padding: 0;
+  background: transparent !important;
+  border: 0 !important;
+  color: #D6E99A !important;
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 1.12rem;
+  font-style: italic;
+  box-shadow: none;
+}
+
+/* Evitar fondos claros en los elementos internos */
+.mensaje-final blockquote p {
+  margin: 0;
+  background: transparent !important;
+  color: #D6E99A !important;
+}
+
+/* Cita final: tema oscuro botánico */
+.mensaje-final {
+  margin: 2.5rem 0;
+  padding: 1.3rem 1.5rem;
+  background: rgba(8, 20, 14, 0.92) !important;
+  border: 1px solid rgba(184, 215, 163, 0.35);
+  border-left: 4px solid var(--ochre) !important;
+  border-radius: 0 8px 8px 0;
+  box-shadow: none;
+}
+
+/* Texto de la cita */
+.mensaje-final blockquote {
+  margin: 0;
+  padding: 0;
+  background: transparent !important;
+  border: 0 !important;
+  color: #D6E99A !important;
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 1.12rem;
+  font-style: italic;
+  box-shadow: none;
+}
+
+/* Evitar fondos claros en los elementos internos */
+.mensaje-final blockquote p {
+  margin: 0;
+  background: transparent !important;
+  color: #D6E99A !important;
+}
+
+/* Cita final: tema oscuro botánico */
+.mensaje-final {
+  margin: 2.5rem 0;
+  padding: 1.3rem 1.5rem;
+  background: rgba(8, 20, 14, 0.92) !important;
+  border: 1px solid rgba(184, 215, 163, 0.35);
+  border-left: 4px solid var(--ochre) !important;
+  border-radius: 0 8px 8px 0;
+  box-shadow: none;
+}
+
+/* Texto de la cita */
+.mensaje-final blockquote {
+  margin: 0;
+  padding: 0;
+  background: transparent !important;
+  border: 0 !important;
+  color: #D6E99A !important;
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 1.12rem;
+  font-style: italic;
+  box-shadow: none;
+}
+
+/* Evitar fondos claros en los elementos internos */
+.mensaje-final blockquote p {
+  margin: 0;
+  background: transparent !important;
+  color: #D6E99A !important;
+}
+
+/* Cita final: tema oscuro botánico */
+.mensaje-final {
+  margin: 2.5rem 0;
+  padding: 1.3rem 1.5rem;
+  background: rgba(8, 20, 14, 0.92) !important;
+  border: 1px solid rgba(184, 215, 163, 0.35);
+  border-left: 4px solid var(--ochre) !important;
+  border-radius: 0 8px 8px 0;
+  box-shadow: none;
+}
+
+/* Texto de la cita */
+.mensaje-final blockquote {
+  margin: 0;
+  padding: 0;
+  background: transparent !important;
+  border: 0 !important;
+  color: #D6E99A !important;
+  font-family: "Playfair Display", Georgia, serif;
+  font-size: 1.12rem;
+  font-style: italic;
+  box-shadow: none;
+}
+
+/* Evitar fondos claros en los elementos internos */
+.mensaje-final blockquote p {
+  margin: 0;
+  background: transparent !important;
+  color: #D6E99A !important;
+}
+
