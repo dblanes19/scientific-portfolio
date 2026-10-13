@@ -34,7 +34,7 @@ Zotero was used to collect and organize the academic sources consulted during th
 
 ## Results
 
-![Figura 1. Zotero library](images/zotero_foto.png){width="527"}
+![Figura 1. Zotero library](images/zotero_foto.png){fig-align="center" width="527"}
 
 Cuadro 1. Métodos utilizados para incorporar referencias bibliográficas a Zotero.
 

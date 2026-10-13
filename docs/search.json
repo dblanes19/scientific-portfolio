@@ -95,7 +95,7 @@
     "href": "portfolio.html#prácticas-de-laboratorio",
     "title": "Portafolio académico",
     "section": "Prácticas de laboratorio",
-    "text": "Prácticas de laboratorio\n\n📚 Gestión de referencias bibliográficas con Zotero\nEn esta práctica se documentará la creación de una biblioteca bibliográfica utilizando Zotero y su integración con Microsoft Word.\nVer práctica →\n\n\n📄 Manejo de datos con Tidyverse\nIntroducción al uso del portafolio digital académico y documentación de una práctica mediante Quarto.\nVer práctica →\n\n\n📚 Descarga de Ocurrencias de GBIF y iNaturalist\nEn esta práctica se realizará la descarga de las ocurrencias directamente desde GBIF Y iNaturalist para el proyecto final del curso.\nVer práctica →\n\n\n📚 Kernel Density\nEn esta práctica se realizará la descarga de las ocurrencias directamente desde GBIF Y iNaturalist para el proyecto final del curso.\nVer práctica →\n\n\n📚 Spatial Distribution\nEn esta práctica se identificaran distintos patrones de distribución espacial de dos especies vegetales (Elephantopus mollis; Rhynchospora nervosa).\nVer práctica →"
+    "text": "Prácticas de laboratorio\n\n📚 Managing Bibliographic References with Zotero\nEn esta práctica se documentará la creación de una biblioteca bibliográfica utilizando Zotero y su integración con Microsoft Word.\nVer práctica →\n\n\n📄 Data Organization with Tidyverse\nIntroducción al uso del portafolio digital académico y documentación de una práctica mediante Quarto.\nVer práctica →\n\n\n📚 Downloading Occurrence Records from GBIF and iNaturalist\nEn esta práctica se realizará la descarga de las ocurrencias directamente desde GBIF Y iNaturalist para el proyecto final del curso.\nVer práctica →\n\n\n📚 Kernel Density\nEn esta práctica se realizará la descarga de las ocurrencias directamente desde GBIF Y iNaturalist para el proyecto final del curso.\nVer práctica →\n\n\n📚 Spatial Distribution Patterns in Plant Species\nEn esta práctica se identificaran distintos patrones de distribución espacial de dos especies vegetales (Elephantopus mollis; Rhynchospora nervosa).\nVer práctica →"
   },
   {
     "objectID": "portfolio.html#objetivo-del-portafolio",
@@ -233,42 +233,42 @@
   {
     "objectID": "Tidy.html#objetive",
     "href": "Tidy.html#objetive",
-    "title": "Ordenamiento de datos con Tidyverse",
+    "title": "Data Organization with Tidyverse",
     "section": "Objetive",
-    "text": "Objetive\nEl objetivo de esta práctica fue aplicar transformaciones, separación, combinación, selección y agrupación para organizar de mejor manera conjuntos de datos para su posterior análisis mediante tablas y gráficos para facilitar su comprensión."
+    "text": "Objetive\nThe objective of this exercise was to apply data transformations, separation, combination, selection, and grouping to better organize the datasets for later analysis. Tables and graphs were then used to make the results easier to understand."
   },
   {
     "objectID": "Tidy.html#metodology",
     "href": "Tidy.html#metodology",
-    "title": "Ordenamiento de datos con Tidyverse",
+    "title": "Data Organization with Tidyverse",
     "section": "Metodology",
-    "text": "Metodology\nLa práctica se realizó en RStudio con funciones específicas de paquetes como tidyverse. Se importaron archivos en formato csv de meteorología y angola_ungulates desde la carpeta data del proyecto Eco_pc_2026. Posteriormente. se aplicaron las transformaciones correspondientes.\n\nDatos meteorológicos\nPara el set de datos meteorológico, los días de marzo estaban distribuidos en varias columnas por lo tanto, los datos fueron reorganizados para obtener una fila por observación diaria; luego se combinaron el año (2010-2020) y el día para crear una fecha, se separaron temperatura máxima de temperaura mínima y se transformaron algunas variables numéricas. Posteriormente, con los datos depurados y transformados, se calcularon promedios de temperatura, precipitación y nieve según estación.\n\n\nDatos de ungulados\nEn el set de datos de ungulados, se creó una fecha desde las columnas de año, mes y día; también se tomaron las columnas de género y especie para combinarlas y así crear una sola columna de nombre científico y se separó la información taxonómica en clase, orden y familia . Finalmente, se contó el número de observaciones por especie se realizó una tabla taxonómica y un gráfico de observaciones por especie."
+    "text": "Metodology\nThe exercise was conducted in RStudio using functions from packages such as tidyverse. We imported the meteorological and angola_ungulates CSV files from the data folder in the Eco_pc_2026 project and then applied the necessary transformations.\n\nMeteorological data\nIn the meteorological dataset, the March data were distributed across several columns. We reorganized the data so that each daily observation occupied one row. We then combined the year (2010–2020) and day to create a date, separated maximum and minimum temperatures, and converted several variables to numeric values. After cleaning and transforming the data, we calculated average temperature, precipitation, and snowfall for each station.\n\n\nUngulate data\nIn the ungulate dataset, we created a date from the year, month, and day columns. We also combined the genus and species columns into a single scientific-name column and separated the taxonomic information into class, order, and family. Finally, we counted the number of observations for each species, created a taxonomic table, and plotted the number of observations by species."
   },
   {
     "objectID": "Tidy.html#results",
     "href": "Tidy.html#results",
-    "title": "Ordenamiento de datos con Tidyverse",
+    "title": "Data Organization with Tidyverse",
     "section": "Results",
-    "text": "Results\n\n\n\nFigure 1. Tempertatura promedio según estaciones.\n\n\n\n\n\nFigura 2. Numero de observaciones por especies ungulados de Angola."
+    "text": "Results\n\n\n\nFigure 1. Average temperature by station.\n\n\n\n\n\nFigure 2. Number of observations by ungulate species in Angola."
   },
   {
     "objectID": "Tidy.html#interpretations",
     "href": "Tidy.html#interpretations",
-    "title": "Ordenamiento de datos con Tidyverse",
+    "title": "Data Organization with Tidyverse",
     "section": "Interpretations",
-    "text": "Interpretations\nLa temperatura promedio según estación muestra una línea con el intervalo entre la temperatura mínima promedio señalada con un circulo blanco y la temperatura máxima promedio señalada con un circulo negro, esto durante el periodo analizado. Con este resultado se observa que el Berkeley y Chapel Hill 2 W presentan intervalos de temperatura más cálidos y por el contrario, Ithaca Cornell Univ y UW Arboretum- Madison se muestran con intervalos más fríos con temperaturas mínimas promedio que van hasta los bajo 0°C. Finalmente, se observa el intervalo para New York CNTRL PK TWR que muestra un rango intermedio. En las cinco estaciones, se observan rangos esperados puesto que la temperatura máxima promedio es mucho mayor a la mínima promedio.\nEn cuanto al número de observaciones por especies, el gráfico de barras muestra claramente la cantidad de observaciones para cada una de las especies análizadas y de esta manera se destaca Hippopotamus amphibius con una mayor cantidad de observaciones y enseguida se encuentra la especie Kobus leche. En contraste, se encuentra la especie Bos taurus con mucho menos registros. Esto puede indicar como están distribuidas las especies, lo cual muestra, según observaciones que hay una desigualdad entre ellos."
+    "text": "Interpretations\nThe average-temperature plot shows the range between the average minimum temperature, represented by a white circle, and the average maximum temperature, represented by a black circle, over the study period. Berkeley and Chapel Hill 2 W have warmer temperature ranges, whereas Ithaca Cornell Univ and UW Arboretum–Madison have cooler ranges, with average minimum temperatures reaching below 0°C. New York CNTRL PK TWR has an intermediate range. Across all five stations, the average maximum temperature is considerably higher than the average minimum temperature.\nThe bar chart shows the number of observations for each species included in the analysis. Hippopotamus amphibius has the most observations, followed by Kobus leche. By contrast, Bos taurus has far fewer records. These results show that the number of observations is unevenly distributed among the species."
   },
   {
     "objectID": "Tidy.html#conclusions",
     "href": "Tidy.html#conclusions",
-    "title": "Ordenamiento de datos con Tidyverse",
+    "title": "Data Organization with Tidyverse",
     "section": "Conclusions",
-    "text": "Conclusions\nLa práctica permitió conocer herramientas de depuración y ordenamiento de datos con ayuda de plataformas como RStudio con paquetes como tidyverse. Aunque los datos desarrollados eran muy diferentes entre sí permitió relializar distintas transformaciones o reorganizaciones como en el conjunto de datos meteorológico que al separar temperaturas promedio, facilitó su comparación entre las distintas estaciones. Por el otro lado, el conjunto de datos de ungulados, permitieron clasificar las especies y contar sus registros de observación."
+    "text": "Conclusions\nThis exercise provided an opportunity to learn data-cleaning and organization techniques in RStudio using packages such as tidyverse. Although the two datasets were very different, they allowed us to apply several transformations and reorganizations. In the meteorological dataset, separating the temperature measurements made it easier to compare average temperatures across stations. In the ungulate dataset, organizing the taxonomic information made it possible to classify the species and count their observation records."
   },
   {
     "objectID": "Tidy.html#bibliography",
     "href": "Tidy.html#bibliography",
-    "title": "Ordenamiento de datos con Tidyverse",
+    "title": "Data Organization with Tidyverse",
     "section": "Bibliography",
     "text": "Bibliography"
   },
@@ -317,42 +317,42 @@
   {
     "objectID": "ocurrencias.html#objetive",
     "href": "ocurrencias.html#objetive",
-    "title": "Ocurrencias de GBIF y iNaturalist",
+    "title": "Downloading Occurrence Records from GBIF and iNaturalist",
     "section": "Objetive",
-    "text": "Objetive\nDescargar datos de ocurrencias directamente desde fuentes de datos de iNaturalist y GBIF"
+    "text": "Objetive\nTo download occurrence records for Pulsatrix perspicillata from iNaturalist and GBIF, clean the data by identifying records with missing or questionable information, and use the curated dataset to analyze the species’ geographic distribution across the provinces and cantons of Costa Rica."
   },
   {
     "objectID": "ocurrencias.html#metodology",
     "href": "ocurrencias.html#metodology",
-    "title": "Ocurrencias de GBIF y iNaturalist",
+    "title": "Downloading Occurrence Records from GBIF and iNaturalist",
     "section": "Metodology",
-    "text": "Metodology"
+    "text": "Metodology\nFirst, RStudio was connected to the GBIF and iNaturalist platforms. Occurrence records were then downloaded from both sources and imported into RStudio to check their content and structure. The records were cleaned and transformed using packages such as tidyverse. Costa Rica’s provincial and cantonal boundary layers were also prepared and converted to the WGS 84 coordinate reference system (EPSG:4326) to ensure consistency with the occurrence coordinates. This process produced a cleaned and organized dataset of Pulsatrix perspicillata records for spatial analysis.\nThe occurrence coordinates were converted into spatial objects and overlaid with boundary layers, including the canton layer, so that administrative information could be assigned to each observation. Finally, records were counted by province and canton."
   },
   {
     "objectID": "ocurrencias.html#results",
     "href": "ocurrencias.html#results",
-    "title": "Ocurrencias de GBIF y iNaturalist",
+    "title": "Downloading Occurrence Records from GBIF and iNaturalist",
     "section": "Results",
-    "text": "Results\n\n\n\nFigure 1. Registros de Ocurrencias de Pulsatrix perspicillata en Costa Rica."
+    "text": "Results\n\n\n\nFigure 1. Occurrence Records of Pulsatrix perspicillata in Costa Rica.\n\n\n\n\n\nFigure 2. Number of P. perspicillata Observations by Canton.\n\n\n\n\n\nFigure 3. Cantidad de observaciones por cantón en Costa Rica.\n\n\n\n\n\nFigure 4. A Species Distribution Study Using iNaturalist and GBIF Data: Pulsatrix perspicillata"
   },
   {
     "objectID": "ocurrencias.html#interpretations",
     "href": "ocurrencias.html#interpretations",
-    "title": "Ocurrencias de GBIF y iNaturalist",
+    "title": "Downloading Occurrence Records from GBIF and iNaturalist",
     "section": "Interpretations",
     "text": "Interpretations"
   },
   {
     "objectID": "ocurrencias.html#conclusions",
     "href": "ocurrencias.html#conclusions",
-    "title": "Ocurrencias de GBIF y iNaturalist",
+    "title": "Downloading Occurrence Records from GBIF and iNaturalist",
     "section": "Conclusions",
     "text": "Conclusions"
   },
   {
     "objectID": "ocurrencias.html#bibliography",
     "href": "ocurrencias.html#bibliography",
-    "title": "Ocurrencias de GBIF y iNaturalist",
+    "title": "Downloading Occurrence Records from GBIF and iNaturalist",
     "section": "Bibliography",
     "text": "Bibliography"
   },
@@ -457,14 +457,14 @@
   {
     "objectID": "Tidy.html",
     "href": "Tidy.html",
-    "title": "Ordenamiento de datos con Tidyverse",
+    "title": "Data Organization with Tidyverse",
     "section": "",
     "text": "La organización y depuración de datos son pasos muy importantes para obtener resultados confiables y puntuales en un análisis estadístico. Para esta se trabajó con dos set de datos, uno uno de registros metereológicos de cinco estaciones y otro de observaciones de ungulados en Angola. Para poder análizar estos datos se utilizó RStudio y también se requirió funciones del paquete tidyverse puesto que requería de algunas correcciones como ordenar variables, corregir su estructura para facilitar su interpretación."
   },
   {
     "objectID": "Tidy.html#introduction",
     "href": "Tidy.html#introduction",
-    "title": "Ordenamiento de datos con Tidyverse",
+    "title": "Data Organization with Tidyverse",
     "section": "",
     "text": "La organización y depuración de datos son pasos muy importantes para obtener resultados confiables y puntuales en un análisis estadístico. Para esta se trabajó con dos set de datos, uno uno de registros metereológicos de cinco estaciones y otro de observaciones de ungulados en Angola. Para poder análizar estos datos se utilizó RStudio y también se requirió funciones del paquete tidyverse puesto que requería de algunas correcciones como ordenar variables, corregir su estructura para facilitar su interpretación."
   },
@@ -481,5 +481,19 @@
     "title": "Data Organization with Tidyverse",
     "section": "",
     "text": "La organización y depuración de datos son pasos muy importantes para obtener resultados confiables y puntuales en un análisis estadístico. Para esta se trabajó con dos set de datos, uno uno de registros metereológicos de cinco estaciones y otro de observaciones de ungulados en Angola. Para poder análizar estos datos se utilizó RStudio y también se requirió funciones del paquete tidyverse puesto que requería de algunas correcciones como ordenar variables, corregir su estructura para facilitar su interpretación."
+  },
+  {
+    "objectID": "ocurrencias.html",
+    "href": "ocurrencias.html",
+    "title": "Downloading Occurrence Records from GBIF and iNaturalist",
+    "section": "",
+    "text": "Occurrence records show where a species has been observed. They can be used to examine how observations are distributed across different locations and to identify patterns that may help assess whether the species is at risk or whether certain factors influence its distribution.\nThis study examines the geographic distribution of Pulsatrix perspicillata, commonly known in Costa Rica as the spectacled owl, or “oropopo.” To gather as many records as possible, the study uses reliable sources that document biodiversity observations, including iNaturalist and the Global Biodiversity Information Facility (GBIF).\nHowever, occurrence records may contain errors or missing information, which can affect the reliability of a study. It is therefore important to clean the downloaded data and retain accurate, relevant records to support sound interpretation of the results."
+  },
+  {
+    "objectID": "ocurrencias.html#introduction",
+    "href": "ocurrencias.html#introduction",
+    "title": "Downloading Occurrence Records from GBIF and iNaturalist",
+    "section": "",
+    "text": "Occurrence records show where a species has been observed. They can be used to examine how observations are distributed across different locations and to identify patterns that may help assess whether the species is at risk or whether certain factors influence its distribution.\nThis study examines the geographic distribution of Pulsatrix perspicillata, commonly known in Costa Rica as the spectacled owl, or “oropopo.” To gather as many records as possible, the study uses reliable sources that document biodiversity observations, including iNaturalist and the Global Biodiversity Information Facility (GBIF).\nHowever, occurrence records may contain errors or missing information, which can affect the reliability of a study. It is therefore important to clean the downloaded data and retain accurate, relevant records to support sound interpretation of the results."
   }
 ]

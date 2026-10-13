@@ -8,7 +8,7 @@
 
 <meta name="author" content="Daniela Blanco">
 
-<title>Ocurrencias de GBIF y iNaturalist – Portafolio Científico</title>
+<title>Downloading Occurrence Records from GBIF and iNaturalist – Portafolio Científico</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -140,7 +140,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Ocurrencias de GBIF y iNaturalist</h1>
+<h1 class="title">Downloading Occurrence Records from GBIF and iNaturalist</h1>
 </div>
 
 
@@ -165,20 +165,43 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>Occurrence records show where a species has been observed. They can be used to examine how observations are distributed across different locations and to identify patterns that may help assess whether the species is at risk or whether certain factors influence its distribution.</p>
+<p>This study examines the geographic distribution of <em>Pulsatrix perspicillata</em>, commonly known in Costa Rica as the spectacled owl, or “oropopo.” To gather as many records as possible, the study uses reliable sources that document biodiversity observations, including iNaturalist and the Global Biodiversity Information Facility (GBIF).</p>
+<p>However, occurrence records may contain errors or missing information, which can affect the reliability of a study. It is therefore important to clean the downloaded data and retain accurate, relevant records to support sound interpretation of the results.</p>
 </section>
 <section id="objetive" class="level2">
 <h2 class="anchored" data-anchor-id="objetive">Objetive</h2>
-<p>Descargar datos de ocurrencias directamente desde fuentes de datos de iNaturalist y GBIF</p>
+<p>To download occurrence records for <em>Pulsatrix perspicillata</em> from iNaturalist and GBIF, clean the data by identifying records with missing or questionable information, and use the curated dataset to analyze the species’ geographic distribution across the provinces and cantons of Costa Rica.</p>
 </section>
 <section id="metodology" class="level2">
 <h2 class="anchored" data-anchor-id="metodology">Metodology</h2>
+<p>First, RStudio was connected to the GBIF and iNaturalist platforms. Occurrence records were then downloaded from both sources and imported into RStudio to check their content and structure. The records were cleaned and transformed using packages such as <strong>tidyverse</strong>. Costa Rica’s provincial and cantonal boundary layers were also prepared and converted to the WGS 84 coordinate reference system (EPSG:4326) to ensure consistency with the occurrence coordinates. This process produced a cleaned and organized dataset of <em>Pulsatrix perspicillata</em> records for spatial analysis.</p>
+<p>The occurrence coordinates were converted into spatial objects and overlaid with boundary layers, including the canton layer, so that administrative information could be assigned to each observation. Finally, records were counted by province and canton.</p>
 </section>
 <section id="results" class="level2">
 <h2 class="anchored" data-anchor-id="results">Results</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="images/pulsatrix_perspicillata_occurrences-01.jpg" class="img-fluid figure-img"></p>
-<figcaption>Figure 1. Registros de Ocurrencias de Pulsatrix perspicillata en Costa Rica.</figcaption>
+<figcaption>Figure 1. Occurrence Records of Pulsatrix perspicillata in Costa Rica.</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/pulsatrix_perspicillata_cantones.jpg" class="img-fluid figure-img"></p>
+<figcaption>Figure 2. Number of <em>P. perspicillata</em> Observations by Canton.</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/pulsatrix_perspicillata_observation_cantones.jpg" class="img-fluid figure-img"></p>
+<figcaption>Figure 3. Cantidad de observaciones por cantón en Costa Rica.</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/Pulsatrix perspicillata .jpeg" class="img-fluid figure-img"></p>
+<figcaption>Figure 4. A Species Distribution Study Using iNaturalist and GBIF Data: Pulsatrix perspicillata</figcaption>
 </figure>
 </div>
 </section>
