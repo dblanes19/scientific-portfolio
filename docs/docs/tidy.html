@@ -8,7 +8,7 @@
 
 <meta name="author" content="Daniela Blanco">
 
-<title>Ordenamiento de datos con Tidyverse – Portafolio Científico</title>
+<title>Data Organization with Tidyverse – Portafolio Científico</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -140,7 +140,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Ordenamiento de datos con Tidyverse</h1>
+<h1 class="title">Data Organization with Tidyverse</h1>
 </div>
 
 
@@ -166,37 +166,46 @@ ul.task-list li input[type="checkbox"] {
 <section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
 <p>La organización y depuración de datos son pasos muy importantes para obtener resultados confiables y puntuales en un análisis estadístico. Para esta se trabajó con dos set de datos, uno uno de registros metereológicos de cinco estaciones y otro de observaciones de ungulados en Angola. Para poder análizar estos datos se utilizó RStudio y también se requirió funciones del paquete tidyverse puesto que requería de algunas correcciones como ordenar variables, corregir su estructura para facilitar su interpretación.</p>
-<p>Para el set de datos meteorológico, los días de marzo estaban distribuidos en varias columnas por lo tanto, los datos fueron reorganizados para obtener una fila por observación diaria; luego se combinaron el año y el día para crear una fecha, se separaron temperatura máxima de temperaura mínima y se transformaron algunas variables numéricas. Posteriormente, con los datos depurados y transformados, se calcularon promedios de temperatura, precipitación y nieve según estación.</p>
-<p>En el set de datos de ungulados, se creó una fecha desde las columnas de año, mes y día; también se tomaron las columnas de género y especie para combinarlas y así crear una sola columna de nombre científico y se separó la información taxonómica en clase, orden y familia . Finalmente, se contó el número de observaciones por especie se realizó una tabla taxonómica y un gráfico de observaciones por especie.</p>
 </section>
 <section id="objetive" class="level2">
 <h2 class="anchored" data-anchor-id="objetive">Objetive</h2>
-<p>El objetivo de esta práctica fue aplicar transformaciones, separación, combinación, selección y agrupación para organizar de mejor manera conjuntos de datos para su posterior análisis mediante tablas y gráficos para facilitar su comprensión.</p>
+<p>The objective of this exercise was to apply data transformations, separation, combination, selection, and grouping to better organize the datasets for later analysis. Tables and graphs were then used to make the results easier to understand.</p>
 </section>
 <section id="metodology" class="level2">
 <h2 class="anchored" data-anchor-id="metodology">Metodology</h2>
+<p>The exercise was conducted in RStudio using functions from packages such as <strong>tidyverse</strong>. We imported the meteorological and <code>angola_ungulates</code> CSV files from the <code>data</code> folder in the <code>Eco_pc_2026</code> project and then applied the necessary transformations.</p>
+<section id="meteorological-data" class="level4">
+<h4 class="anchored" data-anchor-id="meteorological-data">Meteorological data</h4>
+<p>In the meteorological dataset, the March data were distributed across several columns. We reorganized the data so that each daily observation occupied one row. We then combined the year (2010–2020) and day to create a date, separated maximum and minimum temperatures, and converted several variables to numeric values. After cleaning and transforming the data, we calculated average temperature, precipitation, and snowfall for each station.</p>
+</section>
+<section id="ungulate-data" class="level4">
+<h4 class="anchored" data-anchor-id="ungulate-data">Ungulate data</h4>
+<p>In the ungulate dataset, we created a date from the year, month, and day columns. We also combined the genus and species columns into a single scientific-name column and separated the taxonomic information into class, order, and family. Finally, we counted the number of observations for each species, created a taxonomic table, and plotted the number of observations by species.</p>
+</section>
 </section>
 <section id="results" class="level2">
 <h2 class="anchored" data-anchor-id="results">Results</h2>
-<p>La siguiente figura muestra numero de observaciones por especie</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/ungulate_observations.jpg" class="img-fluid figure-img"></p>
-<figcaption>Figura 1. Numero de observaciones por especie.</figcaption>
+<p><img src="images/temperature.jpg" class="img-fluid figure-img"></p>
+<figcaption>Figure 1. Average temperature by station.</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="images/temperature.jpg" class="img-fluid figure-img"></p>
-<figcaption>Figure 2. Tempertatura promedio según estaciones.</figcaption>
+<p><img src="images/ungulate_observations.jpg" class="img-fluid figure-img"></p>
+<figcaption>Figure 2. Number of observations by ungulate species in Angola.</figcaption>
 </figure>
 </div>
 </section>
 <section id="interpretations" class="level2">
 <h2 class="anchored" data-anchor-id="interpretations">Interpretations</h2>
+<p>The average-temperature plot shows the range between the average minimum temperature, represented by a white circle, and the average maximum temperature, represented by a black circle, over the study period. Berkeley and Chapel Hill 2 W have warmer temperature ranges, whereas Ithaca Cornell Univ and UW Arboretum–Madison have cooler ranges, with average minimum temperatures reaching below 0°C. New York CNTRL PK TWR has an intermediate range. Across all five stations, the average maximum temperature is considerably higher than the average minimum temperature.</p>
+<p>The bar chart shows the number of observations for each species included in the analysis. <em>Hippopotamus amphibius</em> has the most observations, followed by <em>Kobus leche</em>. By contrast, <em>Bos taurus</em> has far fewer records. These results show that the number of observations is unevenly distributed among the species.</p>
 </section>
 <section id="conclusions" class="level2">
 <h2 class="anchored" data-anchor-id="conclusions">Conclusions</h2>
+<p>This exercise provided an opportunity to learn data-cleaning and organization techniques in RStudio using packages such as <strong>tidyverse</strong>. Although the two datasets were very different, they allowed us to apply several transformations and reorganizations. In the meteorological dataset, separating the temperature measurements made it easier to compare average temperatures across stations. In the ungulate dataset, organizing the taxonomic information made it possible to classify the species and count their observation records.</p>
 </section>
 <section id="bibliography" class="level2">
 <h2 class="anchored" data-anchor-id="bibliography">Bibliography</h2>
