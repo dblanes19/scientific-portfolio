@@ -18,7 +18,7 @@
     "href": "zotero.html#objetive",
     "title": "Gestión de referencias bibliográficas con Zotero",
     "section": "Objetive",
-    "text": "Objetive\nBy the end of this tutorial, the student will be able to:\nCreate and organize a bibliographic library in Zotero.\nAdd references using DOIs, RIS files, and the Zotero Connector.\nReview and correct reference metadata.\nInstall and use a citation style.\nAutomatically insert citations and bibliographies in Microsoft Word.\nAdd references other than scientific articles, such as reports, web pages, and software.\nCite R, RStudio, and R packages."
+    "text": "Objetive\nBy the end of this tutorial, the student will be able to:\n\nCreate and organize a bibliographic library in Zotero.\nAdd references using DOIs, RIS files, and the Zotero Connector.\nReview and correct reference metadata.\nInstall and use a citation style.\nAutomatically insert citations and bibliographies in Microsoft Word.\nAdd references other than scientific articles, such as reports, web pages, and software.\nCite R, RStudio, and R packages."
   },
   {
     "objectID": "zotero.html#metodology",
@@ -242,28 +242,28 @@
     "href": "Tidy.html#metodology",
     "title": "Ordenamiento de datos con Tidyverse",
     "section": "Metodology",
-    "text": "Metodology"
+    "text": "Metodology\nLa práctica se realizó en RStudio con funciones específicas de paquetes como tidyverse. Se importaron archivos en formato csv de meteorología y angola_ungulates desde la carpeta data del proyecto Eco_pc_2026. Posteriormente. se aplicaron las transformaciones correspondientes.\n\nDatos meteorológicos\nPara el set de datos meteorológico, los días de marzo estaban distribuidos en varias columnas por lo tanto, los datos fueron reorganizados para obtener una fila por observación diaria; luego se combinaron el año (2010-2020) y el día para crear una fecha, se separaron temperatura máxima de temperaura mínima y se transformaron algunas variables numéricas. Posteriormente, con los datos depurados y transformados, se calcularon promedios de temperatura, precipitación y nieve según estación.\n\n\nDatos de ungulados\nEn el set de datos de ungulados, se creó una fecha desde las columnas de año, mes y día; también se tomaron las columnas de género y especie para combinarlas y así crear una sola columna de nombre científico y se separó la información taxonómica en clase, orden y familia . Finalmente, se contó el número de observaciones por especie se realizó una tabla taxonómica y un gráfico de observaciones por especie."
   },
   {
     "objectID": "Tidy.html#results",
     "href": "Tidy.html#results",
     "title": "Ordenamiento de datos con Tidyverse",
     "section": "Results",
-    "text": "Results\nLa siguiente figura muestra numero de observaciones por especie\n\n\n\nFigura 1. Numero de observaciones por especie.\n\n\n\n\n\nFigure 2. Tempertatura promedio según estaciones."
+    "text": "Results\n\n\n\nFigure 1. Tempertatura promedio según estaciones.\n\n\n\n\n\nFigura 2. Numero de observaciones por especies ungulados de Angola."
   },
   {
     "objectID": "Tidy.html#interpretations",
     "href": "Tidy.html#interpretations",
     "title": "Ordenamiento de datos con Tidyverse",
     "section": "Interpretations",
-    "text": "Interpretations"
+    "text": "Interpretations\nLa temperatura promedio según estación muestra una línea con el intervalo entre la temperatura mínima promedio señalada con un circulo blanco y la temperatura máxima promedio señalada con un circulo negro, esto durante el periodo analizado. Con este resultado se observa que el Berkeley y Chapel Hill 2 W presentan intervalos de temperatura más cálidos y por el contrario, Ithaca Cornell Univ y UW Arboretum- Madison se muestran con intervalos más fríos con temperaturas mínimas promedio que van hasta los bajo 0°C. Finalmente, se observa el intervalo para New York CNTRL PK TWR que muestra un rango intermedio. En las cinco estaciones, se observan rangos esperados puesto que la temperatura máxima promedio es mucho mayor a la mínima promedio.\nEn cuanto al número de observaciones por especies, el gráfico de barras muestra claramente la cantidad de observaciones para cada una de las especies análizadas y de esta manera se destaca Hippopotamus amphibius con una mayor cantidad de observaciones y enseguida se encuentra la especie Kobus leche. En contraste, se encuentra la especie Bos taurus con mucho menos registros. Esto puede indicar como están distribuidas las especies, lo cual muestra, según observaciones que hay una desigualdad entre ellos."
   },
   {
     "objectID": "Tidy.html#conclusions",
     "href": "Tidy.html#conclusions",
     "title": "Ordenamiento de datos con Tidyverse",
     "section": "Conclusions",
-    "text": "Conclusions"
+    "text": "Conclusions\nLa práctica permitió conocer herramientas de depuración y ordenamiento de datos con ayuda de plataformas como RStudio con paquetes como tidyverse. Aunque los datos desarrollados eran muy diferentes entre sí permitió relializar distintas transformaciones o reorganizaciones como en el conjunto de datos meteorológico que al separar temperaturas promedio, facilitó su comparación entre las distintas estaciones. Por el otro lado, el conjunto de datos de ungulados, permitieron clasificar las especies y contar sus registros de observación."
   },
   {
     "objectID": "Tidy.html#bibliography",
@@ -275,42 +275,42 @@
   {
     "objectID": "docs/tidy.html#objetive",
     "href": "docs/tidy.html#objetive",
-    "title": "Ordenamiento de datos en Tidyverse",
+    "title": "Ordenamiento de datos con Tidyverse",
     "section": "Objetive",
-    "text": "Objetive"
+    "text": "Objetive\nEl objetivo de esta práctica fue aplicar transformaciones, separación, combinación, selección y agrupación para organizar de mejor manera conjuntos de datos para su posterior análisis mediante tablas y gráficos para facilitar su comprensión."
   },
   {
     "objectID": "docs/tidy.html#metodology",
     "href": "docs/tidy.html#metodology",
-    "title": "Ordenamiento de datos en Tidyverse",
+    "title": "Ordenamiento de datos con Tidyverse",
     "section": "Metodology",
     "text": "Metodology"
   },
   {
     "objectID": "docs/tidy.html#results",
     "href": "docs/tidy.html#results",
-    "title": "Ordenamiento de datos en Tidyverse",
+    "title": "Ordenamiento de datos con Tidyverse",
     "section": "Results",
-    "text": "Results\nLa siguiente figura muestra numero de observaciones por especie\n\n\n\nFigura 1"
+    "text": "Results\nLa siguiente figura muestra numero de observaciones por especie\n\n\n\nFigura 1. Numero de observaciones por especie.\n\n\n\n\n\nFigure 2. Tempertatura promedio según estaciones."
   },
   {
     "objectID": "docs/tidy.html#interpretations",
     "href": "docs/tidy.html#interpretations",
-    "title": "Ordenamiento de datos en Tidyverse",
+    "title": "Ordenamiento de datos con Tidyverse",
     "section": "Interpretations",
     "text": "Interpretations"
   },
   {
     "objectID": "docs/tidy.html#conclusions",
     "href": "docs/tidy.html#conclusions",
-    "title": "Ordenamiento de datos en Tidyverse",
+    "title": "Ordenamiento de datos con Tidyverse",
     "section": "Conclusions",
     "text": "Conclusions"
   },
   {
     "objectID": "docs/tidy.html#bibliography",
     "href": "docs/tidy.html#bibliography",
-    "title": "Ordenamiento de datos en Tidyverse",
+    "title": "Ordenamiento de datos con Tidyverse",
     "section": "Bibliography",
     "text": "Bibliography"
   },
@@ -319,7 +319,7 @@
     "href": "ocurrencias.html#objetive",
     "title": "Ocurrencias de GBIF y iNaturalist",
     "section": "Objetive",
-    "text": "Objetive"
+    "text": "Objetive\nDescargar datos de ocurrencias directamente desde fuentes de datos de iNaturalist y GBIF"
   },
   {
     "objectID": "ocurrencias.html#metodology",
@@ -333,7 +333,7 @@
     "href": "ocurrencias.html#results",
     "title": "Ocurrencias de GBIF y iNaturalist",
     "section": "Results",
-    "text": "Results"
+    "text": "Results\n\n\n\nFigure 1. Registros de Ocurrencias de Pulsatrix perspicillata en Costa Rica."
   },
   {
     "objectID": "ocurrencias.html#interpretations",
@@ -459,11 +459,25 @@
     "href": "Tidy.html",
     "title": "Ordenamiento de datos con Tidyverse",
     "section": "",
-    "text": "La organización y depuración de datos son pasos muy importantes para obtener resultados confiables y puntuales en un análisis estadístico. Para esta se trabajó con dos set de datos, uno uno de registros metereológicos de cinco estaciones y otro de observaciones de ungulados en Angola. Para poder análizar estos datos se utilizó RStudio y también se requirió funciones del paquete tidyverse puesto que requería de algunas correcciones como ordenar variables, corregir su estructura para facilitar su interpretación.\nPara el set de datos meteorológico, los días de marzo estaban distribuidos en varias columnas por lo tanto, los datos fueron reorganizados para obtener una fila por observación diaria; luego se combinaron el año y el día para crear una fecha, se separaron temperatura máxima de temperaura mínima y se transformaron algunas variables numéricas. Posteriormente, con los datos depurados y transformados, se calcularon promedios de temperatura, precipitación y nieve según estación.\nEn el set de datos de ungulados, se creó una fecha desde las columnas de año, mes y día; también se tomaron las columnas de género y especie para combinarlas y así crear una sola columna de nombre científico y se separó la información taxonómica en clase, orden y familia . Finalmente, se contó el número de observaciones por especie se realizó una tabla taxonómica y un gráfico de observaciones por especie."
+    "text": "La organización y depuración de datos son pasos muy importantes para obtener resultados confiables y puntuales en un análisis estadístico. Para esta se trabajó con dos set de datos, uno uno de registros metereológicos de cinco estaciones y otro de observaciones de ungulados en Angola. Para poder análizar estos datos se utilizó RStudio y también se requirió funciones del paquete tidyverse puesto que requería de algunas correcciones como ordenar variables, corregir su estructura para facilitar su interpretación."
   },
   {
     "objectID": "Tidy.html#introduction",
     "href": "Tidy.html#introduction",
+    "title": "Ordenamiento de datos con Tidyverse",
+    "section": "",
+    "text": "La organización y depuración de datos son pasos muy importantes para obtener resultados confiables y puntuales en un análisis estadístico. Para esta se trabajó con dos set de datos, uno uno de registros metereológicos de cinco estaciones y otro de observaciones de ungulados en Angola. Para poder análizar estos datos se utilizó RStudio y también se requirió funciones del paquete tidyverse puesto que requería de algunas correcciones como ordenar variables, corregir su estructura para facilitar su interpretación."
+  },
+  {
+    "objectID": "docs/tidy.html",
+    "href": "docs/tidy.html",
+    "title": "Ordenamiento de datos con Tidyverse",
+    "section": "",
+    "text": "La organización y depuración de datos son pasos muy importantes para obtener resultados confiables y puntuales en un análisis estadístico. Para esta se trabajó con dos set de datos, uno uno de registros metereológicos de cinco estaciones y otro de observaciones de ungulados en Angola. Para poder análizar estos datos se utilizó RStudio y también se requirió funciones del paquete tidyverse puesto que requería de algunas correcciones como ordenar variables, corregir su estructura para facilitar su interpretación.\nPara el set de datos meteorológico, los días de marzo estaban distribuidos en varias columnas por lo tanto, los datos fueron reorganizados para obtener una fila por observación diaria; luego se combinaron el año y el día para crear una fecha, se separaron temperatura máxima de temperaura mínima y se transformaron algunas variables numéricas. Posteriormente, con los datos depurados y transformados, se calcularon promedios de temperatura, precipitación y nieve según estación.\nEn el set de datos de ungulados, se creó una fecha desde las columnas de año, mes y día; también se tomaron las columnas de género y especie para combinarlas y así crear una sola columna de nombre científico y se separó la información taxonómica en clase, orden y familia . Finalmente, se contó el número de observaciones por especie se realizó una tabla taxonómica y un gráfico de observaciones por especie."
+  },
+  {
+    "objectID": "docs/tidy.html#introduction",
+    "href": "docs/tidy.html#introduction",
     "title": "Ordenamiento de datos con Tidyverse",
     "section": "",
     "text": "La organización y depuración de datos son pasos muy importantes para obtener resultados confiables y puntuales en un análisis estadístico. Para esta se trabajó con dos set de datos, uno uno de registros metereológicos de cinco estaciones y otro de observaciones de ungulados en Angola. Para poder análizar estos datos se utilizó RStudio y también se requirió funciones del paquete tidyverse puesto que requería de algunas correcciones como ordenar variables, corregir su estructura para facilitar su interpretación.\nPara el set de datos meteorológico, los días de marzo estaban distribuidos en varias columnas por lo tanto, los datos fueron reorganizados para obtener una fila por observación diaria; luego se combinaron el año y el día para crear una fecha, se separaron temperatura máxima de temperaura mínima y se transformaron algunas variables numéricas. Posteriormente, con los datos depurados y transformados, se calcularon promedios de temperatura, precipitación y nieve según estación.\nEn el set de datos de ungulados, se creó una fecha desde las columnas de año, mes y día; también se tomaron las columnas de género y especie para combinarlas y así crear una sola columna de nombre científico y se separó la información taxonómica en clase, orden y familia . Finalmente, se contó el número de observaciones por especie se realizó una tabla taxonómica y un gráfico de observaciones por especie."
