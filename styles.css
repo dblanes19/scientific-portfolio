@@ -1817,3 +1817,252 @@ main.content blockquote * {
   color: #D6E99A !important;
 }
 
+
+/* Justificar el texto del portafolio */
+main.content p {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+
+/* Justificación y sangría de primera línea */
+main.content p {
+  text-align: justify;
+  text-justify: inter-word;
+  text-indent: 1.5em;
+}
+
+
+/* ===== BIBLIOGRAFÍA: TEMA OSCURO BOTÁNICO ===== */
+
+/* Contenedor completo de referencias */
+#refs,
+.references,
+.csl-bib-body {
+  background: rgba(8, 20, 14, 0.88) !important;
+  color: #F0EEE5 !important;
+  border: 1px solid rgba(184, 215, 163, 0.25);
+  border-radius: 8px;
+  padding: 1.2rem !important;
+}
+
+/* Referencias individuales */
+#refs .csl-entry,
+.references .csl-entry,
+.csl-bib-body .csl-entry {
+  background: transparent !important;
+  color: #F0EEE5 !important;
+  text-align: left;
+  text-indent: 0;
+  line-height: 1.8;
+  margin-bottom: 1rem;
+}
+
+/* Evitar fondos blancos en elementos internos */
+#refs *,
+.references *,
+.csl-bib-body * {
+  background-color: transparent !important;
+}
+
+/* Enlaces bibliográficos */
+#refs a,
+.references a,
+.csl-bib-body a {
+  color: #9FE5C5 !important;
+  text-decoration-color: rgba(159, 229, 197, 0.55);
+  overflow-wrap: anywhere;
+}
+
+/* Enlaces al pasar el cursor */
+#refs a:hover,
+.references a:hover,
+.csl-bib-body a:hover {
+  color: #D6E99A !important;
+}
+
+/* Título de bibliografía */
+main.content h1,
+main.content h2,
+main.content h3 {
+  color: #78C6A3;
+}
+
+
+/* =====================================================
+   TABLAS: TEMA OSCURO BOTÁNICO
+   ===================================================== */
+
+/* Contenedores de tablas */
+main.content .quarto-table-container,
+main.content .table-responsive,
+main.content .table,
+main.content .cell-output-display {
+  background: transparent !important;
+  color: #F0EEE5 !important;
+}
+
+/* Tabla completa */
+main.content table,
+main.content table.table {
+  background: rgba(8, 20, 14, 0.92) !important;
+  color: #F0EEE5 !important;
+  border-collapse: collapse !important;
+  border: 1px solid rgba(184, 215, 163, 0.35) !important;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Encabezados */
+main.content table thead,
+main.content table thead tr,
+main.content table th {
+  background: #24483A !important;
+  color: #F0EEE5 !important;
+  border-color: rgba(184, 215, 163, 0.4) !important;
+  font-weight: 700;
+}
+
+/* Celdas del cuerpo */
+main.content table tbody td {
+  background: rgba(8, 20, 14, 0.92) !important;
+  color: #F0EEE5 !important;
+  border-color: rgba(184, 215, 163, 0.25) !important;
+}
+
+/* Filas alternas */
+main.content table tbody tr:nth-child(even) td {
+  background: rgba(35, 65, 49, 0.85) !important;
+}
+
+/* Hover sobre las filas */
+main.content table tbody tr:hover td {
+  background: rgba(57, 91, 67, 0.9) !important;
+  color: #FFFFFF !important;
+}
+
+/* Enlaces dentro de las tablas */
+main.content table a {
+  color: #9FE5C5 !important;
+}
+
+main.content table a:hover {
+  color: #D6E99A !important;
+}
+
+/* Texto en negrita */
+main.content table strong,
+main.content table b {
+  color: #D6E99A !important;
+}
+
+/* Títulos de tablas */
+main.content table caption,
+main.content .table-caption {
+  color: #78C6A3 !important;
+  background: transparent !important;
+}
+
+/* Evitar fondos claros heredados de Bootstrap */
+main.content .table > :not(caption) > * > *,
+main.content .table-striped > tbody > tr:nth-of-type(odd) > *,
+main.content .table-striped > tbody > tr:nth-of-type(even) > * {
+  background-color: transparent !important;
+  color: #F0EEE5 !important;
+}
+
+/* Recuperar el fondo oscuro de las filas */
+main.content .table tbody tr:nth-child(odd) > * {
+  background-color: rgba(8, 20, 14, 0.92) !important;
+}
+
+main.content .table tbody tr:nth-child(even) > * {
+  background-color: rgba(35, 65, 49, 0.85) !important;
+}
+
+
+/* ===== CORRECCIÓN DEL CONTENEDOR DE BIBLIOGRAFÍA ===== */
+
+/* Contenedor exterior de la sección */
+main.content section#bibliography,
+main.content section#references,
+main.content section:has(> h1#bibliography),
+main.content section:has(> h2#bibliography),
+main.content section:has(> h1#references),
+main.content section:has(> h2#references) {
+  background: rgba(8, 20, 14, 0.88) !important;
+  color: #F0EEE5 !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* Eliminar fondos claros del bloque de referencias */
+main.content #refs,
+main.content .references,
+main.content .csl-bib-body {
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* Título de bibliografía */
+main.content #bibliography,
+main.content #references {
+  color: #78C6A3 !important;
+  background: transparent !important;
+}
+
+/* Texto de las referencias */
+main.content #refs .csl-entry,
+main.content .csl-bib-body .csl-entry {
+  color: #F0EEE5 !important;
+  background: transparent !important;
+}
+
+/* Enlaces */
+main.content #refs a,
+main.content .csl-bib-body a {
+  color: #9FE5C5 !important;
+}
+
+
+/* ===== CORRECCIÓN DEL FONDO DE BIBLIOGRAFÍA EN QUARTO ===== */
+
+#quarto-appendix,
+#quarto-appendix.default,
+#quarto-bibliography,
+#refs-container,
+section#bibliography,
+section#references {
+  background: rgba(5, 15, 10, 0.88) !important;
+  color: #F0EEE5 !important;
+  border-color: rgba(184, 215, 163, 0.25) !important;
+  box-shadow: none !important;
+}
+
+/* Título */
+#quarto-appendix h1,
+#quarto-appendix h2,
+#quarto-appendix h3,
+#quarto-bibliography h1,
+#quarto-bibliography h2 {
+  color: #78C6A3 !important;
+  background: transparent !important;
+}
+
+/* Referencias */
+#quarto-appendix #refs,
+#quarto-appendix .csl-bib-body,
+#quarto-bibliography #refs,
+#quarto-bibliography .csl-bib-body {
+  background: transparent !important;
+  color: #F0EEE5 !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+/* Enlaces bibliográficos */
+#quarto-appendix #refs a,
+#quarto-bibliography #refs a {
+  color: #9FE5C5 !important;
+}

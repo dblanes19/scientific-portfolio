@@ -6,18 +6,38 @@ editor: visual
 
 ## Introduction
 
+La organización y depuración de datos son pasos muy importantes para obtener resultados confiables y puntuales en un análisis estadístico. Para esta se trabajó con dos set de datos, uno uno de registros metereológicos de cinco estaciones y otro de observaciones de ungulados en Angola. Para poder análizar estos datos se utilizó RStudio y también se requirió funciones del paquete tidyverse puesto que requería de algunas correcciones como ordenar variables, corregir su estructura para facilitar su interpretación.
+
 ## Objetive
+
+El objetivo de esta práctica fue aplicar transformaciones, separación, combinación, selección y agrupación para organizar de mejor manera conjuntos de datos para su posterior análisis mediante tablas y gráficos para facilitar su comprensión.
 
 ## Metodology
 
+La práctica se realizó en RStudio con funciones específicas de paquetes como tidyverse. Se importaron archivos en formato csv de meteorología y angola_ungulates desde la carpeta data del proyecto Eco_pc_2026. Posteriormente. se aplicaron las transformaciones correspondientes.
+
+#### Datos meteorológicos
+
+Para el set de datos meteorológico, los días de marzo estaban distribuidos en varias columnas por lo tanto, los datos fueron reorganizados para obtener una fila por observación diaria; luego se combinaron el año (2010-2020) y el día para crear una fecha, se separaron temperatura máxima de temperaura mínima y se transformaron algunas variables numéricas. Posteriormente, con los datos depurados y transformados, se calcularon promedios de temperatura, precipitación y nieve según estación.
+
+#### Datos de ungulados 
+
+En el set de datos de ungulados, se creó una fecha desde las columnas de año, mes y día; también se tomaron las columnas de género y especie para combinarlas y así crear una sola columna de nombre científico y se separó la información taxonómica en clase, orden y familia . Finalmente, se contó el número de observaciones por especie se realizó una tabla taxonómica y un gráfico de observaciones por especie.
+
 ## Results
 
-La siguiente figura muestra numero de observaciones por especie
+![Figure 1. Tempertatura promedio según estaciones.](images/temperature.jpg){alt="Figure 2. Tempertatura promedio según estaciones."}
 
-![Figura 1](images/ungulate_observations.jpg)
+![Figura 2. Numero de observaciones por especies ungulados de Angola.](images/ungulate_observations.jpg)
 
 ## Interpretations
 
+La temperatura promedio según estación muestra una línea con el intervalo entre la temperatura mínima promedio señalada con un circulo blanco y la temperatura máxima promedio señalada con un circulo negro, esto durante el periodo analizado. Con este resultado se observa que el Berkeley y Chapel Hill 2 W presentan intervalos de temperatura más cálidos y por el contrario, Ithaca Cornell Univ y UW Arboretum- Madison se muestran con intervalos más fríos con temperaturas mínimas promedio que van hasta los bajo 0°C. Finalmente, se observa el intervalo para New York CNTRL PK TWR que muestra un rango intermedio. En las cinco estaciones, se observan rangos esperados puesto que la temperatura máxima promedio es mucho mayor a la mínima promedio.
+
+En cuanto al número de observaciones por especies, el gráfico de barras muestra claramente la cantidad de observaciones para cada una de las especies análizadas y de esta manera se destaca *Hippopotamus amphibius* con una mayor cantidad de observaciones y enseguida se encuentra la especie *Kobus leche*. En contraste, se encuentra la especie *Bos taurus* con mucho menos registros. Esto puede indicar como están distribuidas las especies, lo cual muestra, según observaciones que hay una desigualdad entre ellos.
+
 ## Conclusions
+
+La práctica permitió conocer herramientas de depuración y ordenamiento de datos con ayuda de plataformas como RStudio con paquetes como tidyverse. Aunque los datos desarrollados eran muy diferentes entre sí permitió relializar distintas transformaciones o reorganizaciones como en el conjunto de datos meteorológico que al separar temperaturas promedio, facilitó su comparación entre las distintas estaciones. Por el otro lado, el conjunto de datos de ungulados, permitieron clasificar las especies y contar sus registros de observación.
 
 ## Bibliography

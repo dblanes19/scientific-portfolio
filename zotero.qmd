@@ -14,19 +14,19 @@ This practice was carried out as a free reference management tool that helps stu
 
 By the end of this tutorial, the student will be able to:
 
-Create and organize a bibliographic library in Zotero.
+- Create and organize a bibliographic library in Zotero.
 
-Add references using DOIs, RIS files, and the Zotero Connector.
+- Add references using DOIs, RIS files, and the Zotero Connector.
 
-Review and correct reference metadata.
+- Review and correct reference metadata.
 
-Install and use a citation style.
+- Install and use a citation style.
 
-Automatically insert citations and bibliographies in Microsoft Word.
+- Automatically insert citations and bibliographies in Microsoft Word.
 
-Add references other than scientific articles, such as reports, web pages, and software.
+- Add references other than scientific articles, such as reports, web pages, and software.
 
-Cite R, RStudio, and R packages.
+- Cite R, RStudio, and R packages.
 
 ## Metodology
 
@@ -34,12 +34,12 @@ Zotero was used to collect and organize the academic sources consulted during th
 
 ## Results
 
-![Figura 1. Zotero library](images/zotero_foto.png)
+![Figura 1. Zotero library](images/zotero_foto.png){width="613"}
 
 Cuadro 1. Métodos utilizados para incorporar referencias bibliográficas a Zotero.
 
 | Método | ¿Cuándo utilizarlo? |
-|----|----|
+|------------------------------------|------------------------------------|
 | DOI | Cuando la publicación tienen un DOI conocido. |
 | Archivo RIS | Cuando la revista o base de datos permite exportar la referencia. |
 | Zotero Connector | Para capturar referencias directamente desde el navegador. |

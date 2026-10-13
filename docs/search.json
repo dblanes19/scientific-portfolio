@@ -235,7 +235,7 @@
     "href": "Tidy.html#objetive",
     "title": "Ordenamiento de datos con Tidyverse",
     "section": "Objetive",
-    "text": "Objetive"
+    "text": "Objetive\nEl objetivo de esta práctica fue aplicar transformaciones, separación, combinación, selección y agrupación para organizar de mejor manera conjuntos de datos para su posterior análisis mediante tablas y gráficos para facilitar su comprensión."
   },
   {
     "objectID": "Tidy.html#metodology",
@@ -249,7 +249,7 @@
     "href": "Tidy.html#results",
     "title": "Ordenamiento de datos con Tidyverse",
     "section": "Results",
-    "text": "Results\nLa siguiente figura muestra numero de observaciones por especie\n\n\n\nFigura 1"
+    "text": "Results\nLa siguiente figura muestra numero de observaciones por especie\n\n\n\nFigura 1. Numero de observaciones por especie.\n\n\n\n\n\nFigure 2. Tempertatura promedio según estaciones."
   },
   {
     "objectID": "Tidy.html#interpretations",
@@ -453,5 +453,19 @@
     "title": "Inicio",
     "section": "",
     "text": "Escuela de Ciencias Biológicas\nUniversidad Nacional, Costa Rica\nVer mi perfil\nExplorar mi portafolio"
+  },
+  {
+    "objectID": "Tidy.html",
+    "href": "Tidy.html",
+    "title": "Ordenamiento de datos con Tidyverse",
+    "section": "",
+    "text": "La organización y depuración de datos son pasos muy importantes para obtener resultados confiables y puntuales en un análisis estadístico. Para esta se trabajó con dos set de datos, uno uno de registros metereológicos de cinco estaciones y otro de observaciones de ungulados en Angola. Para poder análizar estos datos se utilizó RStudio y también se requirió funciones del paquete tidyverse puesto que requería de algunas correcciones como ordenar variables, corregir su estructura para facilitar su interpretación.\nPara el set de datos meteorológico, los días de marzo estaban distribuidos en varias columnas por lo tanto, los datos fueron reorganizados para obtener una fila por observación diaria; luego se combinaron el año y el día para crear una fecha, se separaron temperatura máxima de temperaura mínima y se transformaron algunas variables numéricas. Posteriormente, con los datos depurados y transformados, se calcularon promedios de temperatura, precipitación y nieve según estación.\nEn el set de datos de ungulados, se creó una fecha desde las columnas de año, mes y día; también se tomaron las columnas de género y especie para combinarlas y así crear una sola columna de nombre científico y se separó la información taxonómica en clase, orden y familia . Finalmente, se contó el número de observaciones por especie se realizó una tabla taxonómica y un gráfico de observaciones por especie."
+  },
+  {
+    "objectID": "Tidy.html#introduction",
+    "href": "Tidy.html#introduction",
+    "title": "Ordenamiento de datos con Tidyverse",
+    "section": "",
+    "text": "La organización y depuración de datos son pasos muy importantes para obtener resultados confiables y puntuales en un análisis estadístico. Para esta se trabajó con dos set de datos, uno uno de registros metereológicos de cinco estaciones y otro de observaciones de ungulados en Angola. Para poder análizar estos datos se utilizó RStudio y también se requirió funciones del paquete tidyverse puesto que requería de algunas correcciones como ordenar variables, corregir su estructura para facilitar su interpretación.\nPara el set de datos meteorológico, los días de marzo estaban distribuidos en varias columnas por lo tanto, los datos fueron reorganizados para obtener una fila por observación diaria; luego se combinaron el año y el día para crear una fecha, se separaron temperatura máxima de temperaura mínima y se transformaron algunas variables numéricas. Posteriormente, con los datos depurados y transformados, se calcularon promedios de temperatura, precipitación y nieve según estación.\nEn el set de datos de ungulados, se creó una fecha desde las columnas de año, mes y día; también se tomaron las columnas de género y especie para combinarlas y así crear una sola columna de nombre científico y se separó la información taxonómica en clase, orden y familia . Finalmente, se contó el número de observaciones por especie se realizó una tabla taxonómica y un gráfico de observaciones por especie."
   }
 ]
