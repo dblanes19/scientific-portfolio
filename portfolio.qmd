@@ -13,7 +13,7 @@ Cada práctica constituye una evidencia del aprendizaje adquirido durante el sem
 ## Prácticas de laboratorio
 
 ::: portfolio-item
-### 📚 Gestión de referencias bibliográficas con Zotero
+### 📚 Managing Bibliographic References with Zotero
 
 En esta práctica se documentará la creación de una biblioteca bibliográfica utilizando Zotero y su integración con Microsoft Word.
 
@@ -21,7 +21,7 @@ En esta práctica se documentará la creación de una biblioteca bibliográfica 
 :::
 
 ::: portfolio-item
-### 📄 Manejo de datos con Tidyverse
+### 📄 Data Organization with Tidyverse
 
 Introducción al uso del portafolio digital académico y documentación de una práctica mediante Quarto.
 
@@ -29,7 +29,7 @@ Introducción al uso del portafolio digital académico y documentación de una p
 :::
 
 ::: portfolio-item
-### 📚 Descarga de Ocurrencias de GBIF y iNaturalist
+### 📚 Downloading Occurrence Records from GBIF and iNaturalist
 
 En esta práctica se realizará la descarga de las ocurrencias directamente desde GBIF Y iNaturalist para el proyecto final del curso.
 
