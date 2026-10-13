@@ -1,5 +1,5 @@
 ---
-title: "Patrones de Distribución Espacial en Especies Vegetales"
+title: "Spatial Distribution Patterns in Plant Species"
 author: "Daniela Blanco - Universidad Nacional de Costa Rica"
 editor: visual
 ---
@@ -22,7 +22,7 @@ Objetivos específicos
 
  Evaluar el ajuste de los conteos a distribuciones teóricas asociadas con diferentes patrones espaciales.
 
- Representar gráficamente la distribución espacial de ambas especies e interpretar los patrones encontrados. \
+ Representar gráficamente la distribución espacial de ambas especies e interpretar los patrones encontrados.\
 
 ## Metodology
 
@@ -40,7 +40,7 @@ Describa el tamaño del área estudiada, su división espacial, número y tamañ
 
 **Análisis de datos**
 
-Explique, con sus propias palabras, las estadísticas descriptivas utilizadas, cómo se calculó e interpretó el índice de dispersión, qué prueba se utilizó para evaluar la aleatoriedad, qué distribuciones teóricas se evaluaron, cómo se evaluó su ajuste, qué representaciones gráficas se utilizaron y qué software se empleó para los análisis. No es necesario describir línea por línea el código de R. \
+Explique, con sus propias palabras, las estadísticas descriptivas utilizadas, cómo se calculó e interpretó el índice de dispersión, qué prueba se utilizó para evaluar la aleatoriedad, qué distribuciones teóricas se evaluaron, cómo se evaluó su ajuste, qué representaciones gráficas se utilizaron y qué software se empleó para los análisis. No es necesario describir línea por línea el código de R.\
 
 ## Results
 

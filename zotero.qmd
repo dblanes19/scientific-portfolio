@@ -1,5 +1,5 @@
 ---
-title: "Gestión de referencias bibliográficas con Zotero"
+title: "Managing Bibliographic References with Zotero"
 author: "Daniela Blanco"
 editor: visual
 bibliography: referencias.bib

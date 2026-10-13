@@ -45,12 +45,13 @@ En esta práctica se realizará la descarga de las ocurrencias directamente desd
 :::
 
 ::: portfolio-item
-### 📚 Spatial Distribution
+### 📚 Spatial Distribution Patterns in Plant Species
 
 En esta práctica se identificaran distintos patrones de distribución espacial de dos especies vegetales (Elephantopus mollis; Rhynchospora nervosa).
 
 [Ver práctica →](Distribution.qmd)
 :::
+
 
 ------------------------------------------------------------------------
 
