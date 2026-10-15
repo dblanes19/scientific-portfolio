@@ -13,7 +13,7 @@ Each exercise demonstrates the knowledge and skills I developed over the semeste
 ## Laboratory Exercises
 
 ::: portfolio-item
-### 📚 Creación de Página Web
+### 📚 Website creation
 
 Introduction to the Academic Digital Portfolio and Documentation of a Laboratory Exercise Using Quarto
 
