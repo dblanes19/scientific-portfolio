@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Daniela Blanco">
+<meta name="author" content="Nombre del estudiante">
 
-<title>Creación de Página Web – Portafolio Científico</title>
+<title>Gestión de referencias bibliográficas con Zotero – Portafolio Científico</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -128,10 +128,15 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#introduction" id="toc-introduction" class="nav-link active" data-scroll-target="#introduction">Introduction</a></li>
   <li><a href="#objetive" id="toc-objetive" class="nav-link" data-scroll-target="#objetive">Objetive</a></li>
   <li><a href="#metodology" id="toc-metodology" class="nav-link" data-scroll-target="#metodology">Metodology</a></li>
+  <li><a href="#insertar-cuadros" id="toc-insertar-cuadros" class="nav-link" data-scroll-target="#insertar-cuadros"><strong>Insertar cuadros</strong></a>
+  <ul class="collapse">
+  <li><a href="#para-las-próximas-prácticas" id="toc-para-las-próximas-prácticas" class="nav-link" data-scroll-target="#para-las-próximas-prácticas"><strong>Para las próximas prácticas</strong></a></li>
+  </ul></li>
   <li><a href="#results" id="toc-results" class="nav-link" data-scroll-target="#results">Results</a></li>
   <li><a href="#interpretations" id="toc-interpretations" class="nav-link" data-scroll-target="#interpretations">Interpretations</a></li>
   <li><a href="#conclusions" id="toc-conclusions" class="nav-link" data-scroll-target="#conclusions">Conclusions</a></li>
   <li><a href="#bibliography" id="toc-bibliography" class="nav-link" data-scroll-target="#bibliography">Bibliography</a></li>
+  <li><a href="#section" id="toc-section" class="nav-link" data-scroll-target="#section"></a></li>
   </ul>
 </nav>
     </div>
@@ -140,7 +145,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Creación de Página Web</h1>
+<h1 class="title">Gestión de referencias bibliográficas con Zotero</h1>
 </div>
 
 
@@ -168,9 +173,274 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="objetive" class="level2">
 <h2 class="anchored" data-anchor-id="objetive">Objetive</h2>
+<ul>
+<li><p>Create a basic Quarto template for documenting course exercises.</p></li>
+<li><p>Create new pages from the template without modifying the original file.</p></li>
+<li><p>Use <strong>Visual Mode</strong> to edit Quarto documents.</p></li>
+<li><p>Add text, figures, and tables.</p></li>
+<li><p>Add references generated with Zotero.</p></li>
+<li><p>Render a Quarto page.</p></li>
+<li><p>Integrate a new page into the scientific portfolio.</p></li>
+<li><p>Publish changes using Git and GitHub Pages.</p></li>
+</ul>
 </section>
 <section id="metodology" class="level2">
 <h2 class="anchored" data-anchor-id="metodology">Metodology</h2>
+<p>Esta práctica se divide en cuatro partes:</p>
+<section id="parte-i-crear-la-plantilla-de-las-prácticas" class="level4">
+<h4 class="anchored" data-anchor-id="parte-i-crear-la-plantilla-de-las-prácticas"><strong>Parte I: Crear la plantilla de las prácticas</strong></h4>
+<p>Paso I: Abrir el proyecto del portafolio.</p>
+<ul>
+<li><p>Abrir el proyecto Scientific-portpolio</p></li>
+<li><p>Abrir GitHub simultaneamente</p></li>
+<li><p>Desde el panel files en el proyecto Scientific-portfolio de RStudio comprobar que están los archivos:</p>
+<ul>
+<li><p><code>_quarto.yml</code></p></li>
+<li><p><code>index.qmd</code></p></li>
+<li><p><code>about.qmd</code></p></li>
+<li><p><code>portfolio.qmd</code> o <code>portafolio.qmd</code></p></li>
+<li><p>carpeta <code>images</code></p></li>
+</ul></li>
+</ul>
+<p>*Todo esto debe crearse dentro del proyecto asociado a la página Web Scientific-portfolio.</p>
+<p><strong>Paso II: Crear nuevo documento Quarto</strong></p>
+<ul>
+<li>Ir a <strong>File &gt; New File &gt; Quarto Document</strong></li>
+</ul>
+<p>En la ventana que aparece:</p>
+<ol type="1">
+<li><p>Seleccione <strong>Document</strong>.</p></li>
+<li><p>En <strong>Title</strong>, escriba:</p></li>
+</ol>
+<p><code>Título de la práctica</code></p>
+<ol start="3" type="1">
+<li><p>En <strong>Author</strong>, escriba su nombre.</p></li>
+<li><p>Seleccione <strong>HTML</strong>.</p></li>
+<li><p>Seleccione <strong>Visual</strong> como editor, si aparece esta opción.</p></li>
+<li><p>Presione <strong>Create</strong>.</p></li>
+</ol>
+<p><strong>Paso III: Guardar el archivo como plantilla</strong></p>
+<p>Seleccione:</p>
+<p><strong>File → Save As</strong></p>
+<p>Guarde el archivo con el nombre:</p>
+<p><code>plantilla.qmd</code></p>
+<p>El archivo debe quedar dentro de la carpeta principal del proyecto del sitio web.</p>
+<p>* Utilice nombres de archivos sencillos, sin espacios, tildes ni caracteres especiales.</p>
+<p><strong>Paso IV: Trabajar en Visual Mode</strong></p>
+<p>Compruebe que se encuentra trabajando en <strong>Visual Mode</strong>.</p>
+<p>Si fuera necesario, seleccione <strong>Visual</strong> en la parte superior del editor.</p>
+<p>Visual Mode permite editar el documento de manera similar a Microsoft Word.</p>
+<p><strong>Paso V: Construir la Estructura de la Plantilla</strong></p>
+<p>Debajo del título del documento agregue las siguientes secciones utilizando <strong>Heading 2</strong>.</p>
+<p>Aquí se introducen los apartados del documento, tales como:</p>
+<ul>
+<li><p><strong>Introduction</strong></p>
+<ul>
+<li>Breve descripción del tema de la práctica y su importancia.</li>
+</ul></li>
+<li><p><strong>Objetive</strong></p>
+<ul>
+<li>Indique el objetivo principal de la práctica.</li>
+</ul></li>
+<li><p><strong>Metodology</strong></p>
+<ul>
+<li><p>Describa brevemente las actividades realizadas y los métodos utilizados.</p>
+<p>No es necesario incluir todos los códigos de R utilizados durante el laboratorio.</p></li>
+</ul></li>
+<li><p><strong>Resultados</strong></p>
+<ul>
+<li><p>Presente los principales resultados obtenidos durante la práctica.</p>
+<p>Esta sección puede incluir:</p>
+<ul>
+<li><p>texto;</p></li>
+<li><p>figuras;</p></li>
+<li><p>fotografías;</p></li>
+<li><p>gráficos;</p></li>
+<li><p>mapas;</p></li>
+<li><p>cuadros.</p></li>
+</ul></li>
+</ul></li>
+<li><p><strong>Interpretations</strong></p>
+<ul>
+<li><p>Explique qué significan los resultados obtenidos.</p>
+<p>Considere preguntas como:</p>
+<ul>
+<li><p>¿Cuál fue el patrón más importante?</p></li>
+<li><p>¿Qué indican las figuras o cuadros?</p></li>
+<li><p>¿Cómo se relacionan los resultados con el objetivo de la práctica?</p></li>
+</ul></li>
+</ul></li>
+<li><p><strong>Conclusions</strong></p>
+<ul>
+<li>Resuma brevemente las principales conclusiones o aprendizajes de la práctica.</li>
+</ul></li>
+<li><p>Bibliography</p>
+<ul>
+<li>Resuma brevemente las principales conclusiones o aprendizajes de la práctica.</li>
+</ul></li>
+</ul>
+<p><strong>Paso VI: Guardar Plantilla</strong></p>
+<p>Guarde los cambios:</p>
+<p><strong>Ctrl + S</strong></p>
+<p>Al finalizar debe existir el archivo:</p>
+<p><code>plantilla.qmd</code></p>
+<p><strong>Importante:</strong> <code>plantilla.qmd</code> será nuestro archivo original. De ahora en adelante no escribiremos directamente sobre esta plantilla. Para cada nueva práctica crearemos una copia.</p>
+</section>
+<section id="parte-ii-crear-una-práctica-a-partir-de-la-plantilla" class="level4">
+<h4 class="anchored" data-anchor-id="parte-ii-crear-una-práctica-a-partir-de-la-plantilla">Parte II: Crear una práctica a partir de la Plantilla</h4>
+<p>Ahora utilizaremos <code>plantilla.qmd</code> para crear la página correspondiente a la práctica de Zotero realizada la semana anterior.</p>
+<ol type="1">
+<li><p>Abra <code>plantilla.qmd</code>.</p></li>
+<li><p>Seleccione <strong>File → Save As</strong>.</p></li>
+<li><p>Guarde la copia con el nombre:</p>
+<p><code>zotero.qmd</code></p></li>
+<li><p>Compruebe que está trabajando en <strong>Visual Mode</strong>.</p></li>
+<li><p>Cambie el título por:</p>
+<p><strong>Gestión de referencias bibliográficas con Zotero</strong></p></li>
+<li><p>Complete brevemente las secciones de la plantilla utilizando el trabajo realizado durante la práctica anterior.</p>
+<p><strong>Importante:</strong> no modifique <code>plantilla.qmd</code>. Esta se conservará para crear las próximas prácticas.</p></li>
+</ol>
+<p><strong>Insertar figuras</strong></p>
+<p>Se incorpora una figura sencilla para prácticar la inserción de imágenes en Quarto.</p>
+<ol type="1">
+<li><p>Abra <strong>Zotero</strong> y seleccione la colección creada durante la práctica anterior.</p></li>
+<li><p>Tome una captura de pantalla donde se observe la colección y algunas de las referencias incorporadas.</p></li>
+<li><p>Guarde la imagen dentro de la carpeta <code>images</code> del proyecto del sitio web con el nombre:</p>
+<p><code>zotero_biblioteca.png</code></p></li>
+<li><p>Regrese a <code>zotero.qmd</code> y coloque el cursor en la sección <strong>Resultados</strong>.</p></li>
+<li><p>En <strong>Visual Mode</strong>, seleccione <strong>Insert → Figure</strong>.</p></li>
+<li><p>Seleccione <code>zotero_biblioteca.png</code>.</p></li>
+<li><p>Agregue como pie de figura:</p>
+<p><strong>Ejemplo de una colección de referencias bibliográficas organizada en Zotero.</strong></p></li>
+</ol>
+<p>Compruebe que la figura aparece correctamente en el documento.</p>
+</section>
+</section>
+<section id="insertar-cuadros" class="level2">
+<h2 class="anchored" data-anchor-id="insertar-cuadros"><strong>Insertar cuadros</strong></h2>
+<p>En la sección <strong>Resultados</strong>, debajo de la figura, inserte un cuadro para resumir las formas de incorporar referencias utilizadas durante la práctica.</p>
+<ol type="1">
+<li><p>En <strong>Visual Mode</strong>, seleccione <strong>Insert → Table</strong>.</p></li>
+<li><p>Cree un cuadro de <strong>2 columnas y 5 filas</strong>.</p></li>
+<li><p>Complete el cuadro de la siguiente manera:</p></li>
+</ol>
+<table class="caption-top table">
+<colgroup>
+<col style="width: 50%">
+<col style="width: 50%">
+</colgroup>
+<thead>
+<tr class="header">
+<th>Método</th>
+<th>¿Cuándo utilizarlo?</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td>DOI</td>
+<td>Cuando la publicación tiene un DOI conocido</td>
+</tr>
+<tr class="even">
+<td>Archivo RIS</td>
+<td>Cuando la revista o base de datos permite exportar la referencia</td>
+</tr>
+<tr class="odd">
+<td>Zotero Connector</td>
+<td>Para capturar referencias directamente desde el navegador</td>
+</tr>
+<tr class="even">
+<td>Entrada manual</td>
+<td>Cuando la información no puede importarse automáticamente</td>
+</tr>
+</tbody>
+</table>
+<ol start="4" type="1">
+<li><p>Agregue como título:</p>
+<p><strong>Métodos utilizados para incorporar referencias bibliográficas a Zotero.</strong></p></li>
+</ol>
+<section id="parte-iii-incorporar-las-referencias-de-zotero." class="level4">
+<h4 class="anchored" data-anchor-id="parte-iii-incorporar-las-referencias-de-zotero.">Parte III: Incorporar las referencias de Zotero.</h4>
+<p>Ahora utilizaremos las referencias trabajadas durante la práctica anterior para insertar citas en <code>zotero.qmd</code>.</p>
+<p><strong>Exportar referencias</strong></p>
+<ol type="1">
+<li><p>Abra <strong>Zotero</strong>.</p></li>
+<li><p>Seleccione la colección utilizada durante la práctica.</p></li>
+<li><p>Haga clic derecho sobre la colección y seleccione <strong>Export Collection</strong>.</p></li>
+<li><p>Seleccione el formato <strong>BibTeX</strong>.</p></li>
+<li><p>Guarde el archivo <strong>dentro del proyecto del sitio web</strong> con el nombre:</p>
+<p><code>referencias.bib</code></p></li>
+<li><p>Regrese a RStudio y compruebe en el panel <strong>Files</strong> que aparece el archivo:</p>
+<p><code>referencias.bib</code></p>
+<p><strong>*No continuar hasta comprobar que <code>referencias.bib</code> aparece en el panel Files.</strong></p></li>
+</ol>
+<p><strong>Conectar Referencias con Zotero.qmd</strong></p>
+<p>Una vez que <code>referencias.bib</code> existe dentro del proyecto:</p>
+<ol type="1">
+<li><p>Abra <code>zotero.qmd</code>.</p></li>
+<li><p>Cambie momentáneamente de <strong>Visual</strong> a <strong>Source</strong>.</p></li>
+<li><p>Localice el encabezado YAML que aparece al inicio del documento.</p></li>
+<li><p>Agregue la siguiente línea antes de <code>format</code>:</p></li>
+</ol>
+<pre><code>bibliography: referencias.bib</code></pre>
+<p>Ejemplo:</p>
+<ol start="5" type="1">
+<li><p>Guarde el archivo.</p></li>
+<li><p>Regrese a <strong>Visual Mode</strong>.</p>
+<p>*Esta modificación se realiza en <code>zotero.qmd</code>, <strong>no en <code>plantilla.qmd</code></strong>.</p></li>
+</ol>
+<p><strong>Insertar Citas</strong></p>
+<ol type="1">
+<li><p>Coloque el cursor en el texto donde desea insertar una referencia.</p></li>
+<li><p>En <strong>Visual Mode</strong>, seleccione <strong>Insert → Citation</strong>.</p></li>
+<li><p>Busque la referencia correspondiente.</p></li>
+<li><p>Selecciónela e inserte la cita.</p></li>
+</ol>
+<p>Inserte al menos una referencia utilizada durante la práctica.</p>
+<p>Presione <strong>Render</strong> y compruebe que la cita y la bibliografía aparecen correctamente.</p>
+</section>
+<section id="parte-iv-integrar-la-práctica-al-portafolio" class="level4">
+<h4 class="anchored" data-anchor-id="parte-iv-integrar-la-práctica-al-portafolio">Parte IV: Integrar la Práctica al Portafolio</h4>
+<p>Ahora conectaremos <code>zotero.qmd</code> con el cajón que ya existe en el sitio web.</p>
+<ol type="1">
+<li><p>Abra <code>portafolio.qmd</code>.</p></li>
+<li><p>Localice el cajón:</p>
+<p><strong>Gestión de referencias bibliográficas con Zotero</strong></p></li>
+<li><p>Elimine el texto <strong>Disponible próximamente</strong>.</p></li>
+<li><p>Agregue una descripción breve de la práctica.</p></li>
+<li><p>Escriba:</p>
+<p><strong>Ver práctica →</strong></p></li>
+<li><p>Seleccione <strong>Ver práctica →</strong> y utilice la herramienta para insertar un enlace.</p></li>
+<li><p>Enlace el texto con:</p>
+<p><code>zotero.qmd</code></p></li>
+<li><p>Elimine el cajón <strong>Próximas prácticas</strong>, ya que a partir de ahora las prácticas reales se irán incorporando al portafolio.</p></li>
+</ol>
+</section>
+<section id="parte-v-actualizar-y-publicar-el-sitio" class="level4">
+<h4 class="anchored" data-anchor-id="parte-v-actualizar-y-publicar-el-sitio">Parte V: Actualizar y Publicar el sitio</h4>
+<ol type="1">
+<li><p>Guarde todos los cambios.</p></li>
+<li><p>Seleccione <strong>Render Website</strong>.</p></li>
+<li><p>Compruebe que el cajón de Zotero aparece correctamente.</p></li>
+<li><p>Compruebe que <strong>Ver práctica →</strong> abre <code>zotero.qmd</code>.</p></li>
+</ol>
+<p>Si todo funciona:</p>
+<ol type="1">
+<li><p>Abra la pestaña <strong>Git</strong> de RStudio.</p></li>
+<li><p>Marque los archivos nuevos o modificados.</p></li>
+<li><p>Seleccione <strong>Commit</strong>.</p></li>
+<li><p>Utilice un mensaje como:</p>
+<p><code>Agregar práctica de Zotero</code></p></li>
+<li><p>Presione <strong>Commit</strong>.</p></li>
+<li><p>Presione <strong>Push</strong>.</p></li>
+<li><p>Abra el sitio web publicado y compruebe que la práctica funciona correctamente.</p></li>
+</ol>
+</section>
+<section id="para-las-próximas-prácticas" class="level3">
+<h3 class="anchored" data-anchor-id="para-las-próximas-prácticas"><strong>Para las próximas prácticas</strong></h3>
+<p>De ahora en adelante utilizaremos siempre el mismo procedimiento:</p>
+<p><strong><code>plantilla.qmd</code> → Save As → completar práctica → Render → agregar al portafolio → Render Website → Commit → Push</strong></p>
+<p>El proyecto de R del curso se utilizará para trabajar con <strong>datos, códigos y análisis</strong>. El portafolio científico se utilizará para presentar y comunicar los <strong>métodos, resultados, figuras, cuadros, interpretaciones y conclusiones</strong> más importantes.</p>
+</section>
 </section>
 <section id="results" class="level2">
 <h2 class="anchored" data-anchor-id="results">Results</h2>
@@ -183,6 +453,9 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="bibliography" class="level2">
 <h2 class="anchored" data-anchor-id="bibliography">Bibliography</h2>
+</section>
+<section id="section" class="level2">
+<h2 class="anchored" data-anchor-id="section"></h2>
 
 
 </section>
