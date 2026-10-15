@@ -149,9 +149,9 @@
   {
     "objectID": "index.html",
     "href": "index.html",
-    "title": "Inicio",
+    "title": "Home",
     "section": "",
-    "text": "Escuela de Ciencias Biológicas\nUniversidad Nacional, Costa Rica\nVer mi perfil\nExplorar mi portafolio"
+    "text": "School of Biological Sciences\nNational University of Costa Rica\nView my profile\nExplore my portfolio"
   },
   {
     "objectID": "index.html#estudiante-de-bachillerato-en-biología",
@@ -495,5 +495,124 @@
     "title": "Downloading Occurrence Records from GBIF and iNaturalist",
     "section": "",
     "text": "Occurrence records show where a species has been observed. They can be used to examine how observations are distributed across different locations and to identify patterns that may help assess whether the species is at risk or whether certain factors influence its distribution.\nThis study examines the geographic distribution of Pulsatrix perspicillata, commonly known in Costa Rica as the spectacled owl, or “oropopo.” To gather as many records as possible, the study uses reliable sources that document biodiversity observations, including iNaturalist and the Global Biodiversity Information Facility (GBIF).\nHowever, occurrence records may contain errors or missing information, which can affect the reliability of a study. It is therefore important to clean the downloaded data and retain accurate, relevant records to support sound interpretation of the results."
+  },
+  {
+    "objectID": "Página.html#objetive",
+    "href": "Página.html#objetive",
+    "title": "Creación de Página Web",
+    "section": "Objetive",
+    "text": "Objetive"
+  },
+  {
+    "objectID": "Página.html#metodology",
+    "href": "Página.html#metodology",
+    "title": "Creación de Página Web",
+    "section": "Metodology",
+    "text": "Metodology"
+  },
+  {
+    "objectID": "Página.html#results",
+    "href": "Página.html#results",
+    "title": "Creación de Página Web",
+    "section": "Results",
+    "text": "Results"
+  },
+  {
+    "objectID": "Página.html#interpretations",
+    "href": "Página.html#interpretations",
+    "title": "Creación de Página Web",
+    "section": "Interpretations",
+    "text": "Interpretations"
+  },
+  {
+    "objectID": "Página.html#conclusions",
+    "href": "Página.html#conclusions",
+    "title": "Creación de Página Web",
+    "section": "Conclusions",
+    "text": "Conclusions"
+  },
+  {
+    "objectID": "Página.html#bibliography",
+    "href": "Página.html#bibliography",
+    "title": "Creación de Página Web",
+    "section": "Bibliography",
+    "text": "Bibliography"
+  },
+  {
+    "objectID": "portfolio.html#laboratory-exercises",
+    "href": "portfolio.html#laboratory-exercises",
+    "title": "Académic Portfolio",
+    "section": "Laboratory Exercises",
+    "text": "Laboratory Exercises\n\n📚 Creación de Página Web\nIntroduction to the Academic Digital Portfolio and Documentation of a Laboratory Exercise Using Quarto\nView Exercise →\n\n\n📚 Managing Bibliographic References with Zotero\nIn this exercise, we will document the creation of a bibliographic library using Zotero and its integration with Microsoft Word.\nView Exercise →\n\n\n📄 Data Organization with Tidyverse\nIntroducción al uso del portafolio digital académico y documentación de una práctica mediante Quarto.\nView Exercise →\n\n\n📚 Downloading Occurrence Records from GBIF and iNaturalist\nIn this exercise, occurrence records will be downloaded directly from GBIF and iNaturalist for the course’s final project.\nView Exercise →\n\n\n📚 Kernel Density\nIn this exercise, kernel density estimation will be used to identify areas with a high concentration of Pulsatrix perspicillata occurrence records.\nView Exercise →\n\n\n📚 Spatial Distribution Patterns in Plant Species\nIn this exercise, we will identify spatial distribution patterns for two plant species: Elephantopus mollis and Rhynchospora nervosa.\nView Exercise →"
+  },
+  {
+    "objectID": "portfolio.html#portfolio-objective",
+    "href": "portfolio.html#portfolio-objective",
+    "title": "Académic Portfolio",
+    "section": "Portfolio Objective",
+    "text": "Portfolio Objective\nMore than a collection of assignments, this portfolio is an organized record of my learning. It documents the procedures, results, and reflections developed throughout the course.\nBy the end of the semester, this site will showcase the growth of my skills in ecological data analysis, R programming, and scientific communication"
+  },
+  {
+    "objectID": "index.html#bachelors-degree-student-in-tropical-biology",
+    "href": "index.html#bachelors-degree-student-in-tropical-biology",
+    "title": "Home",
+    "section": "",
+    "text": "School of Biological Sciences\nNational University of Costa Rica\nView my profile\nExplore my portfolio"
+  },
+  {
+    "objectID": "index.html#welcome",
+    "href": "index.html#welcome",
+    "title": "Home",
+    "section": "Welcome",
+    "text": "Welcome\nThis website is my academic digital portfolio, where I will document the laboratory exercises, projects, analyses, and other work completed during the Population and Community Ecology course.\nThe portfolio uses reproducible science tools such as R, Quarto, Git, and GitHub to organize and share my work professionally."
+  },
+  {
+    "objectID": "index.html#site-contents",
+    "href": "index.html#site-contents",
+    "title": "Home",
+    "section": "Site Contents",
+    "text": "Site Contents\n\n\nProfile\nPersonal information, academic interests, and experience.\nGo to Profile →\n\n\nPortfolio\nA record of the exercises, projects, and work completed during the course.\nView porfolio →\n\n\n\n\nScience only has value when it can be communicated and reproduced."
+  },
+  {
+    "objectID": "index.html#tools-and-affiliation",
+    "href": "index.html#tools-and-affiliation",
+    "title": "Home",
+    "section": "Tools and Affiliation",
+    "text": "Tools and Affiliation\nThis portfolio was created using reproducible science tools.\n\n\n\n\n\nÚltima actualización: 4 de Agosto 2026"
+  },
+  {
+    "objectID": "about.html#bachelors-student-in-tropical-biology",
+    "href": "about.html#bachelors-student-in-tropical-biology",
+    "title": "Profile",
+    "section": "",
+    "text": "School of Biological Sciences / National University of Costa Rica\n\n Correo\n GitHub\n ORCID\n LinkedIn"
+  },
+  {
+    "objectID": "about.html#biography",
+    "href": "about.html#biography",
+    "title": "Profile",
+    "section": "Biography",
+    "text": "Biography\nI am a Tropical Biology undergraduate student with a strong interest in tropical ecology and biodiversity conservation, particularly the study of wild plants and animals. My interests include ornithology, especially birds of prey; mammalogy, particularly felids; entomology, with a focus on beetles; and botany, especially the Araceae family.\nI am also interested in applying geographic information systems (GIS), spatial analysis, and species distribution modeling to understand ecological patterns and support wildlife conservation efforts. My professional goal is to contribute to scientific research and develop solutions that promote the protection and sustainable management of tropical ecosystems."
+  },
+  {
+    "objectID": "about.html#areas-of-interest",
+    "href": "about.html#areas-of-interest",
+    "title": "Profile",
+    "section": "Areas of Interest",
+    "text": "Areas of Interest\n\nEcología\nConservación\nBiodiversidad\nBiogeografía\nManejo de Vida Silvestre\nCiencia de datos\nRestauración Ecológica\nMonitoreo de Biodiversidad\nBotánica"
+  },
+  {
+    "objectID": "about.html#skills",
+    "href": "about.html#skills",
+    "title": "Profile",
+    "section": "Skills",
+    "text": "Skills\n\nR\nQuarto (currently learning)\nGit and GitHub\nGeographic Information Systems (GIS)\nMicrosoft Office\nScientific research\nFieldwork\nEcological sampling\nTropical wildlife identification\nData visualization\nSpecies distribution modeling"
+  },
+  {
+    "objectID": "about.html#education",
+    "href": "about.html#education",
+    "title": "Profile",
+    "section": "Education",
+    "text": "Education\nNational University of Costa Rica (UNA)\nBachelor’s Student in Tropical Biology\n2021 – Presente"
   }
 ]

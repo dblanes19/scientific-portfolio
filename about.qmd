@@ -1,5 +1,5 @@
 ---
-title: "Perfil"
+title: "Profile"
 page-layout: full
 ---
 
@@ -15,10 +15,10 @@ page-layout: full
 
 # Daniela Blanco
 
-## Estudiante de Bachillerato en Biología Tropical
+## Bachelor’s Student in Tropical Biology
 
-Escuela de Ciencias Biológicas  
-Universidad Nacional, Costa Rica
+School of Biological Sciences /
+National University of Costa Rica
 
 ::: {.enlaces-perfil}
 
@@ -38,15 +38,16 @@ Universidad Nacional, Costa Rica
 
 ---
 
-## Biografía
+## Biography
 
-Soy estudiante de bachillerato en Biología Tropical. Interesada en la ecología y conservación de la biodiversidad trópical, con especial atención a la fauna y flora silvestres. Me apasiona la ornitología en especial las aves rapaces, mastozología, en especial los felinos, entomología, los escarabajos y plantas en especial las araceae. Integrando a su vez herramientas como Sistemas de Información Geográfica (SIG), como el análisis espacialy el modelado de distribución de especies para comprender patrones ecológicos y apoyar estrategias de conservación de la vida silvestre.
+I am a Tropical Biology undergraduate student with a strong interest in tropical ecology and biodiversity conservation, particularly the study of wild plants and animals. My interests include ornithology, especially birds of prey; mammalogy, particularly felids; entomology, with a focus on beetles; and botany, especially the Araceae family.
 
-Mi objetivo profesional es contribuir a la investigación científica y al desarrollo de soluciones que favorezcan la protección y el manejo sostenible de los ecosistemas tropicales. 
+I am also interested in applying geographic information systems (GIS), spatial analysis, and species distribution modeling to understand ecological patterns and support wildlife conservation efforts.
+My professional goal is to contribute to scientific research and develop solutions that promote the protection and sustainable management of tropical ecosystems. 
 
 ---
 
-## Áreas de interés
+## Areas of Interest
 
 - Ecología
 - Conservación
@@ -60,26 +61,27 @@ Mi objetivo profesional es contribuir a la investigación científica y al desar
 
 ---
 
-## Habilidades
+## Skills
 
 - R
-- Quarto (en entrenamiento)
-- Git y GitHub
-- Sistemas de Información Geográfica (SIG)
+- Quarto (currently learning)
+- Git and GitHub
+- Geographic Information Systems (GIS)
 - Microsoft Office
-- Investigación Científica
-- Trabajo de Campo
-- Muestreo Ecológico 
-- Identificación de Fauna Tropical
-- Visualización de Datos 
-- Modelado de distribución de especies
+- Scientific research
+- Fieldwork
+- Ecological sampling
+- Tropical wildlife identification
+- Data visualization
+- Species distribution modeling
+
 
 ---
 
-## Formación académica
+## Education
 
-**Universidad Nacional (UNA)**
+**National University of Costa Rica (UNA)**
 
-Bachillerato en Biología Tropical
+Bachelor’s Student in Tropical Biology
 
 *2021 – Presente*

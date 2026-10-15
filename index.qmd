@@ -1,5 +1,5 @@
 ---
-title: "Inicio"
+title: "Home"
 page-layout: full
 ---
 
@@ -7,13 +7,13 @@ page-layout: full
 ::: hero-texto
 # Daniela Blanco
 
-## Estudiante de Bachillerato en Biología Tropical
+## Bachelor’s Degree Student in Tropical Biology
 
-Escuela de Ciencias Biológicas\
-Universidad Nacional, Costa Rica
+School of Biological Sciences\
+National University of Costa Rica
 
-[Ver mi perfil](about.qmd){.btn-portada}\
-[Explorar mi portafolio](portfolio.qmd){.btn-portada .btn-secundario}
+[View my profile](about.qmd){.btn-portada}\
+[Explore my portfolio](portfolio.qmd){.btn-portada .btn-secundario}
 :::
 
 ::: hero-imagen
@@ -22,42 +22,42 @@ Universidad Nacional, Costa Rica
 :::::
 
 ::: bloque-bienvenida
-## Bienvenido(a)
+## Welcome
 
-Este sitio web constituye mi **portafolio digital académico**, donde documentaré las prácticas de laboratorio, proyectos, análisis y productos desarrollados durante el curso **Ecología de Poblaciones y Comunidades**.
+This website is my **academic digital portfolio**, where I will document the laboratory exercises, projects, analyses, and other work completed during the **Population and Community Ecology** course.
 
-Este portafolio utiliza herramientas de ciencia reproducible como **R**, **Quarto**, **Git** y **GitHub**, permitiendo organizar y compartir mi trabajo de manera profesional.
+The portfolio uses reproducible science tools such as **R**, **Quarto**, **Git**, and **GitHub** to organize and share my work professionally.
 :::
 
-## Contenido del sitio
+## Site Contents
 
 ::::: tarjetas-inicio
 ::: tarjeta-inicio
-### Perfil
+### Profile
 
-Información personal, intereses académicos y experiencia.
+Personal information, academic interests, and experience.
 
-[Ir al perfil →](about.qmd)
+[Go to Profile →](about.qmd)
 :::
 
 ::: tarjeta-inicio
-### Portafolio
+### Portfolio
 
-Registro de las prácticas, proyectos y productos desarrollados durante el semestre.
+A record of the exercises, projects, and work completed during the course.
 
-[Ver el portafolio →](portfolio.qmd)
+[View porfolio →](portfolio.qmd)
 :::
 :::::
 
 ::: mensaje-final
-> *La ciencia solo adquiere valor cuando puede ser comunicada y reproducida.*
+> *Science only has value when it can be communicated and reproduced.*
 :::
 
 ------------------------------------------------------------------------
 
-## Herramientas y afiliación
+## Tools and Affiliation
 
-Este portafolio fue desarrollado con herramientas de ciencia reproducible.
+This portfolio was created using reproducible science tools.
 
 ::: {.logos-portada}
 

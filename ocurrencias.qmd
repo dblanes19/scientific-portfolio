@@ -30,7 +30,7 @@ The occurrence coordinates were converted into spatial objects and overlaid with
 
 ![Figure 3. Cantidad de observaciones por cantón en Costa Rica.](images/pulsatrix_perspicillata_observation_cantones.jpg)
 
-![Figure 4. A Species Distribution Study Using iNaturalist and GBIF Data: Pulsatrix perspicillata](images/Pulsatrix perspicillata .jpeg)
+![Figure 4. A Species Distribution Study Using iNaturalist and GBIF Data: Pulsatrix perspicillata](images/Pulsatrix%20perspicillata%20.jpeg)
 
 ## Interpretations
 
