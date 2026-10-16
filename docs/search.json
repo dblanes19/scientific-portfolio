@@ -499,42 +499,42 @@
   {
     "objectID": "Página.html#objetive",
     "href": "Página.html#objetive",
-    "title": "Gestión de referencias bibliográficas con Zotero",
+    "title": "Creating and Integrating Quarto Pages into the Scientific Portfolio",
     "section": "Objetive",
     "text": "Objetive\n\nCreate a basic Quarto template for documenting course exercises.\nCreate new pages from the template without modifying the original file.\nUse Visual Mode to edit Quarto documents.\nAdd text, figures, and tables.\nAdd references generated with Zotero.\nRender a Quarto page.\nIntegrate a new page into the scientific portfolio.\nPublish changes using Git and GitHub Pages."
   },
   {
     "objectID": "Página.html#metodology",
     "href": "Página.html#metodology",
-    "title": "Gestión de referencias bibliográficas con Zotero",
+    "title": "Creating and Integrating Quarto Pages into the Scientific Portfolio",
     "section": "Metodology",
     "text": "Metodology\nEsta práctica se divide en cuatro partes:\n\nParte I: Crear la plantilla de las prácticas\nPaso I: Abrir el proyecto del portafolio.\n\nAbrir el proyecto Scientific-portpolio\nAbrir GitHub simultaneamente\nDesde el panel files en el proyecto Scientific-portfolio de RStudio comprobar que están los archivos:\n\n_quarto.yml\nindex.qmd\nabout.qmd\nportfolio.qmd o portafolio.qmd\ncarpeta images\n\n\n*Todo esto debe crearse dentro del proyecto asociado a la página Web Scientific-portfolio.\nPaso II: Crear nuevo documento Quarto\n\nIr a File &gt; New File &gt; Quarto Document\n\nEn la ventana que aparece:\n\nSeleccione Document.\nEn Title, escriba:\n\nTítulo de la práctica\n\nEn Author, escriba su nombre.\nSeleccione HTML.\nSeleccione Visual como editor, si aparece esta opción.\nPresione Create.\n\nPaso III: Guardar el archivo como plantilla\nSeleccione:\nFile → Save As\nGuarde el archivo con el nombre:\nplantilla.qmd\nEl archivo debe quedar dentro de la carpeta principal del proyecto del sitio web.\n* Utilice nombres de archivos sencillos, sin espacios, tildes ni caracteres especiales.\nPaso IV: Trabajar en Visual Mode\nCompruebe que se encuentra trabajando en Visual Mode.\nSi fuera necesario, seleccione Visual en la parte superior del editor.\nVisual Mode permite editar el documento de manera similar a Microsoft Word.\nPaso V: Construir la Estructura de la Plantilla\nDebajo del título del documento agregue las siguientes secciones utilizando Heading 2.\nAquí se introducen los apartados del documento, tales como:\n\nIntroduction\n\nBreve descripción del tema de la práctica y su importancia.\n\nObjetive\n\nIndique el objetivo principal de la práctica.\n\nMetodology\n\nDescriba brevemente las actividades realizadas y los métodos utilizados.\nNo es necesario incluir todos los códigos de R utilizados durante el laboratorio.\n\nResultados\n\nPresente los principales resultados obtenidos durante la práctica.\nEsta sección puede incluir:\n\ntexto;\nfiguras;\nfotografías;\ngráficos;\nmapas;\ncuadros.\n\n\nInterpretations\n\nExplique qué significan los resultados obtenidos.\nConsidere preguntas como:\n\n¿Cuál fue el patrón más importante?\n¿Qué indican las figuras o cuadros?\n¿Cómo se relacionan los resultados con el objetivo de la práctica?\n\n\nConclusions\n\nResuma brevemente las principales conclusiones o aprendizajes de la práctica.\n\nBibliography\n\nResuma brevemente las principales conclusiones o aprendizajes de la práctica.\n\n\nPaso VI: Guardar Plantilla\nGuarde los cambios:\nCtrl + S\nAl finalizar debe existir el archivo:\nplantilla.qmd\nImportante: plantilla.qmd será nuestro archivo original. De ahora en adelante no escribiremos directamente sobre esta plantilla. Para cada nueva práctica crearemos una copia.\n\n\nParte II: Crear una práctica a partir de la Plantilla\nAhora utilizaremos plantilla.qmd para crear la página correspondiente a la práctica de Zotero realizada la semana anterior.\n\nAbra plantilla.qmd.\nSeleccione File → Save As.\nGuarde la copia con el nombre:\nzotero.qmd\nCompruebe que está trabajando en Visual Mode.\nCambie el título por:\nGestión de referencias bibliográficas con Zotero\nComplete brevemente las secciones de la plantilla utilizando el trabajo realizado durante la práctica anterior.\nImportante: no modifique plantilla.qmd. Esta se conservará para crear las próximas prácticas.\n\nInsertar figuras\nSe incorpora una figura sencilla para prácticar la inserción de imágenes en Quarto.\n\nAbra Zotero y seleccione la colección creada durante la práctica anterior.\nTome una captura de pantalla donde se observe la colección y algunas de las referencias incorporadas.\nGuarde la imagen dentro de la carpeta images del proyecto del sitio web con el nombre:\nzotero_biblioteca.png\nRegrese a zotero.qmd y coloque el cursor en la sección Resultados.\nEn Visual Mode, seleccione Insert → Figure.\nSeleccione zotero_biblioteca.png.\nAgregue como pie de figura:\nEjemplo de una colección de referencias bibliográficas organizada en Zotero.\n\nCompruebe que la figura aparece correctamente en el documento."
   },
   {
     "objectID": "Página.html#results",
     "href": "Página.html#results",
-    "title": "Gestión de referencias bibliográficas con Zotero",
+    "title": "Creating and Integrating Quarto Pages into the Scientific Portfolio",
     "section": "Results",
     "text": "Results"
   },
   {
     "objectID": "Página.html#interpretations",
     "href": "Página.html#interpretations",
-    "title": "Gestión de referencias bibliográficas con Zotero",
+    "title": "Creating and Integrating Quarto Pages into the Scientific Portfolio",
     "section": "Interpretations",
     "text": "Interpretations"
   },
   {
     "objectID": "Página.html#conclusions",
     "href": "Página.html#conclusions",
-    "title": "Gestión de referencias bibliográficas con Zotero",
+    "title": "Creating and Integrating Quarto Pages into the Scientific Portfolio",
     "section": "Conclusions",
     "text": "Conclusions"
   },
   {
     "objectID": "Página.html#bibliography",
     "href": "Página.html#bibliography",
-    "title": "Gestión de referencias bibliográficas con Zotero",
+    "title": "Creating and Integrating Quarto Pages into the Scientific Portfolio",
     "section": "Bibliography",
     "text": "Bibliography"
   },
@@ -543,7 +543,7 @@
     "href": "portfolio.html#laboratory-exercises",
     "title": "Académic Portfolio",
     "section": "Laboratory Exercises",
-    "text": "Laboratory Exercises\n\n📚 Website creation\nIntroduction to the Academic Digital Portfolio and Documentation of a Laboratory Exercise Using Quarto\nView Exercise →\n\n\n📚 Managing Bibliographic References with Zotero\nIn this exercise, we will document the creation of a bibliographic library using Zotero and its integration with Microsoft Word.\nView Exercise →\n\n\n📄 Data Organization with Tidyverse\nIntroducción al uso del portafolio digital académico y documentación de una práctica mediante Quarto.\nView Exercise →\n\n\n📚 Downloading Occurrence Records from GBIF and iNaturalist\nIn this exercise, occurrence records will be downloaded directly from GBIF and iNaturalist for the course’s final project.\nView Exercise →\n\n\n📚 Kernel Density\nIn this exercise, kernel density estimation will be used to identify areas with a high concentration of Pulsatrix perspicillata occurrence records.\nView Exercise →\n\n\n📚 Spatial Distribution Patterns in Plant Species\nIn this exercise, we will identify spatial distribution patterns for two plant species: Elephantopus mollis and Rhynchospora nervosa.\nView Exercise →"
+    "text": "Laboratory Exercises\n\n📚 Creating and Integrating Quarto Pages into the Scientific Portfolio\nIntroduction to the Academic Digital Portfolio and Documentation of a Laboratory Exercise Using Quarto\nView Exercise →\n\n\n📚 Managing Bibliographic References with Zotero\nIn this exercise, we will document the creation of a bibliographic library using Zotero and its integration with Microsoft Word.\nView Exercise →\n\n\n📄 Data Organization with Tidyverse\nIntroducción al uso del portafolio digital académico y documentación de una práctica mediante Quarto.\nView Exercise →\n\n\n📚 Downloading Occurrence Records from GBIF and iNaturalist\nIn this exercise, occurrence records will be downloaded directly from GBIF and iNaturalist for the course’s final project.\nView Exercise →\n\n\n📚 Kernel Density\nIn this exercise, kernel density estimation will be used to identify areas with a high concentration of Pulsatrix perspicillata occurrence records.\nView Exercise →\n\n\n📚 Spatial Distribution Patterns in Plant Species\nIn this exercise, we will identify spatial distribution patterns for two plant species: Elephantopus mollis and Rhynchospora nervosa.\nView Exercise →"
   },
   {
     "objectID": "portfolio.html#portfolio-objective",
@@ -618,7 +618,7 @@
   {
     "objectID": "Página.html#insertar-cuadros",
     "href": "Página.html#insertar-cuadros",
-    "title": "Gestión de referencias bibliográficas con Zotero",
+    "title": "Creating and Integrating Quarto Pages into the Scientific Portfolio",
     "section": "Insertar cuadros",
     "text": "Insertar cuadros\nEn la sección Resultados, debajo de la figura, inserte un cuadro para resumir las formas de incorporar referencias utilizadas durante la práctica.\n\nEn Visual Mode, seleccione Insert → Table.\nCree un cuadro de 2 columnas y 5 filas.\nComplete el cuadro de la siguiente manera:\n\n\n\n\n\n\n\n\nMétodo\n¿Cuándo utilizarlo?\n\n\n\n\nDOI\nCuando la publicación tiene un DOI conocido\n\n\nArchivo RIS\nCuando la revista o base de datos permite exportar la referencia\n\n\nZotero Connector\nPara capturar referencias directamente desde el navegador\n\n\nEntrada manual\nCuando la información no puede importarse automáticamente\n\n\n\n\nAgregue como título:\nMétodos utilizados para incorporar referencias bibliográficas a Zotero.\n\n\nParte III: Incorporar las referencias de Zotero.\nAhora utilizaremos las referencias trabajadas durante la práctica anterior para insertar citas en zotero.qmd.\nExportar referencias\n\nAbra Zotero.\nSeleccione la colección utilizada durante la práctica.\nHaga clic derecho sobre la colección y seleccione Export Collection.\nSeleccione el formato BibTeX.\nGuarde el archivo dentro del proyecto del sitio web con el nombre:\nreferencias.bib\nRegrese a RStudio y compruebe en el panel Files que aparece el archivo:\nreferencias.bib\n*No continuar hasta comprobar que referencias.bib aparece en el panel Files.\n\nConectar Referencias con Zotero.qmd\nUna vez que referencias.bib existe dentro del proyecto:\n\nAbra zotero.qmd.\nCambie momentáneamente de Visual a Source.\nLocalice el encabezado YAML que aparece al inicio del documento.\nAgregue la siguiente línea antes de format:\n\nbibliography: referencias.bib\nEjemplo:\n\nGuarde el archivo.\nRegrese a Visual Mode.\n*Esta modificación se realiza en zotero.qmd, no en plantilla.qmd.\n\nInsertar Citas\n\nColoque el cursor en el texto donde desea insertar una referencia.\nEn Visual Mode, seleccione Insert → Citation.\nBusque la referencia correspondiente.\nSelecciónela e inserte la cita.\n\nInserte al menos una referencia utilizada durante la práctica.\nPresione Render y compruebe que la cita y la bibliografía aparecen correctamente.\n\n\nParte IV: Integrar la Práctica al Portafolio\nAhora conectaremos zotero.qmd con el cajón que ya existe en el sitio web.\n\nAbra portafolio.qmd.\nLocalice el cajón:\nGestión de referencias bibliográficas con Zotero\nElimine el texto Disponible próximamente.\nAgregue una descripción breve de la práctica.\nEscriba:\nVer práctica →\nSeleccione Ver práctica → y utilice la herramienta para insertar un enlace.\nEnlace el texto con:\nzotero.qmd\nElimine el cajón Próximas prácticas, ya que a partir de ahora las prácticas reales se irán incorporando al portafolio.\n\n\n\nParte V: Actualizar y Publicar el sitio\n\nGuarde todos los cambios.\nSeleccione Render Website.\nCompruebe que el cajón de Zotero aparece correctamente.\nCompruebe que Ver práctica → abre zotero.qmd.\n\nSi todo funciona:\n\nAbra la pestaña Git de RStudio.\nMarque los archivos nuevos o modificados.\nSeleccione Commit.\nUtilice un mensaje como:\nAgregar práctica de Zotero\nPresione Commit.\nPresione Push.\nAbra el sitio web publicado y compruebe que la práctica funciona correctamente.\n\n\n\nPara las próximas prácticas\nDe ahora en adelante utilizaremos siempre el mismo procedimiento:\nplantilla.qmd → Save As → completar práctica → Render → agregar al portafolio → Render Website → Commit → Push\nEl proyecto de R del curso se utilizará para trabajar con datos, códigos y análisis. El portafolio científico se utilizará para presentar y comunicar los métodos, resultados, figuras, cuadros, interpretaciones y conclusiones más importantes."
   }
