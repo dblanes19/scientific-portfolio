@@ -53,6 +53,14 @@ In this activity, we constructed and compared life tables using mortality record
 :::
 
 ::: portfolio-item
+### 📚 Geographic and Administrative Distribution of *Pulsatrix perspicillata*
+
+This section presents the geographic distribution of *Pulsatrix perspicillata* in Costa Rica and summarizes occurrence records by province and canton..
+
+[View Exercise →](administrativa.qmd)
+:::
+
+::: portfolio-item
 ### 📚 Kernel Density
 
 In this exercise, kernel density estimation will be used to identify areas with a high concentration of *Pulsatrix perspicillata* occurrence records.

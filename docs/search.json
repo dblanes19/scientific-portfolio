@@ -543,7 +543,7 @@
     "href": "portfolio.html#laboratory-exercises",
     "title": "Académic Portfolio",
     "section": "Laboratory Exercises",
-    "text": "Laboratory Exercises\n\n📚 Creating and Integrating Quarto Pages into the Scientific Portfolio\nIntroduction to the Academic Digital Portfolio and Documentation of a Laboratory Exercise Using Quarto\nView Exercise →\n\n\n📚 Managing Bibliographic References with Zotero\nIn this exercise, we will document the creation of a bibliographic library using Zotero and its integration with Microsoft Word.\nView Exercise →\n\n\n📄 Data Organization with Tidyverse\nIntroducción al uso del portafolio digital académico y documentación de una práctica mediante Quarto.\nView Exercise →\n\n\n📚 Downloading Occurrence Records from GBIF and iNaturalist\nIn this exercise, occurrence records will be downloaded directly from GBIF and iNaturalist for the course’s final project.\nView Exercise →\n\n\n📚 Life Table Construction\nIn this activity, we constructed and compared life tables using mortality records from cemeteries in Heredia and San José. The analysis helped us examine differences in survival and mortality patterns between the two populations.\nView Exercise →\n\n\n📚 Kernel Density\nIn this exercise, kernel density estimation will be used to identify areas with a high concentration of Pulsatrix perspicillata occurrence records.\nView Exercise →\n\n\n📚 Spatial Distribution Patterns in Plant Species\nIn this exercise, we will identify spatial distribution patterns for two plant species: Elephantopus mollis and Rhynchospora nervosa.\nView Exercise →"
+    "text": "Laboratory Exercises\n\n📚 Creating and Integrating Quarto Pages into the Scientific Portfolio\nIntroduction to the Academic Digital Portfolio and Documentation of a Laboratory Exercise Using Quarto\nView Exercise →\n\n\n📚 Managing Bibliographic References with Zotero\nIn this exercise, we will document the creation of a bibliographic library using Zotero and its integration with Microsoft Word.\nView Exercise →\n\n\n📄 Data Organization with Tidyverse\nIntroducción al uso del portafolio digital académico y documentación de una práctica mediante Quarto.\nView Exercise →\n\n\n📚 Downloading Occurrence Records from GBIF and iNaturalist\nIn this exercise, occurrence records will be downloaded directly from GBIF and iNaturalist for the course’s final project.\nView Exercise →\n\n\n📚 Life Table Construction\nIn this activity, we constructed and compared life tables using mortality records from cemeteries in Heredia and San José. The analysis helped us examine differences in survival and mortality patterns between the two populations.\nView Exercise →\n\n\n📚 Geographic and Administrative Distribution of Pulsatrix perspicillata\nIn this exercise, kernel density estimation will be used to identify areas with a high concentration of Pulsatrix perspicillata occurrence records.\nView Exercise →\n\n\n📚 Kernel Density\nIn this exercise, kernel density estimation will be used to identify areas with a high concentration of Pulsatrix perspicillata occurrence records.\nView Exercise →\n\n\n📚 Spatial Distribution Patterns in Plant Species\nIn this exercise, we will identify spatial distribution patterns for two plant species: Elephantopus mollis and Rhynchospora nervosa.\nView Exercise →"
   },
   {
     "objectID": "portfolio.html#portfolio-objective",
@@ -675,6 +675,48 @@
     "objectID": "cementerio.html#bibliography",
     "href": "cementerio.html#bibliography",
     "title": "Life Table Construction",
+    "section": "Bibliography",
+    "text": "Bibliography"
+  },
+  {
+    "objectID": "administrativa.html#objetive",
+    "href": "administrativa.html#objetive",
+    "title": "Geographic and Administrative Distribution of Pulsatrix perspicillata",
+    "section": "Objetive",
+    "text": "Objetive"
+  },
+  {
+    "objectID": "administrativa.html#metodology",
+    "href": "administrativa.html#metodology",
+    "title": "Geographic and Administrative Distribution of Pulsatrix perspicillata",
+    "section": "Metodology",
+    "text": "Metodology"
+  },
+  {
+    "objectID": "administrativa.html#results",
+    "href": "administrativa.html#results",
+    "title": "Geographic and Administrative Distribution of Pulsatrix perspicillata",
+    "section": "Results",
+    "text": "Results"
+  },
+  {
+    "objectID": "administrativa.html#interpretations",
+    "href": "administrativa.html#interpretations",
+    "title": "Geographic and Administrative Distribution of Pulsatrix perspicillata",
+    "section": "Interpretations",
+    "text": "Interpretations"
+  },
+  {
+    "objectID": "administrativa.html#conclusions",
+    "href": "administrativa.html#conclusions",
+    "title": "Geographic and Administrative Distribution of Pulsatrix perspicillata",
+    "section": "Conclusions",
+    "text": "Conclusions"
+  },
+  {
+    "objectID": "administrativa.html#bibliography",
+    "href": "administrativa.html#bibliography",
+    "title": "Geographic and Administrative Distribution of Pulsatrix perspicillata",
     "section": "Bibliography",
     "text": "Bibliography"
   }
