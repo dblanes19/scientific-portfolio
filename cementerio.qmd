@@ -20,21 +20,21 @@ Data collected by the groups were combined into a class dataset of approximately
 
 ## Results
 
-![Figure 1. Representation of quartiles, the medianm and the number of individuals by sex.](images/Curvas_supervivencia.png){fig-align="center"}
+![Figure 1. A theorical curve showing the proportion of individuals surviving over the course of their lifespan.](images/Curvas_supervivencia.png){fig-align="center"}
 
 | Sex    | n    | median | q1  | q3  |
 |--------|------|--------|-----|-----|
 | Female | 1311 | 77     | 61  | 86  |
 | Male   | 1452 | 68     | 48  | 80  |
 
-: Table 1. Representation of quartiles, the median and the number of individuals by study site.
+: Table 1. Representation of quartiles, the median and the number of individuals by study sex.
 
 | Site     | n    | mediab | q1  | q3  |
 |----------|------|--------|-----|-----|
 | Heredia  | 1403 | 72     | 54  | 84  |
 | San José | 1360 | 72     | 54  | 84  |
 
-: Table 2.
+: Table 2. . Representation of quartiles, the medianm and the number of individuals by site
 
 ## Interpretations
 
