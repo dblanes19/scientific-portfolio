@@ -219,7 +219,7 @@ En la sección **Resultados**, debajo de la figura, inserte un cuadro para resum
 3.  Complete el cuadro de la siguiente manera:
 
 | Método | ¿Cuándo utilizarlo? |
-|------------------------------------|------------------------------------|
+|----|----|
 | DOI | Cuando la publicación tiene un DOI conocido |
 | Archivo RIS | Cuando la revista o base de datos permite exportar la referencia |
 | Zotero Connector | Para capturar referencias directamente desde el navegador |

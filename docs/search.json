@@ -543,7 +543,7 @@
     "href": "portfolio.html#laboratory-exercises",
     "title": "Académic Portfolio",
     "section": "Laboratory Exercises",
-    "text": "Laboratory Exercises\n\n📚 Creating and Integrating Quarto Pages into the Scientific Portfolio\nIntroduction to the Academic Digital Portfolio and Documentation of a Laboratory Exercise Using Quarto\nView Exercise →\n\n\n📚 Managing Bibliographic References with Zotero\nIn this exercise, we will document the creation of a bibliographic library using Zotero and its integration with Microsoft Word.\nView Exercise →\n\n\n📄 Data Organization with Tidyverse\nIntroducción al uso del portafolio digital académico y documentación de una práctica mediante Quarto.\nView Exercise →\n\n\n📚 Downloading Occurrence Records from GBIF and iNaturalist\nIn this exercise, occurrence records will be downloaded directly from GBIF and iNaturalist for the course’s final project.\nView Exercise →\n\n\n📚 Kernel Density\nIn this exercise, kernel density estimation will be used to identify areas with a high concentration of Pulsatrix perspicillata occurrence records.\nView Exercise →\n\n\n📚 Spatial Distribution Patterns in Plant Species\nIn this exercise, we will identify spatial distribution patterns for two plant species: Elephantopus mollis and Rhynchospora nervosa.\nView Exercise →"
+    "text": "Laboratory Exercises\n\n📚 Creating and Integrating Quarto Pages into the Scientific Portfolio\nIntroduction to the Academic Digital Portfolio and Documentation of a Laboratory Exercise Using Quarto\nView Exercise →\n\n\n📚 Managing Bibliographic References with Zotero\nIn this exercise, we will document the creation of a bibliographic library using Zotero and its integration with Microsoft Word.\nView Exercise →\n\n\n📄 Data Organization with Tidyverse\nIntroducción al uso del portafolio digital académico y documentación de una práctica mediante Quarto.\nView Exercise →\n\n\n📚 Downloading Occurrence Records from GBIF and iNaturalist\nIn this exercise, occurrence records will be downloaded directly from GBIF and iNaturalist for the course’s final project.\nView Exercise →\n\n\n📚 Life Table Construction\nIn this activity, we constructed and compared life tables using mortality records from cemeteries in Heredia and San José. The analysis helped us examine differences in survival and mortality patterns between the two populations.\nView Exercise →\n\n\n📚 Kernel Density\nIn this exercise, kernel density estimation will be used to identify areas with a high concentration of Pulsatrix perspicillata occurrence records.\nView Exercise →\n\n\n📚 Spatial Distribution Patterns in Plant Species\nIn this exercise, we will identify spatial distribution patterns for two plant species: Elephantopus mollis and Rhynchospora nervosa.\nView Exercise →"
   },
   {
     "objectID": "portfolio.html#portfolio-objective",
@@ -621,5 +621,61 @@
     "title": "Creating and Integrating Quarto Pages into the Scientific Portfolio",
     "section": "Insertar cuadros",
     "text": "Insertar cuadros\nEn la sección Resultados, debajo de la figura, inserte un cuadro para resumir las formas de incorporar referencias utilizadas durante la práctica.\n\nEn Visual Mode, seleccione Insert → Table.\nCree un cuadro de 2 columnas y 5 filas.\nComplete el cuadro de la siguiente manera:\n\n\n\n\n\n\n\n\nMétodo\n¿Cuándo utilizarlo?\n\n\n\n\nDOI\nCuando la publicación tiene un DOI conocido\n\n\nArchivo RIS\nCuando la revista o base de datos permite exportar la referencia\n\n\nZotero Connector\nPara capturar referencias directamente desde el navegador\n\n\nEntrada manual\nCuando la información no puede importarse automáticamente\n\n\n\n\nAgregue como título:\nMétodos utilizados para incorporar referencias bibliográficas a Zotero.\n\n\nParte III: Incorporar las referencias de Zotero.\nAhora utilizaremos las referencias trabajadas durante la práctica anterior para insertar citas en zotero.qmd.\nExportar referencias\n\nAbra Zotero.\nSeleccione la colección utilizada durante la práctica.\nHaga clic derecho sobre la colección y seleccione Export Collection.\nSeleccione el formato BibTeX.\nGuarde el archivo dentro del proyecto del sitio web con el nombre:\nreferencias.bib\nRegrese a RStudio y compruebe en el panel Files que aparece el archivo:\nreferencias.bib\n*No continuar hasta comprobar que referencias.bib aparece en el panel Files.\n\nConectar Referencias con Zotero.qmd\nUna vez que referencias.bib existe dentro del proyecto:\n\nAbra zotero.qmd.\nCambie momentáneamente de Visual a Source.\nLocalice el encabezado YAML que aparece al inicio del documento.\nAgregue la siguiente línea antes de format:\n\nbibliography: referencias.bib\nEjemplo:\n\nGuarde el archivo.\nRegrese a Visual Mode.\n*Esta modificación se realiza en zotero.qmd, no en plantilla.qmd.\n\nInsertar Citas\n\nColoque el cursor en el texto donde desea insertar una referencia.\nEn Visual Mode, seleccione Insert → Citation.\nBusque la referencia correspondiente.\nSelecciónela e inserte la cita.\n\nInserte al menos una referencia utilizada durante la práctica.\nPresione Render y compruebe que la cita y la bibliografía aparecen correctamente.\n\n\nParte IV: Integrar la Práctica al Portafolio\nAhora conectaremos zotero.qmd con el cajón que ya existe en el sitio web.\n\nAbra portafolio.qmd.\nLocalice el cajón:\nGestión de referencias bibliográficas con Zotero\nElimine el texto Disponible próximamente.\nAgregue una descripción breve de la práctica.\nEscriba:\nVer práctica →\nSeleccione Ver práctica → y utilice la herramienta para insertar un enlace.\nEnlace el texto con:\nzotero.qmd\nElimine el cajón Próximas prácticas, ya que a partir de ahora las prácticas reales se irán incorporando al portafolio.\n\n\n\nParte V: Actualizar y Publicar el sitio\n\nGuarde todos los cambios.\nSeleccione Render Website.\nCompruebe que el cajón de Zotero aparece correctamente.\nCompruebe que Ver práctica → abre zotero.qmd.\n\nSi todo funciona:\n\nAbra la pestaña Git de RStudio.\nMarque los archivos nuevos o modificados.\nSeleccione Commit.\nUtilice un mensaje como:\nAgregar práctica de Zotero\nPresione Commit.\nPresione Push.\nAbra el sitio web publicado y compruebe que la práctica funciona correctamente.\n\n\n\nPara las próximas prácticas\nDe ahora en adelante utilizaremos siempre el mismo procedimiento:\nplantilla.qmd → Save As → completar práctica → Render → agregar al portafolio → Render Website → Commit → Push\nEl proyecto de R del curso se utilizará para trabajar con datos, códigos y análisis. El portafolio científico se utilizará para presentar y comunicar los métodos, resultados, figuras, cuadros, interpretaciones y conclusiones más importantes."
+  },
+  {
+    "objectID": "cementerio.html",
+    "href": "cementerio.html",
+    "title": "Life Table Construction",
+    "section": "",
+    "text": "Life tables are valuable tools in population ecology for organizing and analyzing demographic data throughout individuals’ lifespans. They can record variables such as the number of individuals surviving at different ages or life stages, as well as patterns of mortality and survival. This information can be used to assess how the probability of survival changes as individuals age and to represent these patterns with survival curves."
+  },
+  {
+    "objectID": "cementerio.html#introduction",
+    "href": "cementerio.html#introduction",
+    "title": "Life Table Construction",
+    "section": "",
+    "text": "Life tables are valuable tools in population ecology for organizing and analyzing demographic data throughout individuals’ lifespans. They can record variables such as the number of individuals surviving at different ages or life stages, as well as patterns of mortality and survival. This information can be used to assess how the probability of survival changes as individuals age and to represent these patterns with survival curves."
+  },
+  {
+    "objectID": "cementerio.html#objetive",
+    "href": "cementerio.html#objetive",
+    "title": "Life Table Construction",
+    "section": "Objetive",
+    "text": "Objetive\nThe objective of this exercise was to construct and analyze life tables using human mortality records from cemeteries in Heredia and San José. We aimed to characterize survival patterns, assess how well they correspond to the theoretical Type I, Type II, and Type III survivorship models, and determine whether the distribution of ages at death differs between the two locations. The study addressed the following questions: What survival pattern is shown by the mortality records from the populations studied? Does the distribution of ages at death differ between Heredia and San José?"
+  },
+  {
+    "objectID": "cementerio.html#metodology",
+    "href": "cementerio.html#metodology",
+    "title": "Life Table Construction",
+    "section": "Metodology",
+    "text": "Metodology\nThe fieldwork was conducted at the General Cemetery in San José, Costa Rica, in August 2026. Students systematically sampled graves and recorded each person’s sex, birth year, and death year from the headstones. Only records with all three variables were included, and each person was treated as a separate record, even when multiple people were listed on the same grave.\nData collected by the groups were combined into a class dataset of approximately 1,500–2,000 records using Epicollect5. The Heredia dataset was provided by the instructor and had been collected using a similar method in 2025."
+  },
+  {
+    "objectID": "cementerio.html#results",
+    "href": "cementerio.html#results",
+    "title": "Life Table Construction",
+    "section": "Results",
+    "text": "Results\n\n\n\nFigure 1.\n\n\n\nTable 1.\n\n\nSex\nn\nmedian\nq1\nq3\n\n\n\n\nFemale\n1311\n77\n61\n86\n\n\nMale\n1452\n68\n48\n80\n\n\n\n\nTable 2.\n\n\nSite\nn\nmediab\nq1\nq3\n\n\n\n\nHeredia\n1403\n72\n54\n84\n\n\nSan José\n1360\n72\n54\n84"
+  },
+  {
+    "objectID": "cementerio.html#interpretations",
+    "href": "cementerio.html#interpretations",
+    "title": "Life Table Construction",
+    "section": "Interpretations",
+    "text": "Interpretations"
+  },
+  {
+    "objectID": "cementerio.html#conclusions",
+    "href": "cementerio.html#conclusions",
+    "title": "Life Table Construction",
+    "section": "Conclusions",
+    "text": "Conclusions"
+  },
+  {
+    "objectID": "cementerio.html#bibliography",
+    "href": "cementerio.html#bibliography",
+    "title": "Life Table Construction",
+    "section": "Bibliography",
+    "text": "Bibliography"
   }
 ]
