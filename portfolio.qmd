@@ -61,7 +61,15 @@ This section presents the geographic distribution of *Pulsatrix perspicillata* i
 :::
 
 ::: portfolio-item
-### 📚 Kernel Density
+### 📚 Two-Dimensional Ecological Niche of *Pulsatrix perspicillata*
+
+This section presents a two-dimensional representation of the ecological niche of *Pulsatrix perspicillata*, showing how its occurrence records relate to two selected environmental variables.
+
+[View Exercise →](niche.qmd)
+:::
+
+::: portfolio-item
+### 📚 Kernel Density Estimation (KDE) of *Pulsatrix perspicillata*
 
 In this exercise, kernel density estimation will be used to identify areas with a high concentration of *Pulsatrix perspicillata* occurrence records.
 

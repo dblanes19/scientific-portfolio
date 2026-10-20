@@ -1,5 +1,5 @@
 ---
-title: "Kernel Density"
+title: "Kernel Density Estimation (KDE) of *Pulsatrix perspicillata*"
 author: "Daniela Blanco"
 editor: visual
 ---
