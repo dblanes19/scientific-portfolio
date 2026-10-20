@@ -20,13 +20,13 @@ The exercise was conducted in RStudio using functions from packages such as **ti
 
 In the meteorological dataset, the March data were distributed across several columns. We reorganized the data so that each daily observation occupied one row. We then combined the year (2010–2020) and day to create a date, separated maximum and minimum temperatures, and converted several variables to numeric values. After cleaning and transforming the data, we calculated average temperature, precipitation, and snowfall for each station.
 
-#### Ungulate data 
+#### Ungulate data
 
 In the ungulate dataset, we created a date from the year, month, and day columns. We also combined the genus and species columns into a single scientific-name column and separated the taxonomic information into class, order, and family. Finally, we counted the number of observations for each species, created a taxonomic table, and plotted the number of observations by species.
 
 ## Results
 
-![Figure 1. Average temperature by station.](images/temperature.jpg){alt="Figure 2. Tempertatura promedio según estaciones."}
+![Figure 2. Tempertatura promedio según estaciones.](images/temperature.jpg)
 
 ![Figure 2. Number of observations by ungulate species in Angola.](images/ungulate_observations.jpg)
 

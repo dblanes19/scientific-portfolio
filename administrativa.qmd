@@ -12,9 +12,9 @@ editor: visual
 
 ## Results
 
-![Figure 1.](images/pulsatrix_perspicillata_cantones-01.jpg){fig-align="center"}
+![Figure 1.](images/pulsatrix_perspicillata_cantones-02.jpg){fig-align="center"}
 
-![Figure 2.](images/pulsatrix_perspicillata_provincias-01.jpg){fig-align="center"}
+![Figure 2.](images/pulsatrix_perspicillata_provincias-02.jpg){fig-align="center"}
 
 ![Figure 3.](images/pulsatrix_perspicillata_observation_cantones-01.jpg){fig-align="center"}
 

@@ -33,7 +33,7 @@ In this exercise, we will document the creation of a bibliographic library using
 
 Introducción al uso del portafolio digital académico y documentación de una práctica mediante Quarto.
 
-[View Exercise →](tidy.qmd)
+[View Exercise →](Tidy.qmd)
 :::
 
 ::: portfolio-item
@@ -84,6 +84,21 @@ In this exercise, we will identify spatial distribution patterns for two plant s
 [View Exercise →](Distribution.qmd)
 :::
 
+::: portfolio-item
+### 📚 Diversity Índices I
+
+In this exercise, we will identify spatial distribution patterns for two plant species: *Elephantopus mollis* and *Rhynchospora nervosa.*
+
+[View Exercise →](diversity.qmd)
+:::
+
+::: portfolio-item
+### 📚 Diversity Índices II
+
+In this exercise, we will identify spatial distribution patterns for two plant species: *Elephantopus mollis* and *Rhynchospora nervosa.*
+
+[View Exercise →](diversityy.qmd)
+:::
 ------------------------------------------------------------------------
 
 ## Portfolio Objective

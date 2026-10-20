@@ -12,6 +12,14 @@ editor: visual
 
 ## Results
 
+![Figure 1.](images/pulsatrix_perspicillata_elevation-01.jpg){fig-align="center"}
+
+![Figure 2.](images/pulsatrix_perspicillata_env_elev_hfi.jpg){fig-align="center"}
+
+![Figure 3.](images/pulsatrix_perspicillata_env_temp_prec.jpg){fig-align="center"}
+
+![Figure 4.](images/pulsatrix_perspicillata_env_temp_elev.jpg){fig-align="center"}
+
 ## Interpretations
 
 ## Conclusions

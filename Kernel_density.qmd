@@ -12,6 +12,10 @@ editor: visual
 
 ## Results
 
+![Figure 1.](images/pulsatrix_perspicillata_kde_polygons_sigma_5000.jpg){fig-align="center"}
+
+![Figure 2.](images/pulsatrix_perspicillata_kde_sigma_5000.jpg){fig-align="center"}
+
 ## Interpretations
 
 ## Conclusions
