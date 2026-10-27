@@ -86,7 +86,7 @@
   {
     "objectID": "portfolio.html",
     "href": "portfolio.html",
-    "title": "Académic Portfolio",
+    "title": "Academic Portfolio",
     "section": "",
     "text": "This section documents the laboratory exercises, projects, analyses, and other work completed during the Population and Community Ecology course.\nEach exercise demonstrates the knowledge and skills I developed over the semester and contributes to my professional portfolio."
   },
@@ -541,14 +541,14 @@
   {
     "objectID": "portfolio.html#laboratory-exercises",
     "href": "portfolio.html#laboratory-exercises",
-    "title": "Académic Portfolio",
+    "title": "Academic Portfolio",
     "section": "Laboratory Exercises",
     "text": "Laboratory Exercises\n\n📚 Creating and Integrating Quarto Pages into the Scientific Portfolio\nIntroduction to the Academic Digital Portfolio and Documentation of a Laboratory Exercise Using Quarto\nView Exercise →\n\n\n📚 Managing Bibliographic References with Zotero\nIn this exercise, we will document the creation of a bibliographic library using Zotero and its integration with Microsoft Word.\nView Exercise →\n\n\n📄 Data Organization with Tidyverse\nIntroducción al uso del portafolio digital académico y documentación de una práctica mediante Quarto.\nView Exercise →\n\n\n📚 Downloading Occurrence Records from GBIF and iNaturalist\nIn this exercise, occurrence records will be downloaded directly from GBIF and iNaturalist for the course’s final project.\nView Exercise →\n\n\n📚 Life Table Construction\nIn this activity, we constructed and compared life tables using mortality records from cemeteries in Heredia and San José. The analysis helped us examine differences in survival and mortality patterns between the two populations.\nView Exercise →\n\n\n📚 Geographic and Administrative Distribution of Pulsatrix perspicillata\nThis section presents the geographic distribution of Pulsatrix perspicillata in Costa Rica and summarizes occurrence records by province and canton..\nView Exercise →\n\n\n📚 Two-Dimensional Ecological Niche of Pulsatrix perspicillata\nThis section presents a two-dimensional representation of the ecological niche of Pulsatrix perspicillata, showing how its occurrence records relate to two selected environmental variables.\nView Exercise →\n\n\n📚 Kernel Density Estimation (KDE) of Pulsatrix perspicillata\nIn this exercise, kernel density estimation will be used to identify areas with a high concentration of Pulsatrix perspicillata occurrence records.\nView Exercise →\n\n\n📚 Spatial Distribution Patterns in Plant Species\nIn this exercise, we will identify spatial distribution patterns for two plant species: Elephantopus mollis and Rhynchospora nervosa.\nView Exercise →\n\n\n📚 Diversity Índices I\nIn this exercise, we will identify spatial distribution patterns for two plant species: Elephantopus mollis and Rhynchospora nervosa.\nView Exercise →\n\n\n📚 Diversity Índices II\nIn this exercise, we will identify spatial distribution patterns for two plant species: Elephantopus mollis and Rhynchospora nervosa.\nView Exercise →"
   },
   {
     "objectID": "portfolio.html#portfolio-objective",
     "href": "portfolio.html#portfolio-objective",
-    "title": "Académic Portfolio",
+    "title": "Academic Portfolio",
     "section": "Portfolio Objective",
     "text": "Portfolio Objective\nMore than a collection of assignments, this portfolio is an organized record of my learning. It documents the procedures, results, and reflections developed throughout the course.\nBy the end of the semester, this site will showcase the growth of my skills in ecological data analysis, R programming, and scientific communication"
   },
