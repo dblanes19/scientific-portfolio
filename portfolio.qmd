@@ -1,5 +1,5 @@
 ---
-title: "Académic Portfolio"
+title: "Academic Portfolio"
 format: html
 editor: visual
 ---
