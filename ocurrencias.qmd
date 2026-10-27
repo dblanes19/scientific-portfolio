@@ -24,16 +24,16 @@ The occurrence coordinates were converted into spatial objects and overlaid with
 
 ## Results
 
-![Figure 1. Occurrence Records of Pulsatrix perspicillata in Costa Rica.](images/pulsatrix_perspicillata_occurrences-01.jpg)
+![Figure 1. Number of *P. perspicillata* Observations in Costa Rica.](images/pulsatrix_perspicillata_occurrences-02.jpg)
 
-![Figure 2. Number of *P. perspicillata* Observations by Canton.](images/pulsatrix_perspicillata_cantones.jpg)
-
-![Figure 3. Cantidad de observaciones por cantón en Costa Rica.](images/pulsatrix_perspicillata_observation_cantones.jpg)
-
-![Figure 4. A Species Distribution Study Using iNaturalist and GBIF Data: Pulsatrix perspicillata](images/Pulsatrix%20perspicillata%20.jpeg)
+![Figure 3. A Species Distribution Study Using iNaturalist and GBIF Data: Pulsatrix perspicillata](images/Pulsatrix%20perspicillata%20.jpeg)
 
 ## Interpretations
 
+Occurrence records show that *Pulsatrix perspicillata* has been observed throughout Costa Rica, with clusters of records in several areas. These patterns reflect where observations have been reported, but they may not represent the species’ true abundance because the data are influenced by sampling and observer effort.
+
 ## Conclusions
+
+In conclusion, occurrence records show that *Pulsatrix perspicillata* has been observed across several parts of Costa Rica, with the highest concentrations of reports in a lot of zones of Costa Rica.
 
 ## Bibliography

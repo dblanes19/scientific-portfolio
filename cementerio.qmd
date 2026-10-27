@@ -2,6 +2,7 @@
 title: "Life Table Construction"
 author: "Daniela Blanco"
 editor: visual
+bibliography: references.bib
 ---
 
 ## Introduction
@@ -38,7 +39,7 @@ Data collected by the groups were combined into a class dataset of approximately
 
 ## Interpretations
 
-Analysis of the systematic sampling data supported Hypothesis 1: both populations showed a pronounced Type I survivorship curve (\\(l_x\\)), characterized by high survival during early and middle life and a sharp decline after age 50 (Arribalzaga, 2007). Regarding the main research question and Hypothesis 2, the null hypothesis (\\(H_0\\)) was accepted because no clear differences were found in the distribution of ages at death between the two provinces. Both provinces also had a median age at death of 72 years and the same interquartile range. When the data were analyzed by sex, women showed greater longevity than men. This difference is consistent with biological and behavioral factors that may make men more likely to die at various younger ages (Garduño Andrade, 2025).
+Analysis of the systematic sampling data supported Hypothesis 1: both populations showed a pronounced Type I survivorship curve (\\(l_x\\)), characterized by high survival during early and middle life and a sharp decline after age 50 [@arribalzaga2007]. Regarding the main research question and Hypothesis 2, the null hypothesis (\\(H_0\\)) was accepted because no clear differences were found in the distribution of ages at death between the two provinces. Both provinces also had a median age at death of 72 years and the same interquartile range. When the data were analyzed by sex, women showed greater longevity than men. This difference is consistent with biological and behavioral factors that may make men more likely to die at various younger ages (Garduño Andrade, 2025).
 
 Figure 3 compares the age and sex structure of mortality in the two study populations. In both Heredia and San José, the age pyramids show a concentration of deaths among people over 70, visually illustrating the Type I survivorship pattern (Rosero Bixby Luis, 2008). The two sites show no clear differences in the overall shape of the pyramids, suggesting similar demographic patterns. In addition, Figure 3B shows greater female survival at older ages, supporting the finding of sex differences in longevity and a higher life expectancy for women at the study sites.
 

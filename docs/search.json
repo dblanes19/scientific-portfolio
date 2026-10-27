@@ -333,21 +333,21 @@
     "href": "ocurrencias.html#results",
     "title": "Downloading Occurrence Records from GBIF and iNaturalist",
     "section": "Results",
-    "text": "Results\n\n\n\nFigure 1. Occurrence Records of Pulsatrix perspicillata in Costa Rica.\n\n\n\n\n\nFigure 2. Number of P. perspicillata Observations by Canton.\n\n\n\n\n\nFigure 3. Cantidad de observaciones por cantón en Costa Rica.\n\n\n\n\n\nFigure 4. A Species Distribution Study Using iNaturalist and GBIF Data: Pulsatrix perspicillata"
+    "text": "Results\n\n\n\nFigure 1. Number of P. perspicillata Observations in Costa Rica.\n\n\n\n\n\nFigure 3. A Species Distribution Study Using iNaturalist and GBIF Data: Pulsatrix perspicillata"
   },
   {
     "objectID": "ocurrencias.html#interpretations",
     "href": "ocurrencias.html#interpretations",
     "title": "Downloading Occurrence Records from GBIF and iNaturalist",
     "section": "Interpretations",
-    "text": "Interpretations"
+    "text": "Interpretations\nOccurrence records show that Pulsatrix perspicillata has been observed throughout Costa Rica, with clusters of records in several areas. These patterns reflect where observations have been reported, but they may not represent the species’ true abundance because the data are influenced by sampling and observer effort."
   },
   {
     "objectID": "ocurrencias.html#conclusions",
     "href": "ocurrencias.html#conclusions",
     "title": "Downloading Occurrence Records from GBIF and iNaturalist",
     "section": "Conclusions",
-    "text": "Conclusions"
+    "text": "Conclusions\nIn conclusion, occurrence records show that Pulsatrix perspicillata has been observed across several parts of Costa Rica, with the highest concentrations of reports in a lot of zones of Costa Rica."
   },
   {
     "objectID": "ocurrencias.html#bibliography",
@@ -655,21 +655,21 @@
     "href": "cementerio.html#results",
     "title": "Life Table Construction",
     "section": "Results",
-    "text": "Results\n\n\n\nFigure 1.\n\n\n\nTable 1.\n\n\nSex\nn\nmedian\nq1\nq3\n\n\n\n\nFemale\n1311\n77\n61\n86\n\n\nMale\n1452\n68\n48\n80\n\n\n\n\nTable 2.\n\n\nSite\nn\nmediab\nq1\nq3\n\n\n\n\nHeredia\n1403\n72\n54\n84\n\n\nSan José\n1360\n72\n54\n84"
+    "text": "Results\n\n\n\nFigure 1. A theorical curve showing the proportion of individuals surviving over the course of their lifespan.\n\n\n\nTable 1. Representation of quartiles, the median and the number of individuals by study sex.\n\n\nSex\nn\nmedian\nq1\nq3\n\n\n\n\nFemale\n1311\n77\n61\n86\n\n\nMale\n1452\n68\n48\n80\n\n\n\n\nTable 2. . Representation of quartiles, the medianm and the number of individuals by site\n\n\nSite\nn\nmediab\nq1\nq3\n\n\n\n\nHeredia\n1403\n72\n54\n84\n\n\nSan José\n1360\n72\n54\n84"
   },
   {
     "objectID": "cementerio.html#interpretations",
     "href": "cementerio.html#interpretations",
     "title": "Life Table Construction",
     "section": "Interpretations",
-    "text": "Interpretations"
+    "text": "Interpretations\nAnalysis of the systematic sampling data supported Hypothesis 1: both populations showed a pronounced Type I survivorship curve (\\(l_x\\)), characterized by high survival during early and middle life and a sharp decline after age 50 (Arribalzaga 2007). Regarding the main research question and Hypothesis 2, the null hypothesis (\\(H_0\\)) was accepted because no clear differences were found in the distribution of ages at death between the two provinces. Both provinces also had a median age at death of 72 years and the same interquartile range. When the data were analyzed by sex, women showed greater longevity than men. This difference is consistent with biological and behavioral factors that may make men more likely to die at various younger ages (Garduño Andrade, 2025).\nFigure 3 compares the age and sex structure of mortality in the two study populations. In both Heredia and San José, the age pyramids show a concentration of deaths among people over 70, visually illustrating the Type I survivorship pattern (Rosero Bixby Luis, 2008). The two sites show no clear differences in the overall shape of the pyramids, suggesting similar demographic patterns. In addition, Figure 3B shows greater female survival at older ages, supporting the finding of sex differences in longevity and a higher life expectancy for women at the study sites."
   },
   {
     "objectID": "cementerio.html#conclusions",
     "href": "cementerio.html#conclusions",
     "title": "Life Table Construction",
     "section": "Conclusions",
-    "text": "Conclusions"
+    "text": "Conclusions\nIn conclusion, the data analyzed revealed no significant differences in mortality between the two provinces, and their demographic parameters were broadly similar. However, the provinces’ proximity and several limitations of using cemetery records should be considered when interpreting this similarity. These include migration between the provinces, burials not recorded in official records, missing information on headstones, and incomplete access to each cemetery’s records. Despite these limitations, the results are consistent with expectations."
   },
   {
     "objectID": "cementerio.html#bibliography",
@@ -683,35 +683,35 @@
     "href": "administrativa.html#objetive",
     "title": "Geographic and Administrative Distribution of Pulsatrix perspicillata",
     "section": "Objetive",
-    "text": "Objetive"
+    "text": "Objetive\nTo analyze the geographic and temporal distribution of P. perspicillata observations in Costa Rica using cleaned records from GBIF and iNaturalist, examining the number of records by canton and province and how record counts have changed over time."
   },
   {
     "objectID": "administrativa.html#metodology",
     "href": "administrativa.html#metodology",
     "title": "Geographic and Administrative Distribution of Pulsatrix perspicillata",
     "section": "Metodology",
-    "text": "Metodology"
+    "text": "Metodology\nOccurrence records were downloaded directly from GBIF and iNaturalist using R. The data were then cleaned to create a more reliable dataset and converted into spatial data using WGS 84 coordinates. Geographic boundary layers for Costa Rica, its provinces, and its cantons were added to assign administrative information to each observation. Finally, records were counted by area and year, and maps and charts were created to visualize the data and support the analysis of the species’ distribution."
   },
   {
     "objectID": "administrativa.html#results",
     "href": "administrativa.html#results",
     "title": "Geographic and Administrative Distribution of Pulsatrix perspicillata",
     "section": "Results",
-    "text": "Results\n\n\n\nFigure 1.\n\n\n\n\n\nFigure 2.\n\n\n\n\n\nFigure 3.\n\n\n\n\n\nFigure 4."
+    "text": "Results\nThe maps show a broad and clear distribution of P. perspicillata based on the cleaned records. Records are present in different regions of Costa Rica. The number of records varies by area, whether by canton or province. Some areas stand out for having more observations, such as Pococí and Sarapiquí, which have more records than other cantons, particularly from 2000 onward.\n\n\n\nFigure 1. Number of P. perspicillata Observations in Costa Rica by Canton.\n\n\n\n\n\nFigure 2. Number of P. perspicillata Observations in Costa Rica. by provincia.\n\n\n\n\n\nFigure 3."
   },
   {
     "objectID": "administrativa.html#interpretations",
     "href": "administrativa.html#interpretations",
     "title": "Geographic and Administrative Distribution of Pulsatrix perspicillata",
     "section": "Interpretations",
-    "text": "Interpretations"
+    "text": "Interpretations\nThe map shows that the number of observations varies by province, with Limón and Puntarenas having the highest numbers. At the canton level, Pococí and Sarapiquí each have more than 1,500 observations, followed by San Carlos with slightly more than 1,000 observations. These numbers represent sighting reports, not the abundance of P. perspicillata."
   },
   {
     "objectID": "administrativa.html#conclusions",
     "href": "administrativa.html#conclusions",
     "title": "Geographic and Administrative Distribution of Pulsatrix perspicillata",
     "section": "Conclusions",
-    "text": "Conclusions"
+    "text": "Conclusions\nThis analysis describes the geographic distribution of the species and the timing of observations in Costa Rica. However, these observations do not represent actual abundance, as the records are influenced by search effort."
   },
   {
     "objectID": "administrativa.html#bibliography",
@@ -845,5 +845,19 @@
     "title": "Diversity Índices II",
     "section": "Bibliography",
     "text": "Bibliography"
+  },
+  {
+    "objectID": "administrativa.html",
+    "href": "administrativa.html",
+    "title": "Geographic and Administrative Distribution of Pulsatrix perspicillata",
+    "section": "",
+    "text": "The occurrence records in this section show where and when Pulsatrix perspicillata has been observed. Records were reviewed for verification and accuracy; those with missing or unreliable information were removed. This produced a more reliable dataset for analyzing the species’ distribution in Costa Rica."
+  },
+  {
+    "objectID": "administrativa.html#introduction",
+    "href": "administrativa.html#introduction",
+    "title": "Geographic and Administrative Distribution of Pulsatrix perspicillata",
+    "section": "",
+    "text": "The occurrence records in this section show where and when Pulsatrix perspicillata has been observed. Records were reviewed for verification and accuracy; those with missing or unreliable information were removed. This produced a more reliable dataset for analyzing the species’ distribution in Costa Rica."
   }
 ]
