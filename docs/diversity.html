@@ -8,7 +8,7 @@
 
 <meta name="author" content="Daniela Blanco">
 
-<title>Diversity Indices I – Cientific Portfolio</title>
+<title>Diversity Indices I y II – Cientific Portfolio</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -140,7 +140,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Diversity Indices I</h1>
+<h1 class="title">Diversity Indices I y II</h1>
 </div>
 
 
@@ -165,21 +165,45 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="introduction" class="level2">
 <h2 class="anchored" data-anchor-id="introduction">Introduction</h2>
+<p>Biological diversity can be described in terms of species richness and the distribution of species abundances. Rank-abundance curves allow these features to be compared across sites: a longer curve represents greater richness, while its slope provides a visual indication of evenness and the dominance of the most common species. Mapping localities by ecoregion also helps show how records are distributed across different environments. These figures allow comparisons among three sites, although they do not, on their own, explain the causes of the observed patterns.</p>
 </section>
 <section id="objetive" class="level2">
 <h2 class="anchored" data-anchor-id="objetive">Objetive</h2>
+<p>To compare the spatial distribution of records across ecoregions and describe differences in species richness, dominance, and evenness among Sites 1, 2, and 3 using the rank-abundance curve.</p>
 </section>
 <section id="metodology" class="level2">
 <h2 class="anchored" data-anchor-id="metodology">Metodology</h2>
+<p>Records from the <em>ccb_dataset</em> were grouped by site and species. Sampling locations were mapped in WGS84 alongside the Coachella Valley boundary, surrounding ecoregion, and Salton Sea.</p>
+<p>Species record counts were summarized for each site and sampling plot, and community matrices were created. Alpha diversity was calculated by site and plot using total records (N), species richness (S), Shannon diversity, Simpson diversity, dominance, and Pielou’s evenness. Gamma diversity was calculated for the pooled dataset.</p>
+<p>Between-site beta similarity was assessed from presence–absence data using Jaccard and Sørensen indices. Results were visualized with rank-abundance curves, plot-level alpha diversity comparisons, relative abundance of the 15 most frequently recorded species, and a Jaccard similarity heatmap. Figures were exported as JPG files at 300 dpi.</p>
 </section>
 <section id="results" class="level2">
 <h2 class="anchored" data-anchor-id="results">Results</h2>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/plots_cv.jpg" class="img-fluid figure-img"></p>
+<figcaption>Figure 1. Spatial distribution of records from Sites 1–3 across four ecoregions. Point colors indicate sites; background colors indicate ecoregions.</figcaption>
+</figure>
+</div>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="images/rank_abundance.jpg" class="img-fluid figure-img"></p>
+<figcaption>Figure 2. Rank-abundance curves for Sites 1–3, showing relative species abundance by rank on a logarithmic scale.</figcaption>
+</figure>
+</div>
 </section>
 <section id="interpretations" class="level2">
 <h2 class="anchored" data-anchor-id="interpretations">Interpretations</h2>
+<p><strong>Figure 1. Records by site and ecoregion.</strong> Records from the three sites are distributed unevenly among the ecoregions shown. Site 2 (green) appears widely across the northern and eastern parts of the map, mainly in areas of the Mojave Desert ecoregion. Site 1 (blue) is more concentrated in central and southern areas, while records from Site 3 (pink) are fewer and occur in localized clusters. Records from different sites occur close together in some areas, suggesting some spatial overlap. The red outline marks an area, but the figure does not include a legend explaining what it represents.</p>
+<p><strong>Figure 2. Rank-abundance curves.</strong> Sites 1 and 2 have longer curves, with approximately 28 and 27 species, respectively, while Site 3 has about 12. Thus, Site 1 has the greatest observed species richness and Site 3 the lowest. Site 2 begins with a higher relative abundance for the top-ranked species, suggesting greater dominance by that species. The curve for Site 1 extends slightly farther into the less abundant species. At Site 3, abundance declines gradually through much of the curve, although there is a marked drop in the final ranks. These differences are descriptive; a formal comparison of evenness or diversity would require abundance data and the corresponding indices.</p>
 </section>
 <section id="conclusions" class="level2">
 <h2 class="anchored" data-anchor-id="conclusions">Conclusions</h2>
+<ul>
+<li><p>Records from the three sites are not distributed evenly across the ecoregions; the map shows clusters and some spatial overlap.</p></li>
+<li><p>Based on curve length, Sites 1 and 2 have greater observed species richness than Site 3.</p></li>
+<li><p>Site 2 appears to have greater dominance by its most abundant species, while differences in evenness among sites require quantitative analysis.</p></li>
+</ul>
 </section>
 <section id="bibliography" class="level2">
 <h2 class="anchored" data-anchor-id="bibliography">Bibliography</h2>

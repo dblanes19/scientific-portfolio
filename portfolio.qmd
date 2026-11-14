@@ -85,20 +85,14 @@ In this exercise, we will identify spatial distribution patterns for two plant s
 :::
 
 ::: portfolio-item
-### 📚 Diversity Índices I
+### 📚 Diversity Índices I and II
 
 In this exercise, we will identify spatial distribution patterns for two plant species: *Elephantopus mollis* and *Rhynchospora nervosa.*
 
 [View Exercise →](diversity.qmd)
 :::
 
-::: portfolio-item
-### 📚 Diversity Índices II
 
-In this exercise, we will identify spatial distribution patterns for two plant species: *Elephantopus mollis* and *Rhynchospora nervosa.*
-
-[View Exercise →](diversityy.qmd)
-:::
 ------------------------------------------------------------------------
 
 ## Portfolio Objective

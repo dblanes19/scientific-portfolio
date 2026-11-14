@@ -1,0 +1,541 @@
+[
+  {
+    "objectID": "portfolio.html",
+    "href": "portfolio.html",
+    "title": "Academic Portfolio",
+    "section": "",
+    "text": "This section documents the laboratory exercises, projects, analyses, and other work completed during the Population and Community Ecology course.\nEach exercise demonstrates the knowledge and skills I developed over the semester and contributes to my professional portfolio."
+  },
+  {
+    "objectID": "portfolio.html#laboratory-exercises",
+    "href": "portfolio.html#laboratory-exercises",
+    "title": "Academic Portfolio",
+    "section": "Laboratory Exercises",
+    "text": "Laboratory Exercises\n\n📚 Creating and Integrating Quarto Pages into the Scientific Portfolio\nIntroduction to the Academic Digital Portfolio and Documentation of a Laboratory Exercise Using Quarto\nView Exercise →\n\n\n📚 Managing Bibliographic References with Zotero\nIn this exercise, we will document the creation of a bibliographic library using Zotero and its integration with Microsoft Word.\nView Exercise →\n\n\n📄 Data Organization with Tidyverse\nIntroducción al uso del portafolio digital académico y documentación de una práctica mediante Quarto.\nView Exercise →\n\n\n📚 Downloading Occurrence Records from GBIF and iNaturalist\nIn this exercise, occurrence records will be downloaded directly from GBIF and iNaturalist for the course’s final project.\nView Exercise →\n\n\n📚 Life Table Construction\nIn this activity, we constructed and compared life tables using mortality records from cemeteries in Heredia and San José. The analysis helped us examine differences in survival and mortality patterns between the two populations.\nView Exercise →\n\n\n📚 Geographic and Administrative Distribution of Pulsatrix perspicillata\nThis section presents the geographic distribution of Pulsatrix perspicillata in Costa Rica and summarizes occurrence records by province and canton..\nView Exercise →\n\n\n📚 Two-Dimensional Ecological Niche of Pulsatrix perspicillata\nThis section presents a two-dimensional representation of the ecological niche of Pulsatrix perspicillata, showing how its occurrence records relate to two selected environmental variables.\nView Exercise →\n\n\n📚 Kernel Density Estimation (KDE) of Pulsatrix perspicillata\nIn this exercise, kernel density estimation will be used to identify areas with a high concentration of Pulsatrix perspicillata occurrence records.\nView Exercise →\n\n\n📚 Spatial Distribution Patterns in Plant Species\nIn this exercise, we will identify spatial distribution patterns for two plant species: Elephantopus mollis and Rhynchospora nervosa.\nView Exercise →\n\n\n📚 Diversity Índices I and II\nIn this exercise, we will identify spatial distribution patterns for two plant species: Elephantopus mollis and Rhynchospora nervosa.\nView Exercise →"
+  },
+  {
+    "objectID": "portfolio.html#portfolio-objective",
+    "href": "portfolio.html#portfolio-objective",
+    "title": "Academic Portfolio",
+    "section": "Portfolio Objective",
+    "text": "Portfolio Objective\nMore than a collection of assignments, this portfolio is an organized record of my learning. It documents the procedures, results, and reflections developed throughout the course.\nBy the end of the semester, this site will showcase the growth of my skills in ecological data analysis, R programming, and scientific communication"
+  },
+  {
+    "objectID": "zotero.html",
+    "href": "zotero.html",
+    "title": "Managing Bibliographic References with Zotero",
+    "section": "",
+    "text": "This practice was carried out as a free reference management tool that helps students and researchers collect, organize, and cite academic sources. It makes it easier to create citations and bibliographies in differente citation styles while keeping research materials organized."
+  },
+  {
+    "objectID": "zotero.html#introduction",
+    "href": "zotero.html#introduction",
+    "title": "Managing Bibliographic References with Zotero",
+    "section": "",
+    "text": "This practice was carried out as a free reference management tool that helps students and researchers collect, organize, and cite academic sources. It makes it easier to create citations and bibliographies in differente citation styles while keeping research materials organized."
+  },
+  {
+    "objectID": "zotero.html#objetive",
+    "href": "zotero.html#objetive",
+    "title": "Managing Bibliographic References with Zotero",
+    "section": "Objetive",
+    "text": "Objetive\nBy the end of this tutorial, the student will be able to:\n\nCreate and organize a bibliographic library in Zotero.\nAdd references using DOIs, RIS files, and the Zotero Connector.\nReview and correct reference metadata.\nInstall and use a citation style.\nAutomatically insert citations and bibliographies in Microsoft Word.\nAdd references other than scientific articles, such as reports, web pages, and software.\nCite R, RStudio, and R packages."
+  },
+  {
+    "objectID": "zotero.html#metodology",
+    "href": "zotero.html#metodology",
+    "title": "Managing Bibliographic References with Zotero",
+    "section": "Metodology",
+    "text": "Metodology\nZotero was used to collect and organize the academic sources consulted during the research. The references were imported into zotero, organized into folder, and cited using the appropiate citation style. This tool helped maintain an organized database and facilitated the creation of the final bibliography."
+  },
+  {
+    "objectID": "zotero.html#results",
+    "href": "zotero.html#results",
+    "title": "Managing Bibliographic References with Zotero",
+    "section": "Results",
+    "text": "Results\n\n\n\nFigura 1. Zotero library\n\n\nCuadro 1. Métodos utilizados para incorporar referencias bibliográficas a Zotero.\n\n\n\n\n\n\n\nMétodo\n¿Cuándo utilizarlo?\n\n\n\n\nDOI\nCuando la publicación tienen un DOI conocido.\n\n\nArchivo RIS\nCuando la revista o base de datos permite exportar la referencia.\n\n\nZotero Connector\nPara capturar referencias directamente desde el navegador.\n\n\nEntrada manual\nCuando la información no puede importarse automáticamente.\n\n\n\namphibian conservation (Pabijan et al. 2020) plan general de manejo de las áreas de vida silvestre protegidas (MINAE y SINAC 2016)"
+  },
+  {
+    "objectID": "zotero.html#conclusions",
+    "href": "zotero.html#conclusions",
+    "title": "Managing Bibliographic References with Zotero",
+    "section": "Conclusions",
+    "text": "Conclusions\nZotero is a useful and practical tool for organizing academic information and managing references. It simplifies the process of creating citations and bibliographies, saves time, and helps maintain accurate and organized research sources."
+  },
+  {
+    "objectID": "template.html#objetive",
+    "href": "template.html#objetive",
+    "title": "Ocurrencias de GBIF y iNaturalist",
+    "section": "Objetive",
+    "text": "Objetive"
+  },
+  {
+    "objectID": "template.html#metodology",
+    "href": "template.html#metodology",
+    "title": "Ocurrencias de GBIF y iNaturalist",
+    "section": "Metodology",
+    "text": "Metodology"
+  },
+  {
+    "objectID": "template.html#results",
+    "href": "template.html#results",
+    "title": "Ocurrencias de GBIF y iNaturalist",
+    "section": "Results",
+    "text": "Results"
+  },
+  {
+    "objectID": "template.html#interpretations",
+    "href": "template.html#interpretations",
+    "title": "Ocurrencias de GBIF y iNaturalist",
+    "section": "Interpretations",
+    "text": "Interpretations"
+  },
+  {
+    "objectID": "template.html#conclusions",
+    "href": "template.html#conclusions",
+    "title": "Ocurrencias de GBIF y iNaturalist",
+    "section": "Conclusions",
+    "text": "Conclusions"
+  },
+  {
+    "objectID": "template.html#bibliography",
+    "href": "template.html#bibliography",
+    "title": "Ocurrencias de GBIF y iNaturalist",
+    "section": "Bibliography",
+    "text": "Bibliography"
+  },
+  {
+    "objectID": "práctica-ejemplo.html",
+    "href": "práctica-ejemplo.html",
+    "title": "Práctica 1. Creación de sitio web personalizado",
+    "section": "",
+    "text": "Crear sitio web personalizado utilizando Quarto, RStudio y GitHub Pages."
+  },
+  {
+    "objectID": "práctica-ejemplo.html#objetivo",
+    "href": "práctica-ejemplo.html#objetivo",
+    "title": "Práctica 1. Creación de sitio web personalizado",
+    "section": "",
+    "text": "Crear sitio web personalizado utilizando Quarto, RStudio y GitHub Pages."
+  },
+  {
+    "objectID": "práctica-ejemplo.html#materiales-y-herramientas",
+    "href": "práctica-ejemplo.html#materiales-y-herramientas",
+    "title": "Práctica 1. Creación de sitio web personalizado",
+    "section": "Materiales y herramientas",
+    "text": "Materiales y herramientas\n\nRStudio\nQuarto\nGit\nGitHub"
+  },
+  {
+    "objectID": "práctica-ejemplo.html#procedimiento",
+    "href": "práctica-ejemplo.html#procedimiento",
+    "title": "Práctica 1. Creación de sitio web personalizado",
+    "section": "Procedimiento",
+    "text": "Procedimiento\nExplique de forma ordenada los pasos realizados durante la práctica."
+  },
+  {
+    "objectID": "práctica-ejemplo.html#resultados",
+    "href": "práctica-ejemplo.html#resultados",
+    "title": "Práctica 1. Creación de sitio web personalizado",
+    "section": "Resultados",
+    "text": "Resultados\nSe realizó la creación exitosa del sitio web."
+  },
+  {
+    "objectID": "práctica-ejemplo.html#figuras-y-tablas",
+    "href": "práctica-ejemplo.html#figuras-y-tablas",
+    "title": "Práctica 1. Creación de sitio web personalizado",
+    "section": "Figuras y tablas",
+    "text": "Figuras y tablas\n\n\n\nfigura1. imagen de sitio web activo"
+  },
+  {
+    "objectID": "práctica-ejemplo.html#reflexión-final",
+    "href": "práctica-ejemplo.html#reflexión-final",
+    "title": "Práctica 1. Creación de sitio web personalizado",
+    "section": "Reflexión final",
+    "text": "Reflexión final\nResponda brevemente:\n\n¿Qué aprendí?\n\nEste día aprendí sobre como actualizar y crear una página web desde el programa r.\n\n\n\n\n¿Qué dificultad encontré?\n\nCrear la página web, puesto que mi profesor iba muy rápido.\n\n\n\n\n¿Cómo podría aplicar esta herramienta o conocimiento en otro contexto?\n\nCrear páginas web para otras personas que deseen tener su propia página para su negocio en línea."
+  },
+  {
+    "objectID": "niche.html",
+    "href": "niche.html",
+    "title": "Two_Dimensional Ecological Niche of Pulsatrix perspicillata",
+    "section": "",
+    "text": "The spectacled owl (Pulsatrix perspicillata) is a widely distributed Neotropical species associated with a range of environments, including humid and dry tropical forests, wetlands, and savannas. In Costa Rica, it is primarily nocturnal and may use both forest interiors and edges to forage. Analyzing its records in relation to variables such as elevation, mean annual temperature, and human footprint helps describe some of the environmental conditions in which it has been observed. However, these associations alone do not demonstrate habitat preference or explain the causes of its distribution. IUCN Red List, Área de Conservación Guanacaste."
+  },
+  {
+    "objectID": "niche.html#introduction",
+    "href": "niche.html#introduction",
+    "title": "Two_Dimensional Ecological Niche of Pulsatrix perspicillata",
+    "section": "",
+    "text": "The spectacled owl (Pulsatrix perspicillata) is a widely distributed Neotropical species associated with a range of environments, including humid and dry tropical forests, wetlands, and savannas. In Costa Rica, it is primarily nocturnal and may use both forest interiors and edges to forage. Analyzing its records in relation to variables such as elevation, mean annual temperature, and human footprint helps describe some of the environmental conditions in which it has been observed. However, these associations alone do not demonstrate habitat preference or explain the causes of its distribution. IUCN Red List, Área de Conservación Guanacaste."
+  },
+  {
+    "objectID": "niche.html#objetive",
+    "href": "niche.html#objetive",
+    "title": "Two_Dimensional Ecological Niche of Pulsatrix perspicillata",
+    "section": "Objetive",
+    "text": "Objetive\nTo describe the distribution of Pulsatrix perspicillata records in Costa Rica and their relationship to elevation, mean annual temperature, and human footprint by comparing them with the background environmental conditions shown in the figures.."
+  },
+  {
+    "objectID": "niche.html#metodology",
+    "href": "niche.html#metodology",
+    "title": "Two_Dimensional Ecological Niche of Pulsatrix perspicillata",
+    "section": "Metodology",
+    "text": "Metodology\nOccurrence records of Pulsatrix perspicillata in Costa Rica were analyzed. Coordinates were represented in the WGS84 coordinate reference system. For the temporal analysis, records were classified into two periods: before 2000 and from 2000 onward.\nRaster layers of mean annual temperature, annual precipitation, elevation, and human footprint were used. To make them comparable, they were adjusted to the same extent and spatial resolution: the elevation layer was cropped, and the human footprint layer was resampled using bilinear interpolation.\nEnvironmental values were then extracted for each record and compared with values from the available raster cells, which were used as an environmental background. Maps of the records and scatterplots were produced to visualize relationships among environmental variables and compare records between periods. Figures were exported as JPG files at 300 dpi.\nThe procedure is descriptive and exploratory: the script does not perform statistical tests or model the species’ distribution."
+  },
+  {
+    "objectID": "niche.html#kernel-density-methodology",
+    "href": "niche.html#kernel-density-methodology",
+    "title": "Two_Dimensional Ecological Niche of Pulsatrix perspicillata",
+    "section": "Kernel density methodology",
+    "text": "Kernel density methodology\nRecords of Pulsatrix perspicillata were cleaned by converting coordinates to numeric format, removing duplicate localities, and retaining those that intersect Costa Rica. The points were then projected to CRTM05 so distances could be calculated in meters.\nA Gaussian kernel density surface was estimated using a bandwidth of 5,000 m and 500 m cells. The surface was cropped and masked to the boundaries of Costa Rica, and values were expressed as recorded localities per km².\nPolygons representing 50% and 95% of the cumulative density were delineated. The 50% polygon represents areas with the highest concentration of records, while the 95% polygon covers a broader region. These results describe the concentration of recorded localities; they do not represent individual abundance or confirmed distribution boundaries."
+  },
+  {
+    "objectID": "niche.html#results",
+    "href": "niche.html#results",
+    "title": "Two_Dimensional Ecological Niche of Pulsatrix perspicillata",
+    "section": "Results",
+    "text": "Results\n\n\n\nFigure 1.\n\n\n\n\n\nFigure 2.\n\n\n\n\n\nFigure 3.\n\n\n\n\n\nFigure 4."
+  },
+  {
+    "objectID": "niche.html#interpretations",
+    "href": "niche.html#interpretations",
+    "title": "Two_Dimensional Ecological Niche of Pulsatrix perspicillata",
+    "section": "Interpretations",
+    "text": "Interpretations\nFigure 1. Elevation and records in Costa Rica. The map shows an elevation gradient: green areas correspond to lower elevations, while yellow, orange, and lighter tones indicate higher terrain. The black points appear across different parts of the country, with visible concentrations in the north and central regions. If these points represent records of the species, they suggest that it has been observed across a range of elevations. The map shows elevation and point locations; on its own, it does not identify areas of higher habitat suitability.\nFigure 2. Human footprint and elevation. Occurrence records (red) are concentrated mainly at low and intermediate elevations, although some appear at higher elevations. Background points (gray) cover a broader range of conditions. Since these points represent reference areas and are not necessarily locations where the species is absent, the figure allows comparison with available conditions but is not sufficient to conclude that the species prefers specific levels of human footprint. The figure also does not specify the units of the human-footprint axis.\nFigure 3. Mean annual temperature and elevation. A clear inverse relationship is visible: locations at higher elevations tend to have lower mean temperatures. Most records (red) cluster at low and intermediate elevations and relatively warm temperatures; a few occur in colder, higher-elevation conditions. Since temperature and elevation vary together in the figure, the pattern cannot be attributed to either variable alone."
+  },
+  {
+    "objectID": "niche.html#conclusions",
+    "href": "niche.html#conclusions",
+    "title": "Two_Dimensional Ecological Niche of Pulsatrix perspicillata",
+    "section": "Conclusions",
+    "text": "Conclusions\n\nLos registros representados abarcan condiciones ambientales diversas, pero se concentran sobre todo en elevaciones bajas e intermedias.\nLa distribución de los puntos de ocurrencia sigue el gradiente conjunto de elevación y temperatura; las figuras no permiten separar el efecto de cada variable.\nLa relación con la huella humana requiere análisis adicional, considerando la escala del índice y el esfuerzo de muestreo."
+  },
+  {
+    "objectID": "niche.html#bibliography",
+    "href": "niche.html#bibliography",
+    "title": "Two_Dimensional Ecological Niche of Pulsatrix perspicillata",
+    "section": "Bibliography",
+    "text": "Bibliography"
+  },
+  {
+    "objectID": "diversity.html",
+    "href": "diversity.html",
+    "title": "Diversity Indices I y II",
+    "section": "",
+    "text": "Biological diversity can be described in terms of species richness and the distribution of species abundances. Rank-abundance curves allow these features to be compared across sites: a longer curve represents greater richness, while its slope provides a visual indication of evenness and the dominance of the most common species. Mapping localities by ecoregion also helps show how records are distributed across different environments. These figures allow comparisons among three sites, although they do not, on their own, explain the causes of the observed patterns."
+  },
+  {
+    "objectID": "diversity.html#introduction",
+    "href": "diversity.html#introduction",
+    "title": "Diversity Indices I y II",
+    "section": "",
+    "text": "Biological diversity can be described in terms of species richness and the distribution of species abundances. Rank-abundance curves allow these features to be compared across sites: a longer curve represents greater richness, while its slope provides a visual indication of evenness and the dominance of the most common species. Mapping localities by ecoregion also helps show how records are distributed across different environments. These figures allow comparisons among three sites, although they do not, on their own, explain the causes of the observed patterns."
+  },
+  {
+    "objectID": "diversity.html#objetive",
+    "href": "diversity.html#objetive",
+    "title": "Diversity Indices I y II",
+    "section": "Objetive",
+    "text": "Objetive\nTo compare the spatial distribution of records across ecoregions and describe differences in species richness, dominance, and evenness among Sites 1, 2, and 3 using the rank-abundance curve."
+  },
+  {
+    "objectID": "diversity.html#metodology",
+    "href": "diversity.html#metodology",
+    "title": "Diversity Indices I y II",
+    "section": "Metodology",
+    "text": "Metodology\nRecords from the ccb_dataset were grouped by site and species. Sampling locations were mapped in WGS84 alongside the Coachella Valley boundary, surrounding ecoregion, and Salton Sea.\nSpecies record counts were summarized for each site and sampling plot, and community matrices were created. Alpha diversity was calculated by site and plot using total records (N), species richness (S), Shannon diversity, Simpson diversity, dominance, and Pielou’s evenness. Gamma diversity was calculated for the pooled dataset.\nBetween-site beta similarity was assessed from presence–absence data using Jaccard and Sørensen indices. Results were visualized with rank-abundance curves, plot-level alpha diversity comparisons, relative abundance of the 15 most frequently recorded species, and a Jaccard similarity heatmap. Figures were exported as JPG files at 300 dpi."
+  },
+  {
+    "objectID": "diversity.html#results",
+    "href": "diversity.html#results",
+    "title": "Diversity Indices I y II",
+    "section": "Results",
+    "text": "Results\n\n\n\nFigure 1. Spatial distribution of records from Sites 1–3 across four ecoregions. Point colors indicate sites; background colors indicate ecoregions.\n\n\n\n\n\nFigure 2. Rank-abundance curves for Sites 1–3, showing relative species abundance by rank on a logarithmic scale."
+  },
+  {
+    "objectID": "diversity.html#interpretations",
+    "href": "diversity.html#interpretations",
+    "title": "Diversity Indices I y II",
+    "section": "Interpretations",
+    "text": "Interpretations\nFigure 1. Records by site and ecoregion. Records from the three sites are distributed unevenly among the ecoregions shown. Site 2 (green) appears widely across the northern and eastern parts of the map, mainly in areas of the Mojave Desert ecoregion. Site 1 (blue) is more concentrated in central and southern areas, while records from Site 3 (pink) are fewer and occur in localized clusters. Records from different sites occur close together in some areas, suggesting some spatial overlap. The red outline marks an area, but the figure does not include a legend explaining what it represents.\nFigure 2. Rank-abundance curves. Sites 1 and 2 have longer curves, with approximately 28 and 27 species, respectively, while Site 3 has about 12. Thus, Site 1 has the greatest observed species richness and Site 3 the lowest. Site 2 begins with a higher relative abundance for the top-ranked species, suggesting greater dominance by that species. The curve for Site 1 extends slightly farther into the less abundant species. At Site 3, abundance declines gradually through much of the curve, although there is a marked drop in the final ranks. These differences are descriptive; a formal comparison of evenness or diversity would require abundance data and the corresponding indices."
+  },
+  {
+    "objectID": "diversity.html#conclusions",
+    "href": "diversity.html#conclusions",
+    "title": "Diversity Indices I y II",
+    "section": "Conclusions",
+    "text": "Conclusions\n\nRecords from the three sites are not distributed evenly across the ecoregions; the map shows clusters and some spatial overlap.\nBased on curve length, Sites 1 and 2 have greater observed species richness than Site 3.\nSite 2 appears to have greater dominance by its most abundant species, while differences in evenness among sites require quantitative analysis."
+  },
+  {
+    "objectID": "diversity.html#bibliography",
+    "href": "diversity.html#bibliography",
+    "title": "Diversity Indices I y II",
+    "section": "Bibliography",
+    "text": "Bibliography"
+  },
+  {
+    "objectID": "Distribution.html#introduction",
+    "href": "Distribution.html#introduction",
+    "title": "Spatial Distribution Patterns in Plant Species",
+    "section": "Introduction",
+    "text": "Introduction\nIn population ecology, the study of spatial distribution is important because it helps explain how individuals are arranged within a given area (Borregaard et al., 2008) and is essential for drawing inferences about the processes that shape population dynamics and structure (Hernández-Cruz et al., 2025). In plants in particular, studying spatial distribution has helped identify how some species disperse, their environmental requirements, and even their interactions with other species (Ben-Said, 2021). Based on how individuals are arranged in space, three spatial patterns are recognized: random, uniform, and clumped (Rockwood, 2006). A clumped distribution is characterized by groups of individuals and is usually associated with shared preferences for certain environmental conditions and food resources (Borregaard et al., 2008).\nA uniform distribution, on the other hand, is associated with species whose individuals are evenly spaced because of competition for resources, territoriality, or density-dependent mortality related to neighboring individuals (Stoll & Bergius, 2005). Less commonly, species are distributed randomly (Fangliang et al., 1997), a pattern that tends to occur when resources are distributed homogeneously (De Freitas Alves & De Santana, 2022). However, the interpretation of distribution patterns depends on the scale of the study (Levin, 1992).\nEcological processes may shape observed distribution patterns. These include interactions among individuals and dispersal (Vinatier et al., 2011). In practice, quadrat sampling makes it possible to count the individuals within a defined area and estimate their density. Abundance is then compared among sampling units, and statistical measures such as the mean and variance are used to determine the spatial distribution pattern (De Freitas Alves & De Santana, 2022).\nThis study determined the spatial distribution of Elephantopus mollis (Kunth) and Rhynchospora nervosa (Vahl) Boeckeler. E. mollis (Figure 1A) is a perennial species in the family Asteraceae, with a broad distribution throughout the subtropics and tropics (Royal Botanic Gardens, Kew, n.d.). It is a strong competitor: it forms dense rosettes that commonly prevent other plant species from growing through competitive exclusion. It also has a germination rate of 80% across a broad temperature range, from 21 to 34°C (Guerra et al., 2026). R. nervosa (Figure 1B), in contrast, is a perennial species in the family Cyperaceae that grows preferentially in seasonally dry climates (Royal Botanic Gardens, Kew, n.d.). It has a rhizomatous growth form, producing clusters of stems from an underground structure (Gómez-Laurito, 2009). An allelopathic effect on other plants has been documented for this species, as it inhibited the germination and early growth of Vigna unguiculata seedlings (Bezerra et al., 2026)."
+  },
+  {
+    "objectID": "Distribution.html#objetive",
+    "href": "Distribution.html#objetive",
+    "title": "Spatial Distribution Patterns in Plant Species",
+    "section": "Objetive",
+    "text": "Objetive\nThe objectives of this study were to evaluate and compare the spatial distribution patterns of these two plant species using abundance data obtained from quadrats. The null hypothesis was that, for each species, abundance among sampling units would be consistent with a random spatial distribution. The alternative hypothesis was that abundance would not be consistent with a random distribution. Based on preliminary observations, our first prediction was that Elephantopus mollis would show a clumped distribution, whereas our second prediction was that Rhynchospora nervosa would show a pattern consistent with a random distribution."
+  },
+  {
+    "objectID": "Distribution.html#metodology",
+    "href": "Distribution.html#metodology",
+    "title": "Spatial Distribution Patterns in Plant Species",
+    "section": "Metodology",
+    "text": "Metodology\n\nStudy area\nSampling took place in an area of herbaceous vegetation and scattered trees within the Recreational Park of the University for Peace, located in the protected area of El Rodeo, Mora, San José, Costa Rica (9° 55′ 9.09″ N, 84° 16′ 21.29″ W), at an elevation of 784 m above sea level. Sampling was conducted on October 6, from 10 a.m. to 2 p.m. The site has rolling topography, scattered mature trees, and visible variation in vegetation cover and soil conditions.\n\n\nStudy species\nWe studied two herbaceous species with different growth forms. The first, Elephantopus mollis, is an erect herb 0.3–1.5 m tall, with generally hairy stems and alternate, obovate to elliptic leaves with a broadened base and toothed margins (Tropicos.org, 2026; Figure 1A). Plants that could be recognized as independent individuals were counted. The second, Rhynchospora nervosa, is a perennial herb 10–70 cm tall. It grows in clumps or from rhizomes and has narrow leaves (Tropicos.org, 2026; Figure 1B). Each independent clump, or one clearly separated from other clumps, was considered an individual. Individual stems were not counted separately.\n\n\nSampling design\nA 100 × 100 m study area (1 ha) was delineated and divided into 50 sectors measuring 10 × 20 m. One 1 × 1 m quadrat was randomly established within each sector, for a total of 50 quadrats. A reference point (0,0) was established for the study area to determine the spatial coordinates (X and Y, in meters) of each quadrat within its sector. The sampling units were divided between two groups of four people, and the two data sets were later combined into a single database. For each quadrat, the number of E. mollis and R. nervosa individuals was recorded. Environmental variables were not considered in the sampling and therefore were not included as evidence of the processes responsible for the observed patterns.\n\n\nData analysis\nData processing and analysis were conducted in R version 4.6.1 (R Core Team, 2026) using RStudio (Posit team, 2026) and functions from the “Tidyverse” package, version 2.0.0 (Wickham et al., 2019). The dispersion index (DI), defined as the ratio of the sample variance to the sample mean, was calculated to characterize the spatial pattern. DI values below 1 indicate a uniform distribution; values close to 1 suggest a random distribution; and values greater than 1 indicate a clumped distribution.\nA chi-square (χ²) test was used to assess whether the observed distribution differed from randomness. Based on the significance level and the distribution indicated by the data, the fit of theoretical probability models was assessed: a binomial distribution for E. mollis and a Poisson distribution for R. nervosa, using functions from the “MASS” package, version 7.3-66 (Venables et al., 2002). The goodness of fit of the data to each distribution was evaluated with a chi-square goodness-of-fit test. The significance level for statistical decisions was set at 5%.\nThe main results were organized in a table using the “gt” package, version 1.3.0 (Iannone et al., 2020). Point plots were produced to visualize the spatial distribution within the study area, and bar charts and trend lines were used to visualize how well the data fit the distributions, using “ggplot2” (Wickham, 2016). The figures were finalized and assembled with the “cowplot” package, version 1.2.0 (Wilke, 2025)."
+  },
+  {
+    "objectID": "Distribution.html#results",
+    "href": "Distribution.html#results",
+    "title": "Spatial Distribution Patterns in Plant Species",
+    "section": "Results",
+    "text": "Results\nThe dispersion index for Elephantopus mollis was greater than 1 (χ² = 191.8, df = 49, P &lt; 0.001), indicating a clumped distribution that differed from randomness, with variance considerably greater than the mean (Table 1; Figure 2). This behavior is characteristic of counts with high spatial aggregation. The chi-square goodness-of-fit test found no statistically significant difference between the observed data and the expected negative binomial distribution, indicating that the E. mollis counts fit this probability model well (χ² = 0.3, df = 2, P = 0.871; Figure 3A). This result agrees with the clumped spatial pattern identified earlier and with the observed overdispersion.\nFor Rhynchospora nervosa, there was no evidence that the observed abundance differed from a random spatial pattern (χ² = 48.0, df = 49, P = 0.512; Figure 1B). This agrees with the calculated DI, which was close to 1 and indicates random dispersion in the study area. The goodness-of-fit test also showed an adequate fit to the Poisson distribution (χ² = 2.8, df = 2, P = 0.249; Figure 3B), consistent with the random distribution of this species."
+  },
+  {
+    "objectID": "Distribution.html#interpretations",
+    "href": "Distribution.html#interpretations",
+    "title": "Spatial Distribution Patterns in Plant Species",
+    "section": "Interpretations",
+    "text": "Interpretations\nThe results showed that Elephantopus mollis had a more clumped distribution because individuals were more concentrated in some quadrats than in others. This agrees with the overdispersion indicated by the DI, which was greater than 1, while the chi-square test showed a statistically significant departure from randomness. The counts also tended to fit a negative binomial distribution, indicating high variation among the study quadrats. The accumulation of individuals and possible preference for certain sites could contribute to this clumping, considering that the species can germinate under a wide range of environmental conditions that may influence this pattern (Guerra et al., 2026).\nRegarding R. nervosa, Mora-Fernández and Peñuela-Recio (2013) note that this species has a broad distribution and can adapt to infertile sites such as savannas and pastures. It is also found in dry, humid, rain, and cloud forests. This suggests that its adaptive plasticity allows it to occur in many types of sites without depending on a clumped distribution around a particular resource. The dispersion index obtained (0.98) indicates random dispersion across the quadrats. This is also consistent with an untested hypothesis that homogeneous site conditions may allow a distribution not constrained by specific resources. The mean abundance was 2.30 individuals per quadrat, and the variance was 2.26.\nConsistent with these results, the chi-square test supports the decision not to reject the null hypothesis, indicating that the data are close to a random distribution model. The goodness-of-fit test values show an adequate fit to the Poisson distribution, which is compatible with a random spatial pattern.\nSpatial distribution alone does not allow us to infer the ecological processes underlying it. However, it is very useful when combined with more focused ecological studies. Other studies identify members of the Cyperaceae family, including the genus Rhynchospora, as pioneer and generalist species with high colonization capacity (Valois-Cuesta & Martínez-Ruiz, 2017). Thus, combining ecological studies with spatial distribution studies can contribute to our understanding of the processes that shape species distributions.\nFinally, differences in the spatial distributions of the two species may be related to their traits, such as the rosette growth form of E. mollis and the rhizomatous growth form of R. nervosa. Since both species were found at a site with herbaceous vegetation, scattered trees, rolling terrain, and variation in vegetation cover, their growth forms could be observed under the same general site conditions. E. mollis was found in clusters averaging more than seven individuals, consistent with reports that this species can form dense rosettes that spread and displace other species through competitive exclusion (Guerra et al., 2026). R. nervosa, by contrast, showed a different distribution. Its rhizomatous growth allows it to explore the surrounding area more extensively and spread laterally, which may favor the colonization of available patches (Herben & Klimešová, 2020)."
+  },
+  {
+    "objectID": "Distribution.html#conclusions",
+    "href": "Distribution.html#conclusions",
+    "title": "Spatial Distribution Patterns in Plant Species",
+    "section": "Conclusions",
+    "text": "Conclusions\nAmong the practical limitations of this study, it is important to consider how the scale of observation may have influenced the observed distribution patterns, as well as the composition and structure of the study area. Replicating the study in contrasting ecosystems is therefore recommended to better understand spatial distribution patterns. It is also important to assess the influence of environmental variables such as vegetation cover, temperature, and soil acidity. Finally, the methodology should be standardized through periodic repeated sampling over time to observe how the species behave as part of the natural assemblage within the landscape."
+  },
+  {
+    "objectID": "Distribution.html#bibliography",
+    "href": "Distribution.html#bibliography",
+    "title": "Spatial Distribution Patterns in Plant Species",
+    "section": "Bibliography",
+    "text": "Bibliography"
+  },
+  {
+    "objectID": "Kernel_density.html",
+    "href": "Kernel_density.html",
+    "title": "Kernel Density Estimation (KDE) of Pulsatrix perspicillata",
+    "section": "",
+    "text": "Kernel Density Estimation (KDE) is a spatial method that smooths point locations to show where records are concentrated. Applied to the spectacled owl (Pulsatrix perspicillata), it helps visualize clusters of reported localities across Costa Rica. The species is associated with a range of tropical habitats, including forests, savannas, and wetlands. IUCN Red List"
+  },
+  {
+    "objectID": "Kernel_density.html#introduction",
+    "href": "Kernel_density.html#introduction",
+    "title": "Kernel Density Estimation (KDE) of Pulsatrix perspicillata",
+    "section": "",
+    "text": "Kernel Density Estimation (KDE) is a spatial method that smooths point locations to show where records are concentrated. Applied to the spectacled owl (Pulsatrix perspicillata), it helps visualize clusters of reported localities across Costa Rica. The species is associated with a range of tropical habitats, including forests, savannas, and wetlands. IUCN Red List"
+  },
+  {
+    "objectID": "Kernel_density.html#objective",
+    "href": "Kernel_density.html#objective",
+    "title": "Kernel Density Estimation (KDE) of Pulsatrix perspicillata",
+    "section": "Objective",
+    "text": "Objective\nTo describe the spatial concentration of Pulsatrix perspicillata records in Costa Rica using KDE maps and identify areas with higher and lower record density."
+  },
+  {
+    "objectID": "Kernel_density.html#metodology",
+    "href": "Kernel_density.html#metodology",
+    "title": "Kernel Density Estimation (KDE) of Pulsatrix perspicillata",
+    "section": "Metodology",
+    "text": "Metodology\nRecords of Pulsatrix perspicillata were cleaned by converting coordinates to numeric format, removing duplicate localities, and retaining those that intersect Costa Rica. The points were then projected to CRTM05 so distances could be calculated in meters.\nA Gaussian kernel density surface was estimated using a 5,000 m bandwidth and 500 m cells. The surface was cropped and masked to Costa Rica, and values were expressed as recorded localities per km².\nPolygons representing 50% and 95% of the cumulative density were delineated: the 50% polygon shows areas with the highest concentration of records, while the 95% polygon covers a broader region. These results describe the concentration of recorded localities; they do not represent individual abundance or confirmed distribution boundaries."
+  },
+  {
+    "objectID": "Kernel_density.html#results",
+    "href": "Kernel_density.html#results",
+    "title": "Kernel Density Estimation (KDE) of Pulsatrix perspicillata",
+    "section": "Results",
+    "text": "Results\n\n\n\nFigure 1.\n\n\n\n\n\nFigure 2."
+  },
+  {
+    "objectID": "Kernel_density.html#interpretations",
+    "href": "Kernel_density.html#interpretations",
+    "title": "Kernel Density Estimation (KDE) of Pulsatrix perspicillata",
+    "section": "Interpretations",
+    "text": "Interpretations\nFigure 1. KDE contours and locality records. The map appears to overlay occurrence points with shaded or outlined density areas. The most concentrated patches are visible in the north-central and central parts of the country, with smaller clusters elsewhere. Because the figure has no visible legend, the density values and color categories cannot be specified.\nFigure 2. KDE density surface. The pale-yellow areas represent lower record density, while green, teal, and dark-blue areas represent progressively higher density. The strongest clusters appear in the central and north-central interior; most other areas show lower density, with records dispersed across the country. The legend reports density in localities per square kilometer, reaching approximately 2 localities/km² at the upper end shown."
+  },
+  {
+    "objectID": "Kernel_density.html#conclusions",
+    "href": "Kernel_density.html#conclusions",
+    "title": "Kernel Density Estimation (KDE) of Pulsatrix perspicillata",
+    "section": "Conclusions",
+    "text": "Conclusions\n\nBoth figures show that records are spatially clustered rather than evenly distributed across Costa Rica.\nThe highest KDE values occur in localized areas, especially in the central and north-central parts of the country.\nThese maps show the density of records, not owl abundance or habitat suitability; record density may also reflect where observations were collected."
+  },
+  {
+    "objectID": "Kernel_density.html#bibliography",
+    "href": "Kernel_density.html#bibliography",
+    "title": "Kernel Density Estimation (KDE) of Pulsatrix perspicillata",
+    "section": "Bibliography",
+    "text": "Bibliography"
+  },
+  {
+    "objectID": "ocurrencias.html",
+    "href": "ocurrencias.html",
+    "title": "Downloading Occurrence Records from GBIF and iNaturalist",
+    "section": "",
+    "text": "Occurrence records show where a species has been observed. They can be used to examine how observations are distributed across different locations and to identify patterns that may help assess whether the species is at risk or whether certain factors influence its distribution.\nThis study examines the geographic distribution of Pulsatrix perspicillata, commonly known in Costa Rica as the spectacled owl, or “oropopo.” To gather as many records as possible, the study uses reliable sources that document biodiversity observations, including iNaturalist and the Global Biodiversity Information Facility (GBIF).\nHowever, occurrence records may contain errors or missing information, which can affect the reliability of a study. It is therefore important to clean the downloaded data and retain accurate, relevant records to support sound interpretation of the results."
+  },
+  {
+    "objectID": "ocurrencias.html#introduction",
+    "href": "ocurrencias.html#introduction",
+    "title": "Downloading Occurrence Records from GBIF and iNaturalist",
+    "section": "",
+    "text": "Occurrence records show where a species has been observed. They can be used to examine how observations are distributed across different locations and to identify patterns that may help assess whether the species is at risk or whether certain factors influence its distribution.\nThis study examines the geographic distribution of Pulsatrix perspicillata, commonly known in Costa Rica as the spectacled owl, or “oropopo.” To gather as many records as possible, the study uses reliable sources that document biodiversity observations, including iNaturalist and the Global Biodiversity Information Facility (GBIF).\nHowever, occurrence records may contain errors or missing information, which can affect the reliability of a study. It is therefore important to clean the downloaded data and retain accurate, relevant records to support sound interpretation of the results."
+  },
+  {
+    "objectID": "ocurrencias.html#objetive",
+    "href": "ocurrencias.html#objetive",
+    "title": "Downloading Occurrence Records from GBIF and iNaturalist",
+    "section": "Objetive",
+    "text": "Objetive\nTo download occurrence records for Pulsatrix perspicillata from iNaturalist and GBIF, clean the data by identifying records with missing or questionable information, and use the curated dataset to analyze the species’ geographic distribution across the provinces and cantons of Costa Rica."
+  },
+  {
+    "objectID": "ocurrencias.html#metodology",
+    "href": "ocurrencias.html#metodology",
+    "title": "Downloading Occurrence Records from GBIF and iNaturalist",
+    "section": "Metodology",
+    "text": "Metodology\nFirst, RStudio was connected to the GBIF and iNaturalist platforms. Occurrence records were then downloaded from both sources and imported into RStudio to check their content and structure. The records were cleaned and transformed using packages such as tidyverse. Costa Rica’s provincial and cantonal boundary layers were also prepared and converted to the WGS 84 coordinate reference system (EPSG:4326) to ensure consistency with the occurrence coordinates. This process produced a cleaned and organized dataset of Pulsatrix perspicillata records for spatial analysis.\nThe occurrence coordinates were converted into spatial objects and overlaid with boundary layers, including the canton layer, so that administrative information could be assigned to each observation. Finally, records were counted by province and canton."
+  },
+  {
+    "objectID": "ocurrencias.html#results",
+    "href": "ocurrencias.html#results",
+    "title": "Downloading Occurrence Records from GBIF and iNaturalist",
+    "section": "Results",
+    "text": "Results\n\n\n\nFigure 1. Number of P. perspicillata Observations in Costa Rica.\n\n\n\n\n\nFigure 3. A Species Distribution Study Using iNaturalist and GBIF Data: Pulsatrix perspicillata"
+  },
+  {
+    "objectID": "ocurrencias.html#interpretations",
+    "href": "ocurrencias.html#interpretations",
+    "title": "Downloading Occurrence Records from GBIF and iNaturalist",
+    "section": "Interpretations",
+    "text": "Interpretations\nOccurrence records show that Pulsatrix perspicillata has been observed throughout Costa Rica, with clusters of records in several areas. These patterns reflect where observations have been reported, but they may not represent the species’ true abundance because the data are influenced by sampling and observer effort."
+  },
+  {
+    "objectID": "ocurrencias.html#conclusions",
+    "href": "ocurrencias.html#conclusions",
+    "title": "Downloading Occurrence Records from GBIF and iNaturalist",
+    "section": "Conclusions",
+    "text": "Conclusions\nIn conclusion, occurrence records show that Pulsatrix perspicillata has been observed across several parts of Costa Rica, with the highest concentrations of reports in a lot of zones of Costa Rica."
+  },
+  {
+    "objectID": "ocurrencias.html#bibliography",
+    "href": "ocurrencias.html#bibliography",
+    "title": "Downloading Occurrence Records from GBIF and iNaturalist",
+    "section": "Bibliography",
+    "text": "Bibliography"
+  },
+  {
+    "objectID": "Página.html#objetive",
+    "href": "Página.html#objetive",
+    "title": "Creating and Integrating Quarto Pages into the Scientific Portfolio",
+    "section": "Objetive",
+    "text": "Objetive\n\nCreate a basic Quarto template for documenting course exercises.\nCreate new pages from the template without modifying the original file.\nUse Visual Mode to edit Quarto documents.\nAdd text, figures, and tables.\nAdd references generated with Zotero.\nRender a Quarto page.\nIntegrate a new page into the scientific portfolio.\nPublish changes using Git and GitHub Pages."
+  },
+  {
+    "objectID": "Página.html#metodology",
+    "href": "Página.html#metodology",
+    "title": "Creating and Integrating Quarto Pages into the Scientific Portfolio",
+    "section": "Metodology",
+    "text": "Metodology\nEsta práctica se divide en cuatro partes:\n\nParte I: Crear la plantilla de las prácticas\nPaso I: Abrir el proyecto del portafolio.\n\nAbrir el proyecto Scientific-portpolio\nAbrir GitHub simultaneamente\nDesde el panel files en el proyecto Scientific-portfolio de RStudio comprobar que están los archivos:\n\n_quarto.yml\nindex.qmd\nabout.qmd\nportfolio.qmd o portafolio.qmd\ncarpeta images\n\n\n*Todo esto debe crearse dentro del proyecto asociado a la página Web Scientific-portfolio.\nPaso II: Crear nuevo documento Quarto\n\nIr a File &gt; New File &gt; Quarto Document\n\nEn la ventana que aparece:\n\nSeleccione Document.\nEn Title, escriba:\n\nTítulo de la práctica\n\nEn Author, escriba su nombre.\nSeleccione HTML.\nSeleccione Visual como editor, si aparece esta opción.\nPresione Create.\n\nPaso III: Guardar el archivo como plantilla\nSeleccione:\nFile → Save As\nGuarde el archivo con el nombre:\nplantilla.qmd\nEl archivo debe quedar dentro de la carpeta principal del proyecto del sitio web.\n* Utilice nombres de archivos sencillos, sin espacios, tildes ni caracteres especiales.\nPaso IV: Trabajar en Visual Mode\nCompruebe que se encuentra trabajando en Visual Mode.\nSi fuera necesario, seleccione Visual en la parte superior del editor.\nVisual Mode permite editar el documento de manera similar a Microsoft Word.\nPaso V: Construir la Estructura de la Plantilla\nDebajo del título del documento agregue las siguientes secciones utilizando Heading 2.\nAquí se introducen los apartados del documento, tales como:\n\nIntroduction\n\nBreve descripción del tema de la práctica y su importancia.\n\nObjetive\n\nIndique el objetivo principal de la práctica.\n\nMetodology\n\nDescriba brevemente las actividades realizadas y los métodos utilizados.\nNo es necesario incluir todos los códigos de R utilizados durante el laboratorio.\n\nResultados\n\nPresente los principales resultados obtenidos durante la práctica.\nEsta sección puede incluir:\n\ntexto;\nfiguras;\nfotografías;\ngráficos;\nmapas;\ncuadros.\n\n\nInterpretations\n\nExplique qué significan los resultados obtenidos.\nConsidere preguntas como:\n\n¿Cuál fue el patrón más importante?\n¿Qué indican las figuras o cuadros?\n¿Cómo se relacionan los resultados con el objetivo de la práctica?\n\n\nConclusions\n\nResuma brevemente las principales conclusiones o aprendizajes de la práctica.\n\nBibliography\n\nResuma brevemente las principales conclusiones o aprendizajes de la práctica.\n\n\nPaso VI: Guardar Plantilla\nGuarde los cambios:\nCtrl + S\nAl finalizar debe existir el archivo:\nplantilla.qmd\nImportante: plantilla.qmd será nuestro archivo original. De ahora en adelante no escribiremos directamente sobre esta plantilla. Para cada nueva práctica crearemos una copia.\n\n\nParte II: Crear una práctica a partir de la Plantilla\nAhora utilizaremos plantilla.qmd para crear la página correspondiente a la práctica de Zotero realizada la semana anterior.\n\nAbra plantilla.qmd.\nSeleccione File → Save As.\nGuarde la copia con el nombre:\nzotero.qmd\nCompruebe que está trabajando en Visual Mode.\nCambie el título por:\nGestión de referencias bibliográficas con Zotero\nComplete brevemente las secciones de la plantilla utilizando el trabajo realizado durante la práctica anterior.\nImportante: no modifique plantilla.qmd. Esta se conservará para crear las próximas prácticas.\n\nInsertar figuras\nSe incorpora una figura sencilla para prácticar la inserción de imágenes en Quarto.\n\nAbra Zotero y seleccione la colección creada durante la práctica anterior.\nTome una captura de pantalla donde se observe la colección y algunas de las referencias incorporadas.\nGuarde la imagen dentro de la carpeta images del proyecto del sitio web con el nombre:\nzotero_biblioteca.png\nRegrese a zotero.qmd y coloque el cursor en la sección Resultados.\nEn Visual Mode, seleccione Insert → Figure.\nSeleccione zotero_biblioteca.png.\nAgregue como pie de figura:\nEjemplo de una colección de referencias bibliográficas organizada en Zotero.\n\nCompruebe que la figura aparece correctamente en el documento."
+  },
+  {
+    "objectID": "Página.html#insertar-cuadros",
+    "href": "Página.html#insertar-cuadros",
+    "title": "Creating and Integrating Quarto Pages into the Scientific Portfolio",
+    "section": "Insertar cuadros",
+    "text": "Insertar cuadros\nEn la sección Resultados, debajo de la figura, inserte un cuadro para resumir las formas de incorporar referencias utilizadas durante la práctica.\n\nEn Visual Mode, seleccione Insert → Table.\nCree un cuadro de 2 columnas y 5 filas.\nComplete el cuadro de la siguiente manera:\n\n\n\n\n\n\n\n\nMétodo\n¿Cuándo utilizarlo?\n\n\n\n\nDOI\nCuando la publicación tiene un DOI conocido\n\n\nArchivo RIS\nCuando la revista o base de datos permite exportar la referencia\n\n\nZotero Connector\nPara capturar referencias directamente desde el navegador\n\n\nEntrada manual\nCuando la información no puede importarse automáticamente\n\n\n\n\nAgregue como título:\nMétodos utilizados para incorporar referencias bibliográficas a Zotero.\n\n\nParte III: Incorporar las referencias de Zotero.\nAhora utilizaremos las referencias trabajadas durante la práctica anterior para insertar citas en zotero.qmd.\nExportar referencias\n\nAbra Zotero.\nSeleccione la colección utilizada durante la práctica.\nHaga clic derecho sobre la colección y seleccione Export Collection.\nSeleccione el formato BibTeX.\nGuarde el archivo dentro del proyecto del sitio web con el nombre:\nreferencias.bib\nRegrese a RStudio y compruebe en el panel Files que aparece el archivo:\nreferencias.bib\n*No continuar hasta comprobar que referencias.bib aparece en el panel Files.\n\nConectar Referencias con Zotero.qmd\nUna vez que referencias.bib existe dentro del proyecto:\n\nAbra zotero.qmd.\nCambie momentáneamente de Visual a Source.\nLocalice el encabezado YAML que aparece al inicio del documento.\nAgregue la siguiente línea antes de format:\n\nbibliography: referencias.bib\nEjemplo:\n\nGuarde el archivo.\nRegrese a Visual Mode.\n*Esta modificación se realiza en zotero.qmd, no en plantilla.qmd.\n\nInsertar Citas\n\nColoque el cursor en el texto donde desea insertar una referencia.\nEn Visual Mode, seleccione Insert → Citation.\nBusque la referencia correspondiente.\nSelecciónela e inserte la cita.\n\nInserte al menos una referencia utilizada durante la práctica.\nPresione Render y compruebe que la cita y la bibliografía aparecen correctamente.\n\n\nParte IV: Integrar la Práctica al Portafolio\nAhora conectaremos zotero.qmd con el cajón que ya existe en el sitio web.\n\nAbra portafolio.qmd.\nLocalice el cajón:\nGestión de referencias bibliográficas con Zotero\nElimine el texto Disponible próximamente.\nAgregue una descripción breve de la práctica.\nEscriba:\nVer práctica →\nSeleccione Ver práctica → y utilice la herramienta para insertar un enlace.\nEnlace el texto con:\nzotero.qmd\nElimine el cajón Próximas prácticas, ya que a partir de ahora las prácticas reales se irán incorporando al portafolio.\n\n\n\nParte V: Actualizar y Publicar el sitio\n\nGuarde todos los cambios.\nSeleccione Render Website.\nCompruebe que el cajón de Zotero aparece correctamente.\nCompruebe que Ver práctica → abre zotero.qmd.\n\nSi todo funciona:\n\nAbra la pestaña Git de RStudio.\nMarque los archivos nuevos o modificados.\nSeleccione Commit.\nUtilice un mensaje como:\nAgregar práctica de Zotero\nPresione Commit.\nPresione Push.\nAbra el sitio web publicado y compruebe que la práctica funciona correctamente.\n\n\n\nPara las próximas prácticas\nDe ahora en adelante utilizaremos siempre el mismo procedimiento:\nplantilla.qmd → Save As → completar práctica → Render → agregar al portafolio → Render Website → Commit → Push\nEl proyecto de R del curso se utilizará para trabajar con datos, códigos y análisis. El portafolio científico se utilizará para presentar y comunicar los métodos, resultados, figuras, cuadros, interpretaciones y conclusiones más importantes."
+  },
+  {
+    "objectID": "Página.html#results",
+    "href": "Página.html#results",
+    "title": "Creating and Integrating Quarto Pages into the Scientific Portfolio",
+    "section": "Results",
+    "text": "Results"
+  },
+  {
+    "objectID": "Página.html#interpretations",
+    "href": "Página.html#interpretations",
+    "title": "Creating and Integrating Quarto Pages into the Scientific Portfolio",
+    "section": "Interpretations",
+    "text": "Interpretations"
+  },
+  {
+    "objectID": "Página.html#conclusions",
+    "href": "Página.html#conclusions",
+    "title": "Creating and Integrating Quarto Pages into the Scientific Portfolio",
+    "section": "Conclusions",
+    "text": "Conclusions"
+  },
+  {
+    "objectID": "Página.html#bibliography",
+    "href": "Página.html#bibliography",
+    "title": "Creating and Integrating Quarto Pages into the Scientific Portfolio",
+    "section": "Bibliography",
+    "text": "Bibliography"
+  },
+  {
+    "objectID": "Tidy.html",
+    "href": "Tidy.html",
+    "title": "Data Organization with Tidyverse",
+    "section": "",
+    "text": "La organización y depuración de datos son pasos muy importantes para obtener resultados confiables y puntuales en un análisis estadístico. Para esta se trabajó con dos set de datos, uno uno de registros metereológicos de cinco estaciones y otro de observaciones de ungulados en Angola. Para poder análizar estos datos se utilizó RStudio y también se requirió funciones del paquete tidyverse puesto que requería de algunas correcciones como ordenar variables, corregir su estructura para facilitar su interpretación."
+  },
+  {
+    "objectID": "Tidy.html#introduction",
+    "href": "Tidy.html#introduction",
+    "title": "Data Organization with Tidyverse",
+    "section": "",
+    "text": "La organización y depuración de datos son pasos muy importantes para obtener resultados confiables y puntuales en un análisis estadístico. Para esta se trabajó con dos set de datos, uno uno de registros metereológicos de cinco estaciones y otro de observaciones de ungulados en Angola. Para poder análizar estos datos se utilizó RStudio y también se requirió funciones del paquete tidyverse puesto que requería de algunas correcciones como ordenar variables, corregir su estructura para facilitar su interpretación."
+  },
+  {
+    "objectID": "Tidy.html#objetive",
+    "href": "Tidy.html#objetive",
+    "title": "Data Organization with Tidyverse",
+    "section": "Objetive",
+    "text": "Objetive\nThe objective of this exercise was to apply data transformations, separation, combination, selection, and grouping to better organize the datasets for later analysis. Tables and graphs were then used to make the results easier to understand."
+  },
+  {
+    "objectID": "Tidy.html#metodology",
+    "href": "Tidy.html#metodology",
+    "title": "Data Organization with Tidyverse",
+    "section": "Metodology",
+    "text": "Metodology\nThe exercise was conducted in RStudio using functions from packages such as tidyverse. We imported the meteorological and angola_ungulates CSV files from the data folder in the Eco_pc_2026 project and then applied the necessary transformations.\n\nMeteorological data\nIn the meteorological dataset, the March data were distributed across several columns. We reorganized the data so that each daily observation occupied one row. We then combined the year (2010–2020) and day to create a date, separated maximum and minimum temperatures, and converted several variables to numeric values. After cleaning and transforming the data, we calculated average temperature, precipitation, and snowfall for each station.\n\n\nUngulate data\nIn the ungulate dataset, we created a date from the year, month, and day columns. We also combined the genus and species columns into a single scientific-name column and separated the taxonomic information into class, order, and family. Finally, we counted the number of observations for each species, created a taxonomic table, and plotted the number of observations by species."
+  },
+  {
+    "objectID": "Tidy.html#results",
+    "href": "Tidy.html#results",
+    "title": "Data Organization with Tidyverse",
+    "section": "Results",
+    "text": "Results\n\n\n\nFigure 2. Tempertatura promedio según estaciones.\n\n\n\n\n\nFigure 2. Number of observations by ungulate species in Angola."
+  },
+  {
+    "objectID": "Tidy.html#interpretations",
+    "href": "Tidy.html#interpretations",
+    "title": "Data Organization with Tidyverse",
+    "section": "Interpretations",
+    "text": "Interpretations\nThe average-temperature plot shows the range between the average minimum temperature, represented by a white circle, and the average maximum temperature, represented by a black circle, over the study period. Berkeley and Chapel Hill 2 W have warmer temperature ranges, whereas Ithaca Cornell Univ and UW Arboretum–Madison have cooler ranges, with average minimum temperatures reaching below 0°C. New York CNTRL PK TWR has an intermediate range. Across all five stations, the average maximum temperature is considerably higher than the average minimum temperature.\nThe bar chart shows the number of observations for each species included in the analysis. Hippopotamus amphibius has the most observations, followed by Kobus leche. By contrast, Bos taurus has far fewer records. These results show that the number of observations is unevenly distributed among the species."
+  },
+  {
+    "objectID": "Tidy.html#conclusions",
+    "href": "Tidy.html#conclusions",
+    "title": "Data Organization with Tidyverse",
+    "section": "Conclusions",
+    "text": "Conclusions\nThis exercise provided an opportunity to learn data-cleaning and organization techniques in RStudio using packages such as tidyverse. Although the two datasets were very different, they allowed us to apply several transformations and reorganizations. In the meteorological dataset, separating the temperature measurements made it easier to compare average temperatures across stations. In the ungulate dataset, organizing the taxonomic information made it possible to classify the species and count their observation records."
+  },
+  {
+    "objectID": "Tidy.html#bibliography",
+    "href": "Tidy.html#bibliography",
+    "title": "Data Organization with Tidyverse",
+    "section": "Bibliography",
+    "text": "Bibliography"
+  }
+]
