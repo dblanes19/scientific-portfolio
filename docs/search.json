@@ -537,5 +537,19 @@
     "title": "Data Organization with Tidyverse",
     "section": "Bibliography",
     "text": "Bibliography"
+  },
+  {
+    "objectID": "Distribution.html",
+    "href": "Distribution.html",
+    "title": "Spatial Distribution Patterns in Plant Species",
+    "section": "",
+    "text": "The spatial distribution of plant populations provides insight into their organization and the associated ecological processes. The objective of this study was to evaluate and compare the distribution patterns of Elephantopus mollis and Rhynchospora nervosa using grid sampling. An aggregated distribution was predicted for the former species and a random distribution for the latter. The study was conducted in the protected area of El Rodeo, located in Mora, San José, Costa Rica. This site is characterized by the presence of mature trees and marked heterogeneity in vegetation cover and soil conditions. Fifty 1 × 1 m quadrats were randomly established within a one-hectare area. Subsequently, individuals of both species present in each quadrat were manually counted. Data analysis was performed using RStudio and tools from the tidyverse package. The dispersion index (DI) was calculated, and Chi-square and goodness-of-fit tests were applied to evaluate the spatial distribution patterns of both species. The results suggest that Elephantopus mollis exhibits an aggregated distribution pattern fitting a negative binomial distribution (X2=191.8, P&lt;0.001), whereas Rhynchospora nervosa shows a random distribution pattern fitting a Poisson model (X2=48.0, P=0.512). These findings confirm contrasting spatial structures between both species."
+  },
+  {
+    "objectID": "Distribution.html#summary",
+    "href": "Distribution.html#summary",
+    "title": "Spatial Distribution Patterns in Plant Species",
+    "section": "",
+    "text": "The spatial distribution of plant populations provides insight into their organization and the associated ecological processes. The objective of this study was to evaluate and compare the distribution patterns of Elephantopus mollis and Rhynchospora nervosa using grid sampling. An aggregated distribution was predicted for the former species and a random distribution for the latter. The study was conducted in the protected area of El Rodeo, located in Mora, San José, Costa Rica. This site is characterized by the presence of mature trees and marked heterogeneity in vegetation cover and soil conditions. Fifty 1 × 1 m quadrats were randomly established within a one-hectare area. Subsequently, individuals of both species present in each quadrat were manually counted. Data analysis was performed using RStudio and tools from the tidyverse package. The dispersion index (DI) was calculated, and Chi-square and goodness-of-fit tests were applied to evaluate the spatial distribution patterns of both species. The results suggest that Elephantopus mollis exhibits an aggregated distribution pattern fitting a negative binomial distribution (X2=191.8, P&lt;0.001), whereas Rhynchospora nervosa shows a random distribution pattern fitting a Poisson model (X2=48.0, P=0.512). These findings confirm contrasting spatial structures between both species."
   }
 ]
